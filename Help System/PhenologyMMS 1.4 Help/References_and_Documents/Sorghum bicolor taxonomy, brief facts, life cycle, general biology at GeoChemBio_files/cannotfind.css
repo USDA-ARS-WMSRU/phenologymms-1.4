@@ -1,0 +1,168 @@
+body {
+	
+}
+div.shapka {
+	position: relative; z-index: 10;
+}
+div.div-links {
+	background-color: rgb(235, 221, 226);
+}
+div.table-content {
+	background-color: rgb(227, 228, 250);
+}
+div.content {
+	padding: 20px; width: 600px; margin-top: -5px; margin-left: 235px; position: absolute; z-index: 10;
+}
+div.announce-left {
+	padding: 5px; width: 220px; height: 200px; line-height: 20pt; font-family: Sans-Serif; font-size: 10pt; margin-top: 0px; margin-left: 10px; position: absolute; z-index: 10; background-color: rgb(227, 228, 250);
+}
+div.announce-right {
+	padding: 5px; width: 220px; height: 200px; line-height: 20pt; font-family: Sans-Serif; font-size: 10pt; margin-top: 0px; margin-left: 870px; position: absolute; z-index: 10; background-color: rgb(227, 228, 250);
+}
+div.nav-left {
+	padding: 5px 5px 200px; width: 220px; line-height: 20pt; font-family: Sans-Serif; font-size: 10pt; margin-top: 220px; margin-left: 10px; position: absolute; z-index: 10; background-color: rgb(253, 238, 244);
+}
+div.google-ad-left {
+	padding: 5px; width: 220px; line-height: 20pt; font-family: Sans-Serif; font-size: 10pt; margin-top: 50px; margin-left: 10px; position: relative; z-index: 10;
+}
+div.google-link-left {
+	padding: 5px; width: 220px; line-height: 20pt; font-family: Sans-Serif; font-size: 10pt; margin-top: 600px; margin-left: 10px; position: relative; z-index: 10;
+}
+div.nav-right {
+	padding: 5px 5px 200px; width: auto; line-height: 20pt; font-family: Sans-Serif; font-size: 10pt; margin-top: 220px; margin-left: 870px; position: absolute; z-index: 10; background-color: rgb(253, 238, 244);
+}
+div.google-ad-right {
+	margin-top: 50px; position: relative;
+}
+div.google-link-right {
+	margin-top: 1500px; position: relative;
+}
+p {
+	color: rgb(0, 0, 51); line-height: normal; font-family: Sans-Serif; font-size: 11pt; background-color: transparent;
+}
+.centered {
+	text-align: center;
+}
+pre {
+	color: rgb(51, 0, 51);
+}
+div.footer {
+	text-align: right; color: rgb(102, 102, 102); font-size: 12pt;
+}
+h1.empty {
+	margin: 0px 0px 30px; padding: 0px 0px 10px; height: 10px; right: 0in; color: rgb(51, 0, 51); position: relative; background-color: rgb(51, 0, 51);
+}
+h1.header {
+	padding: 10px; color: rgb(255, 102, 153); margin-bottom: 0px; background-color: rgb(153, 102, 255);
+}
+h2 {
+	padding: 5px; color: navy; font-family: Sans-Serif; font-size: 22pt; margin-left: 0.5in;
+}
+h3 {
+	padding: 5px; color: rgb(0, 0, 102); font-family: Sans-Serif; font-size: 16pt; margin-left: 0.5in;
+}
+h4 {
+	padding: 5px; color: rgb(0, 0, 102); font-family: Sans-Serif; font-size: 14pt; margin-left: 0.5in;
+}
+h4.link-group {
+	margin: 2px; padding: 1px 1px 1px 10px; color: rgb(51, 0, 102); letter-spacing: 2px; font-family: Sans-Serif; font-size: 11pt; font-style: oblique; font-weight: bold; background-color: rgb(153, 153, 255);
+}
+h4.link-group2 {
+	margin: 1px 0px 0px 15px; padding: 1px 1px 1px 10px; width: 150px; color: rgb(51, 0, 102); letter-spacing: 2px; font-family: Sans-Serif; font-size: 9pt; font-style: oblique; font-weight: bold; position: relative; background-color: rgb(153, 153, 153);
+}
+ul {
+	list-style-type: disc;
+}
+ul ul {
+	list-style-type: square;
+}
+ul ul {
+	list-style-type: circle;
+}
+ul {
+	color: rgb(0, 0, 51); line-height: 12pt; padding-left: 25px; font-family: Verdana; font-size: 10pt; margin-left: 5px; list-style-type: disc; background-color: transparent;
+}
+li {
+	background: none; padding-top: 10px;
+}
+.compact {
+	line-height: 9pt; padding-top: 0px; font-size: 9pt;
+}
+ol {
+	color: rgb(0, 0, 51); line-height: 20px; padding-left: 25px; font-family: Verdana; font-size: 10pt; margin-left: 5px; list-style-type: decimal;
+}
+ul.mission {
+	color: rgb(0, 0, 51); line-height: 25px; letter-spacing: 1px; padding-left: 5px; font-family: Arial Rounded MT Bold; font-size: 12pt; margin-left: 20px; list-style-type: square;
+}
+em {
+	font-style: normal; font-weight: bold;
+}
+a:link {
+	color: rgb(51, 0, 204); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a:visited {
+	color: rgb(51, 0, 204); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a:active {
+	color: rgb(51, 0, 204); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a:hover {
+	color: rgb(51, 0, 204); font-weight: bold; text-decoration: underline;
+}
+a.my-def:link {
+	color: navy; font-weight: bold; text-decoration: none; background-color: rgb(204, 255, 255);
+}
+a.my-def:visited {
+	color: navy; font-weight: bold; text-decoration: none; background-color: rgb(204, 255, 255);
+}
+a.my-def:active {
+	color: navy; font-weight: bold; text-decoration: none; background-color: rgb(204, 255, 255);
+}
+a.my-def:hover {
+	color: navy; font-weight: bold; text-decoration: none; cursor: help; background-color: rgb(204, 255, 255);
+}
+a.google:link {
+	color: navy; font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a.google:visited {
+	color: navy; font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a.google:active {
+	color: navy; font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a.google:hover {
+	color: navy; font-weight: bold; text-decoration: underline; background-color: inherit;
+}
+a.nav-mine:link {
+	color: rgb(102, 0, 204); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a.nav-mine:visited {
+	color: rgb(102, 0, 204); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a.nav-mine:active {
+	color: rgb(102, 0, 204); font-weight: bold; text-decoration: none; background-color: inherit;
+}
+a.nav-mine:hover {
+	color: rgb(255, 0, 102); font-weight: bold; text-decoration: none; background-color: rgb(153, 255, 204);
+}
+dl {
+	width: 90%; color: rgb(64, 64, 64); line-height: 150%; font-size: 12pt;
+}
+.attention {
+	color: rgb(0, 0, 64); font-weight: bold; text-decoration: underline;
+}
+.emphasis {
+	color: rgb(0, 0, 64); font-weight: bold;
+}
+table.regular {
+	border: 1px solid black; border-image: none; width: 100%; color: rgb(64, 64, 64); line-height: 150%; font-size: 13px; margin-right: auto; margin-left: auto; border-collapse: collapse; border-spacing: 0;
+}
+td.regular {
+	padding: 10px; border: 1px solid black; border-image: none; text-align: left;
+}
+th.regular {
+	padding: 10px; border: 1px solid black; border-image: none; text-align: center;
+}
+form {
+	background: rgb(204, 255, 255); padding: 5px;
+}

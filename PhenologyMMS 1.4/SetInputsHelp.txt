@@ -1,0 +1,21 @@
+The Set Inputs screen is accessed via the Set Inputs button on the Begin Setup screen.  The initial inputs have been set for each crop and are displayed for the selected crop.  However, certain agronomic practices such as planting date vary by region and the defaults are set for northeastern Colorado.  
+
+Planting practices and soil moisture conditions are the most likely inputs to be modified.  Planting Date is the most important of the planting practices inputs as it influences when to begin simulating germination, emergence, and subsequent growth stages.  Planting Depth is only needed for simulating germination and emergence rates, and currently Planting Rate is not needed for the program.  You can accept the default values or enter values appropriate to your location or planting practices.
+
+NOTE: Always be sure that the Location/Weather File covers the selected planting date. 
+
+Soil moisture conditions are used for determining germination and emergence rates and are based on the seedling emergence model developed for the SHOOTGRO model (Wilhelm et al., 1993).  Choose one of four general categories of available soil water at the time of planting for the depth at which the seed is planted.  The following numbers in parentheses indicate the percentage of pore space that is filled with water, intended only for precise definition:  Optimum (45-100), Medium (30-45), Dry (23-35), and Planted in Dust (0-25).
+
+Latitude is used in calculating daily photoperiod for the location needed for some equations that predict the rate of leaf appearance (the phyllochron).  Currently equations to predict the rate of leaf appearance have not been implemented, and latitude does not influence any growth stages.
+
+The maximum potential canopy height of the crop that is used for the canopy height submodel.  Default values for each crop are provided, but this parameter is highly dependent on crop variety.  This is particularly true for wheat and barley with considerable differences between varieties in the presence of semi-dwarfing genes (Baenziger et al., 2004).  However, this input does not influence phenology, so if unknown by the user it is not critical if only interested in phenology simulation.
+
+The Help button displays this help screen.  For a more expanded Help System, go to the location where you have installed PhenologyMMS on your computer.  Look in the 'doc and info' folder for a help file named "PhenologyMMSHelp1_1.chm".  Double click on the file name to open it. There you will find Help on the screens as well as screen shots, Developmental Sequence Diagrams and Phenology Diagrams for each crop and a listing of relevant publications.  Double clicking on any underlined text will either go to the help item or open a diagram or publication.  You can also access individual publications, Developmental Sequence Diagrams and Phenology diagrams directly without first opening the "PhenologyMMSHelp1_1.chm" file.  Click on the desired .pdf file in the ?doc and info? folder.
+
+The Close and Save button will save the displayed values and return you to the Begin Setup screen.  If you want to return this screen to the default values, press the Reset button and the original, default values will be displayed.
+
+After making any changes in the inputs you can then run the model by pressing the Run button.
+
+the Temperatures button opens the Temperatures screen which displays the default temperature values used in calculating the Growing Degree Days (GDD). These values should not be changed except by advanced users.
+
+

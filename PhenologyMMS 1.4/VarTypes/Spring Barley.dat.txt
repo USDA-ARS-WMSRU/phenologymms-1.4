@@ -1,0 +1,79 @@
+This file contains all spring barley cultivars used by Phenology MMS. The format is
+      as follows:
+
+*** 
+<Variety name>
+GDD,<StoE>,<EtoFirstT>,<EtoSR>,<SRtoDR>,<DRtoAIF>,<AIFtoJ>,<JtoFLC>,<FLCtoAS>,<AStoH>,<HtoM>,<MtoHR>
+GDDstress,<StoE>,<EtoFirstT>,<EtoSR>,<SRtoDR>,<DRtoAIF>,<AIFtoJ>,<JtoFLC>,<FLCtoAS>,<AStoH>,<HtoM>,<MtoHR>
+LVS,<StoE>,<EtoFirstT>,<EtoSR>,<SRtoDR>,<DRtoAIF>,<AIFtoJ>,<JtoFLC>,<FLCtoAS>,<AStoH>,<HtoM>,<MtoHR>
+LVSstress,<StoE>,<EtoFirstT>,<EtoSR>,<SRtoDR>,<DRtoAIF>,<AIFtoJ>,<JtoFLC>,<FLCtoAS>,<AStoH>,<HtoM>,<MtoHR>
+THREE ***  THE DATA BEGIN BELOW THIS LINE!!!
+
+
+The data will be read after the line that contains 3 astericks (***), which separates
+each variety.
+
+The line following the 3 asterisks line gives the variety name.
+
+The next four lines give either the unstressed growing degree-days (first line), stressed
+growing degree-days (second line), unstressed number of leaves (third line), or stressed
+number of leaves (fourth line) for each of the intervals.
+
+Each variety is separated by three asterisks.
+
+
+***
+Generic
+GDD,       134, 132, 235, 109, 144,  15, 232,  54,  97, 554, 100
+GDDstress, 170, 132, 235, 109, 144,  15, 224,  50,  90, 512,  81
+LVS,       1.9, 1.9, 3.4, 1.6, 2.1, 0.2, 3.4, 0.8, 1.4, 8.0, 1.4
+LVSstress, 2.5, 1.9, 3.4, 1.6, 2.1, 0.2, 3.2, 0.7, 1.3, 7.4, 1.2
+***
+Early
+GDD,       134, 140, 243, 109, 144,  15, 229,  64,  97, 536, 100
+GDDstress, 170, 140, 243, 109, 144,  15, 221,  59,  90, 495,  81
+LVS,       1.9, 2.0, 3.5, 1.6, 2.1, 0.2, 3.3, 0.9, 1.4, 7.8, 1.4
+LVSstress, 2.5, 2.0, 3.5, 1.6, 2.1, 0.2, 3.2, 0.9, 1.3, 7.2, 1.2
+***
+Medium
+GDD,       134, 132, 235, 109, 144,  15, 232,  54,  97, 554, 100
+GDDstress, 170, 132, 235, 109, 144,  15, 224,  50,  90, 512,  81
+LVS,       1.9, 1.9, 3.4, 1.6, 2.1, 0.2, 3.4, 0.8, 1.4, 8.0, 1.4
+LVSstress, 2.5, 1.9, 3.4, 1.6, 2.1, 0.2, 3.2, 0.7, 1.3, 7.4, 1.2
+***
+Late
+GDD,       134, 130, 233, 109, 144,  15, 279,  55, 111, 537, 100
+GDDstress, 170, 130, 233, 109, 144,  15, 269,  50, 103, 497,  81
+LVS,       1.9, 1.9, 3.4, 1.6, 2.1, 0.2, 4.0, 0.8, 1.6, 7.8, 1.4
+LVSstress, 2.5, 1.9, 3.4, 1.6, 2.1, 0.2, 3.9, 0.7, 1.5, 7.2, 1.2
+***
+7-Leaved
+GDD,       134, 140, 243, 109, 144,  15, 229,  64,  97, 536, 100
+GDDstress, 170, 140, 243, 109, 144,  15, 221,  59,  90, 495,  81
+LVS,       1.9, 2.0, 3.5, 1.6, 2.1, 0.2, 3.3, 0.9, 1.4, 7.8, 1.4
+LVSstress, 2.5, 2.0, 3.5, 1.6, 2.1, 0.2, 3.2, 0.9, 1.3, 7.2, 1.2
+***
+8-Leaved
+GDD,       134, 132, 235, 109, 144,  15, 232,  54,  97, 554, 100
+GDDstress, 170, 132, 235, 109, 144,  15, 224,  50,  90, 512,  81
+LVS,       1.9, 1.9, 3.4, 1.6, 2.1, 0.2, 3.4, 0.8, 1.4, 8.0, 1.4
+LVSstress, 2.5, 1.9, 3.4, 1.6, 2.1, 0.2, 3.2, 0.7, 1.3, 7.4, 1.2
+***
+9-Leaved
+GDD,       134, 132, 235, 109, 144,  15, 232,  54,  97, 554, 100
+GDDstress, 170, 132, 235, 109, 144,  15, 224,  50,  90, 512,  81
+LVS,       1.9, 1.9, 3.4, 1.6, 2.1, 0.2, 3.4, 0.8, 1.4, 8.0, 1.4
+LVSstress, 2.5, 1.9, 3.4, 1.6, 2.1, 0.2, 3.2, 0.7, 1.3, 7.4, 1.2
+***
+10-Leaved
+GDD,       134, 130, 233, 109, 144,  15, 279,  55, 111, 537, 100
+GDDstress, 170, 130, 233, 109, 144,  15, 269,  50, 103, 497,  81
+LVS,       1.9, 1.9, 3.4, 1.6, 2.1, 0.2, 4.0, 0.8, 1.6, 7.8, 1.4
+LVSstress, 2.5, 1.9, 3.4, 1.6, 2.1, 0.2, 3.9, 0.7, 1.5, 7.2, 1.2
+***
+>10-Leaved
+GDD,       134, 130, 233, 109, 144,  15, 279,  55, 111, 537, 100
+GDDstress, 170, 130, 233, 109, 144,  15, 269,  50, 103, 497,  81
+LVS,       1.9, 1.9, 3.4, 1.6, 2.1, 0.2, 4.0, 0.8, 1.6, 7.8, 1.4
+LVSstress, 2.5, 1.9, 3.4, 1.6, 2.1, 0.2, 3.9, 0.7, 1.5, 7.2, 1.2
+***

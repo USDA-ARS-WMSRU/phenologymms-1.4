@@ -1,0 +1,15 @@
+In the Begin Setup window choose the crop you wish to model and the location's weather file. Click on the down arrow of the Choose Crop combo box to select the crop. Then click on the down arrow of the Select Location/Weather File combo box and choose a weather file.  Try to choose locations that are close to or are similar to your own weather conditions.  Weather files are named according to the city, state, and four digits giving the range of years in the file.  The first two digits are for the beginning year (for example, "63" would be "1963", or "12" could be either "1912" or "2012") and the second two digits are for the last year.
+
+NOTE: Always be sure to check that the Location/Weather File goes beyond the normal harvest date for the crop. If you note '999' in the output file you may have chosen a weather file that did not have weather data for the duration of the crop.  Also, if in the output file, Maturity and/or Harvest Ready stages do not occur until the next year, you may have selected a variety that is unsuitable for the location and the crop ran out of enough temperature to accumulate sufficient growing degree-days to complete growth.  
+
+You can also choose to re-run a saved scenario.  To do this click on the down arrow of the crop combo box next to the Load Scenario button.  From there choose a saved scenario and press the Load Scenario button.  The crop name displayed in the Choose Crop combo box will change to the new crop.  (Note: it is recommended that users do not save and load scenarios until familiar with running the program.)
+
+Pressing the Set Inputs button opens the Set Inputs screen where you can enter many different conditions for the run.  Pressing the Help button will display help for the current screen.
+
+The Set Growth Stages button gives you the option to pick a particular maturity group or variety for the chosen crop and to fine-tune the run.  You can enter new values for each growth stage or accept the default values according to whether the plant is stressed or unstressed and by "Growing Degree-Days" values or by "Number of Leaves" values.
+
+Press the Run button when you are ready to run the model.
+
+Press the Disclaimer button to see Disclaimer information.
+
+For a more expanded Help System, go to the location where you have installed PhenologyMMS on your computer.  Look in the 'doc and info' folder for a help file named "PhenologyMMSHelp1_1.chm".  Double click on the file name to open it. There you will find Help on the screens as well as screen shots, Developmental Sequence Diagrams and Phenology Diagrams for each crop and a listing of relevant publications.  Double clicking on any underlined text will either go to the help item or open a diagram or publication.  You can also access individual publications, Developmental Sequence Diagrams and Phenology diagrams directly without first opening the "PhenologyMMSHelp1_1.chm" file.  Click on the desired .pdf file in the 'doc and info' folder.

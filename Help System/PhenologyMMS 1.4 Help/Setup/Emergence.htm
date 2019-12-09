@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="search-keywords" content="Emergence, Germination, GDD, Soil Moisture, Weather, Elongation, Temperature" />
+<meta name="rh-authors" content="Debbie Edmunds" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Emergence</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1>Emergence</h1>
+<p class="MsoNormal" style="line-height: 115%; font-size: 12pt;"><span 
+	 style="line-height: 115%; font-size: 12pt;"><?rh-glo_start class="glossterm"?>Germination<?rh-glo_end ?> 
+ and <?rh-glo_start class="glossterm"?>emergence<?rh-glo_end ?> are predicted 
+ based on the accumulation of <?rh-glo_start class="glossterm"?>thermal 
+ time<?rh-glo_end ?> and soil moisture based on the <?rh-glo_start class="glossterm"?>SHOOTGRO<?rh-glo_end ?> 
+ model (<span style="background: #ffffff; mso-bidi-font-family: Consolas; 
+				 mso-highlight: white;"><a href="../../../PhenologyMMS-1.3/Help System/PhenologyMMS 1.3 Help/References_and_Documents/References_and_Documents.htm#Aboveground_growth_and_development_winter_wheat">Wilhelm 
+ et al., 1993. Ecological Modelling 68:183-203</a>)</span><span style="mso-bidi-font-family: Consolas;">. 
+ Four soil water levels are available and the user <?rh-glo_start class="glossterm"?>inputs<?rh-glo_end ?> 
+ the condition of the soil at planting time. The <?rh-glo_start class="glossterm"?>GDD<?rh-glo_end ?> 
+ required for germination increases and the <?rh-glo_start class="glossterm"?>elongation<?rh-glo_end ?> 
+ rate decreases as water content decreases. After planting, precipitation 
+ can shift the soil moisture condition upwards toward <?rh-glo_start class="glossterm"?>Optimum<?rh-glo_end ?> 
+ but there is no provision reducing the soil moisture level due to evaporation.</span></span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span style="line-height: 115%; font-size: 12pt; mso-bidi-font-family: Consolas;">The 
+ four soil moisture levels are: Optimum, <?rh-glo_start class="glossterm"?>Medium<?rh-glo_end ?>,</span> 
+ <span class="GramE"><?rh-glo_start class="glossterm"?>Dry<?rh-glo_end ?></span> 
+ <span style="line-height: 115%; font-size: 12pt; mso-bidi-font-family: Consolas;">and 
+ <?rh-glo_start class="glossterm"?>Planted in Dust<?rh-glo_end ?>. These 
+ are shown for Winter Wheat in Table 1 below which is found in Table 2 
+ in the reference cited above. Other input parameters include the lower 
+ and upper <?rh-glo_start class="glossterm"?>Water-filled pore space<?rh-glo_end ?> 
+ (</span><span class="SpellE"><?rh-glo_start class="glossterm"?>wfpslo<?rh-glo_end ?></span> 
+ <span style="line-height: 115%; font-size: 12pt; mso-bidi-font-family: Consolas;">and</span> 
+ <span class="SpellE"><?rh-glo_start class="glossterm"?>wfpsup<?rh-glo_end ?></span><span 
+	 style="line-height: 115%; font-size: 12pt; mso-bidi-font-family: Consolas;">), 
+ Germination time (</span><?rh-glo_start class="glossterm"?>germgdd<?rh-glo_end ?>), 
+ and <?rh-glo_start class="glossterm"?>Elongation rate<?rh-glo_end ?> (<?rh-glo_start 
+ class="glossterm"?>ergdd<?rh-glo_end ?>).</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 115%; font-size: 12pt; mso-bidi-font-family: Consolas;">Daily 
+ precipitation is read in from the <?rh-glo_start class="glossterm"?>weather 
+ file<?rh-glo_end ?> and is given in mm.</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span style="line-height: 115%; font-size: 12pt; mso-bidi-font-family: Consolas;">Seeds 
+ planted in soil water conditions considered to be ‘Planted in Dust’ are 
+ assumed to not begin the germination process until some minimal soil water 
+ level is reached (i.e., 'Dry' conditions). Therefore, seeds Planted in 
+ Dust must move up to the Dry soil moisture level</span> <span style="line-height: 115%; 
+	 font-size: 12pt; mso-bidi-font-family: Consolas;">before beginning 
+ the accumulation of thermal time required for germination.</span> <span 
+	 style="mso-bidi-font-family: Consolas; line-height: 115%; font-size: 12pt;">At</span> 
+ <span style="line-height: 115%; font-size: 12pt;">least seven mm or more 
+ of precipitation must be received</span> <span style="line-height: 115%; 
+												 font-size: 12pt; mso-bidi-font-family: Consolas;">before 
+ soil moisture can move from Planted in Dust to Dry conditions.</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="line-height: 115%; font-size: 12pt; mso-bidi-font-family: Consolas;">In 
+ order to provide a more realistic process of germination, two intermediate 
+ soil moisture levels were added. These occur between Optimum and Medium 
+ and between Medium and Dry. These were necessary because germination was 
+ occurring too rapidly with only the four soil moisture conditions named 
+ above.</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span style="line-height: 115%; font-size: 12pt;">Once 
+ germination has occurred, the elongation rate of the <?rh-glo_start class="glossterm"?>coleoptile<?rh-glo_end ?> 
+ (ergdd) is increased based on the input elongation rate in mm per growing 
+ degree-day for the soil moisture condition. This value is multiplied by 
+ the day’s growing degree-day value and added to the elongation amount 
+ already achieved. Once the elongation length is greater than the <?rh-glo_start 
+ class="glossterm"?>planting depth<?rh-glo_end ?>, emergence has occurred.</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">TABLE <span class="GramE">1</span> <span style="mso-spacerun: yes;">&#160;</span><span 
+	 class="GramE">(</span>from Table 2 in the Ref. cited above)</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal"><span class="GramE"><?rh-glo_start class="glossterm"?>Seed<?rh-glo_end ?> 
+ germination and <?rh-glo_start class="glossterm"?>seedling<?rh-glo_end ?> 
+ elongation rates for several broad categories of seedbed conditions.</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<table style="border-collapse: separate; border-collapse: separate;" cellspacing="0" 
+		 width="100%" border="1">
+	<col style="width: 25%;" />
+	<col style="width: 25%;" />
+	<col style="width: 25%;" />
+	<col style="width: 25%;" />
+	<tr>
+		<td style="border-left-style: Solid; border-top-style: Solid; border-bottom-style: Solid; 
+			 border-left-width: 4px; border-top-width: 4px; border-bottom-width: 4px;"><p 
+			 style="text-align: center;">Seedbed condition</p></td>
+		<td style="border-top-style: Solid; border-bottom-style: Solid; 
+			 border-top-width: 4px; border-bottom-width: 4px;"><p style="text-align: center;">Water-filled 
+		 pore space (%)</p></td>
+		<td style="border-top-style: Solid; border-bottom-style: Solid; 
+			 border-top-width: 4px; border-bottom-width: 4px;"><p style="text-align: center;">Germination 
+		 time (<?rh-ignored text="GDDa" ?>GDD<span style="vertical-align: Super;">a</span>)</p></td>
+		<td style="border-top-style: Solid; border-right-style: Solid; 
+			 border-bottom-style: Solid; border-top-width: 4px; border-bottom-width: 4px; 
+			 border-right-width: 4px;"><p style="text-align: center;">Elongation 
+		 rate (mm GDD<span style="vertical-align: Super;">-1</span>)</p></td>
+	</tr>
+	<tr>
+		<td><p style="text-align: center;">Optimum</p></td>
+		<td><p style="text-align: center;">&gt; 45</p></td>
+		<td><p style="text-align: center;">80</p></td>
+		<td><p style="text-align: center;">0.50</p></td>
+	</tr>
+	<tr>
+		<td><p style="text-align: center;">Barely adequate</p></td>
+		<td><p style="text-align: center;">35-45</p></td>
+		<td><p style="text-align: center;">90</p></td>
+		<td><p style="text-align: center;">0.40</p></td>
+	</tr>
+	<tr>
+		<td><p style="text-align: center;">Dry</p></td>
+		<td><p style="text-align: center;">25-35</p></td>
+		<td><p style="text-align: center;">110</p></td>
+		<td><p style="text-align: center;">0.33</p></td>
+	</tr>
+	<tr>
+		<td><p style="text-align: center;">Planted in Dust</p></td>
+		<td><p style="text-align: center;">&lt;25</p></td>
+		<td><p style="text-align: center;">-</p></td>
+		<td><p style="text-align: center;">-</p></td>
+	</tr>
+	<tr>
+		<td>&#160;</td>
+		<td>&#160;</td>
+		<td><?rh-ignored text="aGDD" ?><span style="vertical-align: Super;">a</span>GDD 
+		 = growing degree-day (base 0<?rh-symbol_start name="Degree" ?>°<?rh-symbol_end ?>C) 
+		 Wheat</td>
+		<td>&#160;</td>
+	</tr>
+</table>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">Links to: GDD Methods</p>
+<p class="MsoNormal">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Temperatures</p>
+<p class="MsoNormal">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Weather/Location 
+ Files</p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+This file contains all winter barley cultivars used by Phenology MMS. the format is
+      as follows:
+
+*** 
+<Variety name>
+GDD,<StoE>,<EtoFirstT>,<JantoSR>,<SRtoDR>,<DRtoAIF>,<AIFtoJ>,<JtoFLC>,<FLCtoH>,<HtoAS>,<AStoM>,<MtoHR>
+GDDstress,<StoE>,<EtoFirstT>,<JantoSR>,<SRtoDR>,<DRtoAIF>,<AIFtoJ>,<JtoFLC>,<FLCtoH>,<HtoAS>,<AStoM>,<MtoHR>
+LVS,<StoE>,<EtoFirstT>,<JantoSR>,<SRtoDR>,<DRtoAIF>,<AIFtoJ>,<JtoFLC>,<FLCtoH>,<HtoAS>,<AStoM>,<MtoHR>
+LVSstress,<StoE>,<EtoFirstT>,<JantoSR>,<SRtoDR>,<DRtoAIF>,<AIFtoJ>,<JtoFLC>,<FLCtoH>,<HtoAS>,<AStoM>,<MtoHR>
+THREE ***  THE DATA BEGIN BELOW THIS LINE!!!
+
+
+The data will be read after the line that contains 3 astericks (***), which separates
+each variety.
+
+The line following the 3 asterisks line gives the variety name.
+
+The next four lines give either the unstressed growing degree-days (first line), stressed
+growing degree-days (second line), unstressed number of leaves (third line), or stressed
+number of leaves (fourth line) for each of the intervals.
+
+Each variety is separated by three asterisks.
+
+
+***
+Generic                                                          
+GDD,       100, 200, 180, 125, 150,  30, 163, 145, 145, 735, 200
+GDDstress, 150, 200, 180, 125, 145,  40, 123, 109, 131, 650, 125
+LVS,       1.0, 1.9, 1.7, 1.2, 1.4, 0.3, 1.6, 1.4, 1.4, 7.0, 1.9
+LVSstress, 1.4, 1.9, 1.7, 1.2, 1.4, 0.4, 1.2, 1.0, 1.2, 6.2, 1.2
+***                                                              
+Early Maturity                                                   
+GDD,       100, 200, 180, 125, 150,  30, 140, 124, 145, 735, 200
+GDDstress, 150, 200, 180, 125, 145,  40,  98,  86, 131, 650, 125
+LVS,       1.0, 1.9, 1.7, 1.2, 1.4, 0.3, 1.3, 1.2, 1.4, 7.0, 1.9
+LVSstress, 1.4, 1.9, 1.7, 1.2, 1.4, 0.4, 0.9, 0.8, 1.2, 6.2, 1.2
+***                                                              
+Medium Maturity                                                  
+GDD,       100, 200, 180, 125, 150,  30, 163, 145, 145, 735, 200
+GDDstress, 150, 200, 180, 125, 145,  40, 123, 109, 131, 650, 125
+LVS,       1.0, 1.9, 1.7, 1.2, 1.4, 0.3, 1.6, 1.4, 1.4, 7.0, 1.9
+LVSstress, 1.4, 1.9, 1.7, 1.2, 1.4, 0.4, 1.2, 1.0, 1.2, 6.2, 1.2
+***                                                              
+Late Maturity                                                    
+GDD,       100,  200, 180, 125, 150,  30, 174, 154, 145, 735, 200
+GDDstress, 150,  200, 180, 125, 145,  40, 137, 121, 131, 650, 125
+LVS,       1.0,  1.9, 1.7, 1.2, 1.4, 0.3, 1.7, 1.5, 1.4, 7.0, 1.9
+LVSstress, 1.4,  1.9, 1.7, 1.2, 1.4, 0.4, 1.3, 1.2, 1.2, 6.2, 1.2
+***                                                              

@@ -1,0 +1,341 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PhenologyMMS 1.3 Help</title>
+
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<meta name="description" content="WebHelp 5.50" />
+<script  src="whutils.js" charset="utf-8" charset="utf-8"></script>
+</head>
+<body>
+<script language="JavaScript">
+<!--
+
+var gArrayCsh = new Array();
+
+var gstrWindowOption = "";
+var gstrURL = "";
+var gbWithNavPane = false;
+
+function CshEntityItem(strAliasId, nTopicNum, strUrl) 
+{
+    this.strAliasId = strAliasId;
+    this.nTopicNum = nTopicNum;
+    this.strUrl = strUrl;
+}
+
+
+//Try to get to topic number from hash string
+function GetTopicNumberAuto(strMayBeNumber)
+{
+   var nNum = -1;
+   if (strMayBeNumber.length >= 1)
+   {
+		var strTmp = strMayBeNumber;
+		var iEnd = strTmp.length;
+		for (var i=0; i<iEnd; i++)
+		{
+			  var ch = strTmp.charAt(i);
+			  if (!((ch == "0") || (ch == "1") ||
+			        (ch == "2") || (ch == "3") ||
+			        (ch == "4") || (ch == "5") ||
+			        (ch == "6") || (ch == "7") ||
+			        (ch == "8") || (ch == "9")))
+			      return GetTopicNumberById(strTmp);
+		}
+		nNum = parseInt(strTmp);
+   }
+   return nNum;
+}
+
+function GetTopicNumber(strHashString)
+{
+	var nTopicEndPos = strHashString.indexOf(',')
+	if (nTopicEndPos == -1) { // no window option.
+		return GetTopicNumberOnly(strHashString);
+	}
+	else {
+		var strWindowOption = strHashString.substring(nTopicEndPos + 1, strHashString.length);
+		var strWithNavPane = 'withnavpane=true';
+		if (strWindowOption.toLowerCase().indexOf(strWithNavPane) == 0)
+		{
+			if (strWindowOption.length > strWithNavPane.length)
+				gstrWindowOption = strWindowOption.substring(strWithNavPane.length + 1);
+			else
+				gstrWindowOption = "";
+			gbWithNavPane = true;
+		}
+		else
+			gstrWindowOption = strWindowOption;
+		return GetTopicNumberOnly(strHashString.substring(0, nTopicEndPos));		
+	}
+}
+
+function GetTopicNumberOnly(strTopicString)
+{
+	var nEqualPos = strTopicString.indexOf('=');
+	if (nEqualPos == -1) {
+		return GetTopicNumberAuto(strTopicString);
+	}
+	else {
+		var strValue=strTopicString.substring(nEqualPos + 1, strTopicString.length);
+		if (strTopicString.toLowerCase().indexOf("topicnumber") == 0) {
+			return parseInt(strValue);
+		} else if (strTopicString.toLowerCase().indexOf("context") == 0) {
+			return GetTopicNumberById(strValue);
+		} else if (strTopicString.toLowerCase().indexOf("remoteurl") == 0) {
+			if(IsInternal(strValue))
+				gstrURL = strValue;
+			return -1;
+		}
+
+	}
+}
+
+//Find HomePage of the WebHelp system
+// we try to get the topic from remote project if it exists.
+function RedirectToHomePage()
+{
+	if (parent && parent != this && parent.goNext)
+	{
+		var sHome = parent.goNext();
+		if (sHome != "")
+			RedirectTo(sHome);
+	}
+}
+
+function getHomePage()
+{
+	if (parent && parent != this && parent.getRelHomePage)
+	{
+		return parent.getRelHomePage(document.location.href);
+	}
+	return "";
+}
+
+function addRemoteProject(strPath)
+{
+	if (parent && parent != this && parent.addProject)
+	{
+		parent.addProject(strPath);
+	}
+}
+
+//Redirect page to...
+function RedirectTo(strUrl)
+{
+   if (gstrWindowOption.length != 0) {
+		var wnd = window.open(strUrl, "HelpStub", gstrWindowOption);
+		// close current window and rename the stub window to current window.
+		if (wnd)
+			wnd.focus();
+		if (parent)
+			parent.close();
+   }
+   else {
+	parent.document.location.href = strUrl;
+	window.focus();
+  }
+}
+
+//Prompt the user that we can not find...
+function FailToFind(strMsg)
+{
+    RedirectToHomePage();
+}
+
+//Find topic by topic number (defined in h file)
+function FindTopicByTopicNum(nTopicNum)
+{
+	var i = 0;
+	var iEnd = gArrayCsh.length;
+	for (i=0; i<iEnd; i++)
+	{
+		if (gArrayCsh[i].nTopicNum == nTopicNum)
+		{
+			var strURL = gArrayCsh[i].strUrl;
+			if (gbWithNavPane)
+			{
+				var strHomePage = getHomePage();
+				if (strHomePage.length != 0)
+					strURL = strHomePage + strURL;
+			}	
+			RedirectTo(strURL);
+			return true;
+		}
+	}
+	FailToFind("Fail to find topic assocaite with topic number: " + nTopicNum);
+	return false;
+}
+
+var oldPrefix = "HelpIdFromHTMLHelp_"
+//Find topic by topic id (alias id defined in ali file)
+function GetTopicNumberById(strTopicId)
+{
+   if (strTopicId.indexOf(oldPrefix) == 0)
+   {
+		strTopicId = strTopicId.substring(oldPrefix.length);
+   }
+
+   var i = 0;
+   var iEnd = gArrayCsh.length;
+   for (i=0; i<iEnd; i++)
+   {
+	if (gArrayCsh[i].strAliasId.toLowerCase() == strTopicId.toLowerCase())
+	{
+	    return gArrayCsh[i].nTopicNum;
+	 }
+   }
+   gstrURL = "";
+   return -1;
+}
+
+//Set Context-sensitive help entity...
+function SetCsh(n, strAliasId, nTopicNum, strUrl)
+{
+   gArrayCsh[n] = new CshEntityItem(strAliasId,nTopicNum,strUrl);
+}
+
+
+function getHash()
+{
+	if (parent && parent != this)
+		return parent.location.hash;
+	else
+		return "";
+}
+//-->
+</script>
+<script language="javascript">
+<!--
+  SetCsh(0,"3",0,"Growth_Stages/Corn_Diagrams.htm");
+  SetCsh(1,"10",1,"Growth_Stages/Dry_Bean_Diagrams.htm#Phenology_Diagram");
+  SetCsh(2,"35",2,"Overview/Overview_of_PhenologyMMS_1.3.htm");
+  SetCsh(3,"56",3,"Growth_Stages/Spring_Barley_Diagrams.htm");
+  SetCsh(4,"28",4,"Overview/Install.htm");
+  SetCsh(5,"76",5,"Growth_Stages/Winter_Wheat_Diagrams.htm");
+  SetCsh(6,"9",6,"Growth_Stages/Dry_Bean_Diagrams.htm#Developmental_Sequence_Diagram");
+  SetCsh(7,"14",7,"Temperatures/GDD_Methods.htm");
+  SetCsh(8,"43",8,"Output/Save_Output.htm");
+  SetCsh(9,"49",9,"Growth_Stages/Sorghum_Diagrams.htm#Developmental_Sequence");
+  SetCsh(10,"50",10,"Growth_Stages/Sorghum_Diagrams.htm#Phenology_Diagram");
+  SetCsh(11,"8",11,"Growth_Stages/Dry_Bean_Diagrams.htm");
+  SetCsh(12,"42",12,"Overview/Run_PhenologyMMS.htm#How_to_Run_PhenologyMMS_1.3");
+  SetCsh(13,"45",13,"Output/Save_Current_Scenario.htm");
+  SetCsh(14,"59",14,"Growth_Stages/Spring_Barley_Growth_Stages.htm");
+  SetCsh(15,"24",15,"Growth_Stages/Hay_Millet_Diagrams.htm#Developmental_Sequence");
+  SetCsh(16,"58",16,"Growth_Stages/Spring_Barley_Diagrams.htm#Phenology_Diagram");
+  SetCsh(17,"7",17,"Growth_Stages/Corn_Growth_Stages.htm#Corn_Growth_Stages");
+  SetCsh(18,"48",18,"Growth_Stages/Sorghum_Diagrams.htm");
+  SetCsh(19,"13",19,"Setup/Emergence.htm");
+  SetCsh(20,"80",20,"Growth_Stages/Winter_Wheat_Growth_Stages.htm#Winter_Wheat");
+  SetCsh(21,"66",21,"Growth_Stages/Sunflower_Diagrams.htm#Phenology_Diagram");
+  SetCsh(22,"30",22,"Overview/Launch_PhenologyMMS_1.3.htm");
+  SetCsh(23,"2",23,"Setup/Begin_Setup.htm#Saved_Scenarios");
+  SetCsh(24,"29",24,"Overview/Install.htm#Installation_Instructions");
+  SetCsh(25,"39",25,"Growth_Stages/Proso_Millet_Diagrams.htm#Phenology_Diagram");
+  SetCsh(26,"37",26,"Growth_Stages/Proso_Millet_Diagrams.htm");
+  SetCsh(27,"69",27,"Temperatures/Temperatures.htm#Phyllochron");
+  SetCsh(28,"52",28,"Growth_Stages/Soybean_Diagrams.htm");
+  SetCsh(29,"22",29,"Growth_Stages/Growth_Stages_Example.htm#Growth_Stages_Example");
+  SetCsh(30,"53",30,"Growth_Stages/Soybean_Diagrams.htm#Developmental_Sequence");
+  SetCsh(31,"4",31,"Growth_Stages/Corn_Diagrams.htm#Developmental_Sequence_Diagram");
+  SetCsh(32,"79",32,"Growth_Stages/Winter_Wheat_Growth_Stages.htm");
+  SetCsh(33,"65",33,"Growth_Stages/Sunflower_Diagrams.htm#Developmental_Sequence");
+  SetCsh(34,"15",34,"Temperatures/GDD_Methods.htm#GDD Method 1");
+  SetCsh(35,"16",35,"Temperatures/GDD_Methods.htm#GDD Method 2");
+  SetCsh(36,"17",36,"Temperatures/GDD_Methods.htm#GDD Method 3");
+  SetCsh(37,"18",37,"Temperatures/GDD_Methods.htm#GDD Method 4");
+  SetCsh(38,"19",38,"Temperatures/GDD_Methods.htm#GDD_Methods");
+  SetCsh(39,"63",39,"Growth_Stages/Spring_Wheat_Growth_Stages.htm");
+  SetCsh(40,"32",40,"Output/Output.htm");
+  SetCsh(41,"21",41,"Growth_Stages/Growth_Stages_Example.htm");
+  SetCsh(42,"27",42,"Growth_Stages/Hay_Millet_Growth_Stages.htm#Hay_Millet_Growth_Stages");
+  SetCsh(43,"40",43,"Growth_Stages/Proso_Millet_Growth_Stages.htm");
+  SetCsh(44,"41",44,"Overview/Run_PhenologyMMS.htm");
+  SetCsh(45,"73",45,"Growth_Stages/Winter_Barley_Diagrams.htm");
+  SetCsh(46,"34",46,"Output/Output.htm#Output_buttons");
+  SetCsh(47,"46",47,"Output/Save_Current_Scenario.htm#Save_Current_Scenario");
+  SetCsh(48,"5",48,"Growth_Stages/Corn_Diagrams.htm#Phenology_Diagram");
+  SetCsh(49,"55",49,"Growth_Stages/Soybean_Growth_Stages.htm");
+  SetCsh(50,"1",50,"Setup/Begin_Setup.htm");
+  SetCsh(51,"31",51,"Overview/Launch_PhenologyMMS_1.3.htm#Launch_PhenologyMMS_1.3");
+  SetCsh(52,"67",52,"Growth_Stages/Sunflower_Growth_Stages.htm");
+  SetCsh(53,"77",53,"Growth_Stages/Winter_Wheat_Diagrams.htm#Developmental_Sequence");
+  SetCsh(54,"26",54,"Growth_Stages/Hay_Millet_Growth_Stages.htm");
+  SetCsh(55,"70",55,"Temperatures/Temperatures.htm#Temperatures");
+  SetCsh(56,"72",56,"Setup/Weather_Location_Files.htm#Weather_Location_Files");
+  SetCsh(57,"71",57,"Setup/Weather_Location_Files.htm");
+  SetCsh(58,"23",58,"Growth_Stages/Hay_Millet_Diagrams.htm");
+  SetCsh(59,"51",59,"Growth_Stages/Sorghum_Growth_Stages.htm");
+  SetCsh(60,"60",60,"Growth_Stages/Spring_Wheat_Diagrams.htm");
+  SetCsh(61,"20",61,"Temperatures/GDD_Methods.htm#GDD_Methods_Figure_-");
+  SetCsh(62,"78",62,"Growth_Stages/Winter_Wheat_Diagrams.htm#Phenology_Diagram");
+  SetCsh(63,"47",63,"Setup/Set_Inputs.htm");
+  SetCsh(64,"12",64,"Growth_Stages/Dry_Bean_Growth_Stages.htm#Dry_Bean_Growth_Stages");
+  SetCsh(65,"33",65,"Output/Output.htm#Output");
+  SetCsh(66,"61",66,"Growth_Stages/Spring_Wheat_Diagrams.htm#Developmental_Sequence");
+  SetCsh(67,"75",67,"Growth_Stages/Winter_Barley_Growth_Stages.htm");
+  SetCsh(68,"68",68,"Temperatures/Temperatures.htm");
+  SetCsh(69,"36",69,"Overview/Overview_of_PhenologyMMS_1.3.htm#Overview_of_PhenologyMMS_1.3");
+  SetCsh(70,"11",70,"Growth_Stages/Dry_Bean_Growth_Stages.htm");
+  SetCsh(71,"64",71,"Growth_Stages/Sunflower_Diagrams.htm");
+  SetCsh(72,"6",72,"Growth_Stages/Corn_Growth_Stages.htm");
+  SetCsh(73,"57",73,"Growth_Stages/Spring_Barley_Diagrams.htm#Developmental_Sequence");
+  SetCsh(74,"44",74,"Output/Save_Output.htm#Save_Output");
+  SetCsh(75,"54",75,"Growth_Stages/Soybean_Diagrams.htm#Phenology_Diagram");
+  SetCsh(76,"74",76,"Growth_Stages/Winter_Barley_Diagrams.htm#Developmental_Sequence");
+  SetCsh(77,"62",77,"Growth_Stages/Spring_Wheat_Diagrams.htm#Phenology_Diagram");
+  SetCsh(78,"25",78,"Growth_Stages/Hay_Millet_Diagrams.htm#Phenology_Diagram");
+  SetCsh(79,"38",79,"Growth_Stages/Proso_Millet_Diagrams.htm#Developmental_Sequence");
+
+
+//-->
+</script>
+<script language="javascript">
+<!--
+//Find CSH according to hash string after this page
+if (getHash().length > 0)
+{
+   // VH 05/16/00 now support 
+   // TopicID=
+   // TopicNumber=
+   // RemoteURL=   
+   // and WindowsOptions
+   // with the format #a=xxx,b=xxx,c=xxx...
+   var strHashString = getHash().toString();
+   // change ? to : for remote URL. because java applet have some problem to pass a URL with two : inside the URL so we changed it. 
+   // so here need to change it back.
+   strHashString = strHashString.substring(1,strHashString.length);
+   strHashString = strHashString.replace("%072%057%057", "://");
+   var nTopicNum = GetTopicNumber(strHashString);
+
+   if (nTopicNum != -1)
+   {
+      FindTopicByTopicNum(nTopicNum);
+   }
+   else
+   {
+      if (gstrURL.length > 0) 
+	RedirectTo(gstrURL);
+      else
+      	RedirectToHomePage();
+   }
+}
+else
+{
+   RedirectToHomePage();
+}
+//-->
+</script>
+<noscript>
+ <p> Your browser does not support JavaScript. WebHelp Context-Sensitive Help requires JavaScript support to run.</p>
+</noscript>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+This file contains the vernalization information needed by each crop. For those
+crops not requiring vernalization, the p1v value (required number of vernalization 
+days) is set to 0.
+
+The format:
+
+****
+<Crop Name>
+<p1v>, <vtbase>, <vtoptlo>, <vtoptup>, <vtupper>, <devern>
+
+FOUR ****  THE DATA BEGINS BELOW THIS LINE!!!
+
+
+The data will be read after the line that contains 4 asterisks (****), which separates
+each crop.
+
+****
+Corn
+0.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Dry Beans
+0.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Hay Millet
+0.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Proso Millet
+0.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Sorghum
+0.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Spring Barley
+10.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Spring Wheat
+10.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Sunflower
+0.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Winter Barley
+50.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Winter Wheat
+50.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****
+Soybean
+0.0, -5.0, 0.0, 10.0, 15.0, 30.0
+****

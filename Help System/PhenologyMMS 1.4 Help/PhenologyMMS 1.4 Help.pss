@@ -1,0 +1,75 @@
+﻿[Target:Responsive HTML5]
+SSLayoutType=2
+Enable Result Dialog=1
+ActionID For Generation=1005
+ResultFileName=!SSL!\Responsive_HTML5\index.htm
+Remove Folder with prompt=1
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+ViewFileName=!SSL!\Responsive_HTML5\index.htm
+ResultStatus=2
+ResultStatusSharePoint=2
+[Target:FlashHelp]
+SSLayoutType=2
+[Target:Adobe AIR]
+SSLayoutType=512
+[Target:WebHelp]
+SSLayoutType=2
+[Target:XML Output]
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+SSLayoutType=2
+[Target:Printed Documentation]
+SSLayoutType=7
+[Target:Mobile App]
+SSLayoutType=3
+[Target:Multiscreen HTML5]
+SSLayoutType=2
+[Target:eBook]
+SSLayoutType=2
+[Target:Microsoft HTML Help]
+SSLayoutType=1
+[Target:WebHelp Pro]
+SSLayoutType=32
+MindReader Server=
+ActionID For Generation=1001
+ResultFileName=!SSL!\WebHelp_Pro\PhenologyMMS_1.3_Help.htm
+Remove Folder with prompt=1
+CreateProjectTime=11:15, December 09, 2019
+CreateProjectUser=Debbie.Edmunds
+SupportMas_MPJ=1
+ViewFileName=!SSL!\WebHelp_Pro\PhenologyMMS_1.3_Help.htm
+ResultStatus=0
+BuildTimeHi=30781116
+BuildTimeLow=-1011472445
+[PreSingleSource]
+Html Help Project=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.hhp
+Table Of Content=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS_1.4.hhc
+Index=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.hhk
+Topic Index=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\RHTopicKeyword$.hhk
+See Also Index=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.hha
+Browse Sequence=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.brs
+Glossary=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS_1.4_Help.glo
+Topic Properties=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trs
+Active Folders=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trf
+Baggage Files=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trb
+Skin List=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trk
+Active Layout Names=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trl
+Template Files=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trt
+Project TOC List=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trtocl
+Project Index List=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.tridxl
+Project Glossary List=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trglol
+Project CSS List=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trcss
+Project Variable Set List=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.trvset
+External URL Settings=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\SearchOptions.xml
+Screen Template File Details=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.sctfdl
+CPSwfToHTML5Map=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\__cpSwf2HTML5ZipMap
+Default Topic=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\Overview_PhenologyMMS_1.4.htm
+Build Tags0=29282;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\!Language!\en_US\RoboHHRE.lng
+Stop List=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\!Language!\en_US\PhenologyMMS 1.4 Help.stp

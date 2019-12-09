@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="search-keywords" content="Run, PhenologyMMS 1.4, Setup, Output" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Run PhenologyMMS 1.4</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+ <link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Overview\nRun PhenologyMMS 1.4");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("PhenologyMMS_1.3_Help.htm", "", ">", "Home", "Overview_PhenologyMMS_1.4.htm");
+document.write("<a href=\"Overview_PhenologyMMS_1.4.htm\">Overview<\/a> > Run PhenologyMMS 1.4<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('PhenologyMMS_1.3_Help.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+
+<h1><a name="How_To_Run_PhenologyMMS_1.4"></a>How To Run PhenologyMMS 1.4</h1>
+<p class="msonormal" style="text-align: left;">First be sure to set up 
+ the program to <a href="javascript:TextPopup(this)" id="HotSpot33196" class="glossterm">Run</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot33196', 'POPUP33196');
+//]]></script><span class="glosstext" id="POPUP33196" style="display: none;"> The execution of the scenario set up in PhenologyMMS.</span> for 
+ the crop and location you wish to simulate. This is done via the <a href="Begin_Setup.htm#Begin_Setup">Begin 
+ Setup</a> and the <a href="Set_Inputs.htm#Set_Inputs">Set Inputs</a> screens.</p>
+<p class="msonormal" style="text-align: left;">&#160;</p>
+<p class="msonormal" style="text-align: left;">To Run or execute the PhenologyMMS 
+ program, click on the Run button located on the Begin Setup, Set Inputs, 
+ <a href="Temperatures.htm#Temperatures">Temperatures</a>&#160;or the <a 
+	 href="Growth_Stages_Example.htm#Growth_Stages_Example">Growth Stages</a> 
+ screens. This will execute the program and open the <a href="Output.htm#Output">Output</a> 
+ window.</p>
+<p class="msonormal" style="text-align: left;">&#160;</p>
+<p class="msonormal" style="text-align: left;">Within the Output window, 
+ you can see the inputs to the program.&#160;The <a href="javascript:TextPopup(this)" id="HotSpot25474" class="glossterm">leaf 
+ number</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot25474', 'POPUP25474');
+//]]></script><span class="glosstext" id="POPUP25474" style="display: none;"> The amount of leaves produced by a given growth stage or the number of accumulated GDD's. Leaves are generally not added once the plant reaches the first reproductive stage.</span> table and the <a href="javascript:TextPopup(this)" id="HotSpot31372" class="glossterm">phenology 
+ table</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot31372', 'POPUP31372');
+//]]></script><span class="glosstext" id="POPUP31372" style="display: none;"> This is part of the output from the model run and shows the predicted Date or number of Days from a specific event, for example,  'Planting' for each growth stage. The columns Day of Year, Date, DAP, DAE and DAV provide this information. The predicted number of Growing Degree-Days for each stage after a specific event, e.g., 'Emergence' or 'Vernalization' are provided in the columns GDD AP, GDD AE, and GDD AV. The Number of Leaves predicted for each vegetative stage is also displayed in the table. The number of leaves shown in the reproductive stages is the same as that at the last vegetative stage and shows that no new leaves are added in the reproductive stages.</span> which resulted from the run are also displayed in 
+ the Output window.</p>
+<p class="msonormal" style="text-align: left;">&#160;</p>
+<p class="msonormal" style="text-align: left;">From the Output screen, 
+ you have the option to <a href="Save_Current_Scenario.htm#Save_Current_Scenario">Save 
+ the Scenario</a> or setup for this run and to <a href="Save_Current_Output.htm#Save_Output">Save 
+ the Output</a> from this run.</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

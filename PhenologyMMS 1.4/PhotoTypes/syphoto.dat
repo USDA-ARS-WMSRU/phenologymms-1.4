@@ -1,0 +1,69 @@
+This file contains the photoperiod information needed by each crop. 
+For now, only soybean photoperiod parameters are provided.
+
+The format:
+
+****
+<Variety Name>
+<mg>, <photocrit>, <ppsen>, <photosen>
+
+FOUR ****  THE DATA BEGINS BELOW THIS LINE!!!
+
+
+The data will be read after the line that contains 4 asterisks (****), which separates
+each variety.
+
+Generic MG 3.5
+3.5, 13.40, 0.285, 0.324
+****
+MG 000.5
+000.5, 14.60, 0.129, 0.189
+****
+MG 00.5
+00.5, 14.35, 0.148, 0.189
+****
+Early Maturity MG 0.5
+0.5, 14.10, 0.171, 0.189
+****
+MG 0.5
+0.5, 14.10, 0.171, 0.189
+****
+MG 1.5
+1.5, 13.84, 0.203, 0.234
+****
+MG 2.5
+2.5, 13.59, 0.249, 0.279
+****
+Medium Maturity MG 3.5
+3.5, 13.40, 0.285, 0.324
+****
+MG 3.5
+3.5, 13.40, 0.285, 0.324
+****
+MG 4.5
+4.5, 13.09, 0.294, 0.369
+****
+MG 5.5
+5.5, 12.83, 0.303, 0.414
+****
+MG 6.5
+6.5, 12.58, 0.311, 0.459
+****
+MG 7.5
+7.5, 12.33, 0.320, 0.504
+****
+Full Season Maturity MG 8.5
+8.5, 12.07, 0.330, 0.549
+****
+Late Season Maturity MG 8.5
+8.5, 12.07, 0.330, 0.549
+****
+MG 8.5
+8.5, 12.07, 0.330, 0.549
+****
+MG 9.5
+9.5, 11.88, 0.340, 0.549
+****
+MG 10.5
+10.5, 11.78, 0.349, 0.549
+****

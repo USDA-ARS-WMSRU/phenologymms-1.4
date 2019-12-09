@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version='1.0' encoding='utf-8' ?>  <index>  <chunkinfo url=\"whidata0.xml\" first=\"12\" last=\"Zea\" num=\"545\" />    </index>";

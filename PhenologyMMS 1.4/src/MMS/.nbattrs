@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="BasicButtonListener.java">
+        <attr name="SourceSync" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000078"/>
+        <attr name="class_dependency_java.awt.event.FocusListener" stringvalue="BasicButtonListener"/>
+        <attr name="class_dependency_java.awt.event.MouseListener" stringvalue="BasicButtonListener"/>
+        <attr name="class_dependency_java.awt.event.MouseMotionListener" stringvalue="BasicButtonListener"/>
+        <attr name="class_dependency_java.beans.PropertyChangeListener" stringvalue="BasicButtonListener"/>
+        <attr name="class_dependency_javax.swing.AbstractAction" stringvalue="BasicButtonListener.ReleasedAction;BasicButtonListener.PressedAction"/>
+        <attr name="class_dependency_javax.swing.event.ChangeListener" stringvalue="BasicButtonListener"/>
+    </fileobject>
+    <fileobject name="CNSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="CNSetGDDFrame"/>
+    </fileobject>
+    <fileobject name="HMSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="HMSetGDDFrame"/>
+    </fileobject>
+    <fileobject name="PMSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="PMSetGDDFrame"/>
+    </fileobject>
+    <fileobject name="Run.java">
+        <attr name="class_dependency_java.lang.Runnable" stringvalue="Run.StreamGobbler"/>
+    </fileobject>
+    <fileobject name="SBSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="SBSetGDDFrame"/>
+    </fileobject>
+    <fileobject name="SFSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="SFSetGDDFrame"/>
+    </fileobject>
+    <fileobject name="SGSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="SGSetGDDFrame"/>
+    </fileobject>
+    <fileobject name="SWSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="SWSetGDDFrame"/>
+    </fileobject>
+    <fileobject name="SetUpTemplate.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="SetUpTemplate"/>
+    </fileobject>
+    <fileobject name="SwitchboardFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="SwitchboardFrame"/>
+    </fileobject>
+    <fileobject name="WBSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="WBSetGDDFrame"/>
+    </fileobject>
+    <fileobject name="WWSetGDDFrame.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="WWSetGDDFrame"/>
+    </fileobject>
+</attributes>

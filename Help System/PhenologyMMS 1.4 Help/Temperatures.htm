@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="search-keywords" content="Temperature, Cardinal, Maximum, Minimum, GDD, Phyllochron, Base, Optimum, Upper, " />
+<meta name="rh-authors" content="Debbie Edmunds" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Temperatures</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1><a name="Temperatures"></a>Temperatures</h1>
+<p class="msonormal"><i><u><b>It is strongly recommended that the information 
+ in this screen not be changed as changing these values will negatively 
+ influence the program</b></u></i>.&#160;They are presented here for information 
+ purposes only.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘Temperatures’ screen presents important temperature 
+ and temperature-related input values.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal"><img src="Temperatures.jpg" alt="" style="border: none;" 
+							 width="650" height="623" border="0" /></p>
+<p class="msonormal" style="text-align: center;">&#160;</p>
+<p class="msonormal">Four temperature <?rh-glo_start class="glossterm"?>inputs<?rh-glo_end ?> 
+ are displayed that are used in calculating the <?rh-glo_start class="glossterm"?>growing 
+ degree-days<?rh-glo_end ?> (<?rh-glo_start class="glossterm"?>GDD<?rh-glo_end ?>) 
+ for each day as described in each <?rh-glo_start class="glossterm"?>GDD 
+ method<?rh-glo_end ?> below:</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The <?rh-glo_start class="glossterm"?>Base temperature<?rh-glo_end ?> 
+ (<?rh-glo_start class="glossterm"?>Tbase<?rh-glo_end ?>) is the temperature 
+ below which no GDD are accumulated. The assumption is that phenological 
+ <?rh-glo_start class="glossterm"?>development<?rh-glo_end ?> does not 
+ occur below the base temperature, and therefore no GDD's are accumulated 
+ on that day. Tbase is used in all methods of calculating GDD (discussed 
+ below).</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The <?rh-glo_start class="glossterm"?>Lower Optimum 
+ temperature<?rh-glo_end ?> (<?rh-glo_start class="glossterm"?>Toptlo<?rh-glo_end ?>) 
+ is the lower end of the optimum temperature range for <?rh-glo_start class="glossterm"?>growth<?rh-glo_end ?>. 
+ This is used only in Method 4 and currently is not implemented for any 
+ of the crops in PhenologyMMS 1.4.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The <?rh-glo_start class="glossterm"?>Upper Optimum 
+ temperature<?rh-glo_end ?> (<?rh-glo_start class="glossterm"?>Toptup<?rh-glo_end ?>) 
+ is the upper end of the optimum temperature range for growth. This is 
+ used only in Method 4 and currently is not implemented for any of the 
+ crops in PhenologyMMS 1.4.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The Upper/Maximum temperature (<?rh-glo_start class="glossterm"?>Tupper<?rh-glo_end ?>) 
+ is the highest temperature at which growth can still occur. This is used 
+ in Methods 2, 3 and 4 but only Method 2 is implemented for any of the 
+ current crops in PhenologyMMS 1.4.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">There are many ways that the GDD required between 
+ phenological stages can be calculated. Four commonly used methods are 
+ available in PhenologyMMS however, only two methods are currently implemented.&#160;&#160;Although 
+ these four methods are fairly similar, they have slight variations in 
+ approach and the temperature variables used.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal"><b>WARNING: If you change the temperature values or 
+ the GDD Method in the Temperature screen, this will have an adverse effect 
+ on the simulation output as the parameter values in the Set Growth Stages 
+ screen which are based on the particular Method of calculating GDD for 
+ the crop, are NOT adjusted when temperatures or the GDD Method are changed.</b></p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The four GDD METHODS used are described below. For 
+ additional information, refer to: <span style="font-family: Arial, sans-serif; 
+										 font-size: 12pt;"><a href="References_and_Documents.htm#Development_of_the_wheat_plant_chap_2">McMaster, 
+ G. S. 2009</a>; <a href="References_and_Documents.htm#Phytomers_pyllochron_phenology_development">McMaster, 
+ G. S. (2005)</a>; <a href="References_and_Documents.htm#Growing_degree-days_two_interpretations">McMaster, 
+ G. S. and W. W. Wilhelm (1997)</a>; and</span> <span style="font-size: 12pt;"><a 
+	 href="References_and_Documents.htm#Crop_phenology_response_water_stress_phenologyMMS">McMaster, 
+ G. S., et al. (2013)</a></span><span style="font-family: Arial, sans-serif; 
+										 font-size: 12pt;">.</span> &#160;A 
+ diagram of the four GDD Methods is displayed <a href="GDD_Methods.htm#GDD_Methods_Figure_-">here</a>.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal"><b>GDD METHOD 1</b></p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">This is probably the simplest method of the four. 
+ The Average (<?rh-glo_start class="glossterm"?>Tavg<?rh-glo_end ?>) of 
+ the Maximum temperature (<?rh-glo_start class="glossterm"?>Tmax<?rh-glo_end ?>) 
+ and the <?rh-glo_start class="glossterm"?>Minimum temperature<?rh-glo_end ?> 
+ (<?rh-glo_start class="glossterm"?>Tmin<?rh-glo_end ?>) is calculated. 
+ The Tbase is then subtracted from the Tavg. If the result is negative 
+ then the value is set equal to zero.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">Method 1 is generally used for grasses and here it 
+ is applied to Winter Wheat, Spring Wheat, Winter Barley, Spring Barley, 
+ Proso Millet and Hay Millet.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal"><b>GDD METHOD 2</b></p>
+<p class="msonormal">This is another way of calculating GDD and uses the 
+ Upper Temperature (Tupper) threshold for the crop. GDD above the Tupper 
+ are not accumulated. Tbase is also used in this Method. Both Tmax and 
+ Tmin are compared to Tbase and if Tmax and/or Tmin is less than Tbase 
+ then Tmax and/or Tmin is set equal to the value of Tbase. Likewise, if 
+ Tmax and/or Tmin is greater than Tupper, then Tmax and/or Tmin is set 
+ equal to Tupper. The average temperature is calculated and Tbase is subtracted 
+ from Tavg. If the resulting value is less than zero, then it is set to 
+ zero.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">Method Two is used for Corn, Dry Beans, Sorghum, Soybeans 
+ and Sunflower.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal"><b>GDD METHOD 3</b></p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">This method employs a two-segmented linear model. 
+ The first segment extends from Tbase to an Optimum Temperature (<?rh-glo_start 
+ class="glossterm"?>Topt<?rh-glo_end ?>), and the second segment extends 
+ from Topt to Tupper. The Average temperature is calculated and compared 
+ to Tbase and Topt. If Tavg is greater than or equal to Tbase and less 
+ than or equal to Topt, then a temperature factor '<?rh-glo_start class="glossterm"?>tf<?rh-glo_end ?>', 
+ which uses the slope of the first segment of the line, is calculated and 
+ multiplied by the value of Tavg minus Tbase. This gives the GDD value 
+ for the day. However, if the Tavg is greater than Topt and less than or 
+ equal to Tupper, then 'tf', which uses the slope of the second segment 
+ of the line, is multiplied by the value of Tavg minus Tbase to give today’s 
+ GDD value. If neither comparisons are true and Tavg is less than Tbase 
+ or greater than Tupper, then the GDD for the day is zero.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal"><b>GDD METHOD 4</b></p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">This Method uses a three-segmented linear model. The 
+ first segment extends from Tbase to the Lower Optimum Temperature (Toptlo); 
+ the second segment from Toptlo to the Upper Optimum Temperature (Toptup); 
+ the third segment runs from Toptup to Tupper.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The Average temperature (Tavg) is calculated and compared 
+ to Tbase and the Lower Optimum Temperature (Toptlo). If Tavg is greater 
+ than or equal to Tbase and if Tavg is less than Toptlo, then Tbase is 
+ subtracted from Tavg. This value is multiplied by the calculated temperature 
+ factor 'tf' which is calculated using the slope of this first segment 
+ of the line to get the GDD value for the day. However, if Tavg is greater 
+ than or equal to Toptlo and less than or equal to Toptup, then Tbase is 
+ subtracted from Tavg and that value is multiplied by 'tf' which has been 
+ calculated using the slope of the second line segment. This gives the 
+ GDD value for the day. If Tavg is greater than Toptup and less than or 
+ equal to Tupper, then 'tf' is calculated using the slope of this third 
+ segment of the line and is multiplied by the result of Tavg minus Tbase 
+ to yield the GDD value for the day. If none of the situations are true 
+ and Tavg is less than Tbase or greater than Tupper, then GDD for the day 
+ is set equal to zero.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">You can choose the GDD method with which to <?rh-glo_start 
+ class="glossterm"?>run<?rh-glo_end ?> the model however, only Methods 
+ 1 and 2 are currently implemented. The default is Method 1. Click on the 
+ down arrow to pick one of the other methods.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal"><a name="Phyllochron" id="Phyllochron"></a>The <?rh-glo_start 
+ class="glossterm"?>phyllochron<?rh-glo_end ?>, or GDD per leaf, is also 
+ entered in this screen in the 'Growing Degree-Days per Leaf:' edit box. 
+ This refers to the number of GDD’s required to produce an additional leaf.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The buttons below the picture are similar to those 
+ on the previous screens.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘<?rh-ignored text="Help…" ?>Help…’ button - accesses 
+ the Help System.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘Close and Save’ button - closes this screen, 
+ returns you to the <a href="Set_Inputs.htm#Set_Inputs">‘Set Inputs’</a> 
+ screen and saves the information entered in the ‘Temperatures’ screen.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘Reset’ button - resets the values back to the 
+ original default values.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘<?rh-ignored text="Run…" ?>Run…’ button - runs 
+ the model and displays output in the <a href="Output.htm#Output">Output</a> 
+ screen.</p>
+</body>
+</html>

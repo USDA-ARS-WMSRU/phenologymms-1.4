@@ -1,0 +1,24 @@
+The Temperatures screen is accessed from the Set Inputs screen via the Temperatures button.  The initial inputs have been set for each crop for the northeastern Colorado region and are displayed for the selected crop.  
+
+The values in the Temperatures screen should not be changed unless you have in-depth knowledge of the temperature values and how they are used in the methods calculating the growing degree-days (GDD).
+
+Two methods (referred to as Method 1 and Method 2) are currently available for calculating thermal time (i.e., the role of temperature in determining developmental rates) as represented by GDD.  Once you have selected a crop, the default method is set based on the most typical approach used for that crop.  This more readily allows use of published thermal time values for use in this program.  IT IS NOT RECOMMENDED TO CHANGE FROM THE DEFAULT METHOD.  
+
+The two methods are discussed in detail in McMaster and Wilhelm (1997), but briefly in Method 1, the average of the daily maximum and minimum temperature is calculated and the base temperature is subtracted from that value. This provides the growing degree-days for that day. (Note: only positive GDD values are allowed.)
+
+Method 2 is similar to Method 1 except that the daily max and min temperatures are first compared to the base temperature and the upper temperature.  If either the max or min temperature is less than the base temperature, it is set equal to the base temperature and similarly if either the max or min temperature is greater than the upper temperature it is set equal to the upper temperature.  The average of the adjusted max and min temperature is then calculated and the base temperature is subtracted from that value to provide the growing degree-days for that day. (Note: only positive GDD values are allowed.) 
+
+Currently, Method 3 is the same as Method 1 and method 4 is not yet implemented.  Again, it is not recommended that you change methods from the default.
+
+Most commonly thermal time is represented by some form of GDD.  However, for several decades many researchers have felt a better clock for measuring developmental time is to use leaf appearance rates, or the phyllochron (Wilhelm and McMaster, 1995).  In many instances the number of leaves and GDD for an interval is equivalent and the phyllochron is defined as the amount of GDD required to produce a leaf.  However, there are some advantages not readily apparent to using the phyllochron/leaf number approach over the GDD approach to estimate the time interval, particularly in that the phyllochron can change with environments and among and within planting dates (e.g., McMaster, 1997; 2005).  
+
+Using a static GDD number is less flexible.  Unfortunately, equations to predict the phyllochron tend to be inaccurate (McMaster and Wilhelm, 1995), and the default is set to be a constant, user-defined value for the phyllochron that is set for each crop.
+
+Regardless of the method for calculating GDD or phyllochron, certain crop-specific (and likely variety-specific) cardinal temperatures are needed.  These are the base, lower and upper optimum, and upper/maximum temperatures.  The base temperature is the lowest temperature where some development can occur, the optimum temperature range is where developmental rates are the greatest, and the upper/maximum temperature is similar to the base temperature where this is the highest temperature where some development can occur.  Depending on the specific method of calculating thermal time, use of these cardinal temperatures varies.
+
+The Help button displays this help screen.  For a more expanded Help System, go to the location where you have installed PhenologyMMS on your computer.  Look in the `doc and info' folder for a help file named "PhenologyMMSHelp1_1.chm".  Double click on the file name to open it. There you will find Help on the screens as well as screen shots, Developmental Sequence Diagrams and Phenology Diagrams for each crop and a listing of relevant publications.  Double clicking on any underlined text will either go to the help item or open a diagram or publication.  You can also access individual publications, Developmental Sequence Diagrams and Phenology diagrams directly without first opening the "PhenologyMMSHelp1_1.chm" file.  Click on the desired .pdf file in the `doc and info' folder.
+
+The Close and Save button will save the displayed values and return you to the Set Inputs screen.  If you want to return this screen to the default values, press the Reset button and the original, default values will be displayed.
+
+After making any changes in the inputs you can then run the model by pressing the Run button.
+

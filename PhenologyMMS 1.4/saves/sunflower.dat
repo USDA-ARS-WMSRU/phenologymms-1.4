@@ -1,0 +1,11 @@
+File Name: sunflower.dat	Date: 8/3/2018	7:47:34
+Path: D:\PhenologyMMS-1.3\PhenologyMMS 1.3\saves\sunflower.dat
+
+The Format is as follows:
+Crop Type, Crop Variety, Climate, Planting Day, Planting Month, Planting Year, 
+Day of Year, Planting Depth,Planting Rate, Soil Moisture, Latitude, 
+GDD Method, Base Temperature, Lower Optimum Temperature, Upper Optimum Temperature, Upper Temperature, Phyllochron Value, Canopy Height
+Row1,Row2,Row3,..., RowN
+**** do not edit below this line !****
+Sunflower, Generic, CO_Greeley_LIRF_9217, 01, 06, 2008, 153, 5, 7, Optimum, 40.4487, 2, 7, 24, 30, 40, 30.0, 190.0
+ GN 40,  GN 120,  GN 120,  GN 120,  GN 100,  GN 110,  GN 110,  GN 60,  GN 35,  GN 175,  GN 95,  GN 80,  GN 95,  GN 135,  GN   0.,  GN   0.

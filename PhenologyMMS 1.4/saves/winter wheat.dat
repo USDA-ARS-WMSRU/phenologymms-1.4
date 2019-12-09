@@ -1,0 +1,11 @@
+File Name: winter wheat.dat	Date: 8/3/2018	7:49:43
+Path: D:\PhenologyMMS-1.3\PhenologyMMS 1.3\saves\winter wheat.dat
+
+The Format is as follows:
+Crop Type, Crop Variety, Climate, Planting Day, Planting Month, Planting Year, 
+Day of Year, Planting Depth,Planting Rate, Soil Moisture, Latitude, 
+GDD Method, Base Temperature, Lower Optimum Temperature, Upper Optimum Temperature, Upper Temperature, Phyllochron Value, Canopy Height
+Row1,Row2,Row3,..., RowN
+**** do not edit below this line !****
+Winter Wheat, Generic, CO_Greeley_LIRF_9217, 15, 09, 2008, 259, 5, 133, Optimum, 40.4487, 1, 0, 18, 22, 40, 105.0, 90.0
+ GN 100,  GN 200,  GN 180,  GN 125,  GN 150,  GN 30,  GN 160,  GN 145,  GN 145,  GN 735,  GN 200,  GN  0.,  GN  0.,  GN  0.,  GN  0.,  GN  0.

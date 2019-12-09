@@ -1,0 +1,69 @@
+This file contains the maximum canopy height information for phase 1 growth (emergence to stem elongation stage - this stage name 
+varies by crop) needed by each crop. 
+
+The format:
+
+***
+<Crop Name>
+<ecanht>
+
+FOUR ****  THE DATA BEGINS BELOW THIS LINE!!!
+
+
+The data will be read after the line that contains 4 asterisks (****), which separates
+each crop.
+
+****
+Corn
+15.0
+****
+
+****
+Dry Beans
+8.0
+****
+
+****
+Hay Millet
+8.0
+****
+
+****
+Proso Millet
+8.0
+****
+
+****
+Sorghum
+8.0
+****
+
+****
+Soybean
+8.0
+**** 
+
+****
+Spring Barley
+8.0
+****
+
+****
+Spring Wheat
+8.0
+****
+
+****
+Sunflower
+15.0
+****
+
+****
+Winter Barley
+8.0
+****
+
+****
+Winter Wheat
+8.0
+****
