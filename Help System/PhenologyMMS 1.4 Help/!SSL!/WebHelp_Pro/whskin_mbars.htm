@@ -18,16 +18,16 @@ body {margin:0;}
 <script  src="whmozemu.js" charset="utf-8"></script>
 <script  src="whtbar.js" charset="utf-8"></script>
 </head>
-<body marginheight="0"  marginwidth="0"  bgcolor="#99ccff"     scroll="no">
+<body marginheight="0"  marginwidth="0"  bgcolor="#363f48"    background="background.png"  scroll="no">
 <script language="javascript1.2">
 <!--
 if (window.gbWhTBar)
 {
-	setButtonFont("avprev","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
-setButtonFont("avnext","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
-setButtonFont("rolesel","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
-setButtonFont("synctoc","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
-setButtonFont("hide2","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
+	setButtonFont("avprev","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("avnext","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("rolesel","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("synctoc","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("hide2","Arial","11pt","#a7abaf","Normal","Normal","none");
 
 	gsIPrev = "wht_prev.gif";
 	gsIPrevD = "wht_prev_g.gif";
@@ -35,14 +35,14 @@ setButtonFont("hide2","Microsoft Sans Serif","8pt","Black","Normal","Normal","no
 	gsINextD = "wht_next_g.gif";
 	gsISync = "wht_sync.gif";
 	gsIHide = "wht_hide.gif";
-	setBackgroundcolor("#99ccff");
+	setBackgroundcolor("#363f48");
+	setBackground("background.png");
 	
-	
-	addButton("avprev",BTN_TEXT|BTN_IMG,"","","","","",0,0,"","","","","","");
-addButton("avnext",BTN_TEXT|BTN_IMG,"","","","","",0,0,"","","","","","");
+	addButton("avprev",BTN_TEXT|BTN_IMG,"","","","","",0,0,"previous-enabled.png","","","previous-disabled.png","","");
+addButton("avnext",BTN_TEXT|BTN_IMG,"","","","","",0,0,"next-enabled.png","","","next-disabled.png","","");
 addButton("rolesel",BTN_TEXT|BTN_IMG,"","","","","",0,0,"","","","","","");
-addButton("synctoc",BTN_TEXT|BTN_IMG,"","","","","",0,0,"","","","","","");
-addButton("hide2",BTN_TEXT|BTN_IMG,"","","","","",0,0,"","","","","","");
+addButton("synctoc",BTN_TEXT|BTN_IMG,"","","","","",0,0,"sync-toc.png","","","sync-toc.png","","");
+addButton("hide2",BTN_TEXT|BTN_IMG,"","","","","",0,0,"hide.png","","","hide.png","","");
 
 	addButton("blankblock");
 	writeStyle(true);

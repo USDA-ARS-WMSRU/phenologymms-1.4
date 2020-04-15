@@ -84,7 +84,7 @@ var gsIWebSearchD=null;
 var gbAveButttnInited=false;
 var goNextParent=null;
 var goPrevParent=null;
-var gsSearchPrompt="- Search -";
+var gsSearchPrompt="%%% WH_LNG_SearchPrompt %%%";
 
 var gstrSearch="";
 var gbPreview=false;
@@ -573,7 +573,7 @@ function addSearchForm()
 	else if("image"=="image"&&gsIGo)
 	{
 		sButton+="<td NOWRAP valign=\"middle\"><a class=\"searchbtn\" href=\"javascript:void(0);\" onclick=\"searchForm.submit(); return false;\">"
-		sButton+="<img alt=\"Go\" src=\""+gsIGo+"\" border=0 align=\"absmiddle\"></a></td>";
+		sButton+="<img alt=\"%%% WH_LNG_ToolBarSearchBtnText %%%\" src=\""+gsIGo+"\" border=0 align=\"absmiddle\"></a></td>";
 	}
 	sButton+="</tr></table>";
 	if(gbNav6)
@@ -671,7 +671,7 @@ function addButton(sType,nStyle,sTitle,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidt
 	var bHref=false;
 	if(sType=="show"&&isShowHideEnable())
 	{
-		var svTitle="Show Navigation Component";
+		var svTitle="%%%WH_LNG_Show_Navigation_Component%%%";
 		sButton="<a title=\""+svTitle+"\" id=\"btnshowhide\" class=\"btnshow\" href=\"javascript:void(0);\" onclick=\"showHidePane();return false;\">";
 		gnShowHideStyle=nStyle;
 		goShow=new button(sType,sTitle,nWidth,nHeight,sI1,sI2,sI3);
@@ -690,7 +690,7 @@ function addButton(sType,nStyle,sTitle,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidt
 	}
 	else if(sType=="hide"&&isShowHideEnable())
 	{
-		var svTitle="Hide Navigation Component";
+		var svTitle="%%%WH_LNG_Hide_Navigation_Component%%%";
 		sButton="<a title=\""+svTitle+"\" id=\"btnshowhide\" class=\"btnhide\" href=\"javascript:void(0);\" onclick=\"showHidePane();return false;\">";
 		gnShowHideStyle=nStyle;
 		goHide=new button(sType,sTitle,nWidth,nHeight,sI1,sI2,sI3);
@@ -709,7 +709,7 @@ function addButton(sType,nStyle,sTitle,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidt
 	}
 	else if(sType=="hide2" && navigator.appVersion.search("MSIE 10.0") == -1)
 	{
-		var svTitle="Hide Navigation Component";
+		var svTitle="%%%WH_LNG_Hide_Navigation_Component%%%";
 		sButton="<a title=\""+svTitle+"\" id=\"btnhide\" class=\"btnhide\" href=\"javascript:void(0);\" onclick=\"showHidePane();return false;\">";
 		gnShowHideStyle=nStyle;
 		if(!sI1)
@@ -727,7 +727,7 @@ function addButton(sType,nStyle,sTitle,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidt
 	}
 	else if(sType=="synctoc")
 	{
-		var svTitle="Sync TOC";
+		var svTitle="%%%WH_LNG_SyncTocTooltip%%%";
 		sButton="<a title=\""+svTitle+"\" id=\"btnsynctoc\" class=\"btnsynctoc\" href=\"javascript:void(0);\" onclick=\"syncWithShow();return false;\">";
 		if(!sI1)
 			sI1=gsISync;
@@ -765,7 +765,7 @@ function addButton(sType,nStyle,sTitle,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidt
 	}
 	else if(sType=="rolesel")
 	{
-	    var svTitle="Select a content category";
+	    var svTitle="%%%WH_LNG_ContentCategoryList%%%";
 		sButton="<select title=\""+svTitle+"\" style=\"background-color:"+gsBgColor+";\" id=\"selectRole\" name=\"selectRole\" class=\"btnrolesel\" size=\"1\" onchange=\"showHelpSystem(this.id)\">";		
 		sButton+="</select>";
 		goRole=new button(sType,sTitle,nWidth,nHeight,sI1,sI2,sI3);
@@ -837,7 +837,7 @@ function addButton(sType,nStyle,sTitle,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidt
 	}
 	else if(sType=="avnext")
 	{
-		var svTitle="Next Topic";
+		var svTitle="%%%WH_LNG_NextTooltip%%%";
 		sButton="<a title=\""+svTitle+"\" id=\"btnavnext\" class=\"btnavnext\" href=\"javascript:void(0);\" onclick=\"goAveNext();return false;\">";
 		if(!sI1)
 			sI1=gsINext;
@@ -856,7 +856,7 @@ function addButton(sType,nStyle,sTitle,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidt
 	}
 	else if(sType=="avprev")
 	{
-		var svTitle="Previous Topic";
+		var svTitle="%%%WH_LNG_PreTooltip%%%";
 		sButton="<a title=\""+svTitle+"\" id=\"btnavprev\" class=\"btnavprev\" href=\"javascript:void(0);\" onclick=\"goAvePrev();return false;\">";
 		if(!sI1)
 			sI1=gsIPrev;

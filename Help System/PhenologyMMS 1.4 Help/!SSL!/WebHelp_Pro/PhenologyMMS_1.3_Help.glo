@@ -9,7 +9,7 @@ Part of the stamen, i.e., the male flower and contains the pollen. The pollen is
 NAME=Anthesis
 The time of flowering in the plant. This is abbreviated as 'AS' for Anthesis Starts.
 NAME=Anthesis Ends
-In Sunflower, this is the 'R5' reproductive stage and is the end of flowering. The ray flowers are wilting in this stage.
+In all the crops, this is the end of flowering. In Sunflower, this is the 'R5' reproductive stage and is the end of flowering. The ray flowers are wilting in this stage.
 NAME=Anthesis Starts
 The growth stage when flowering begins. It is abbreviated as 'AS'.
 NAME=AS
@@ -545,7 +545,7 @@ Lower Optimum Temperature. When the optimum temperature is a range of values, To
 NAME=Toptup
 Upper Optimum Temperature. When the optimum temperature is a range of values, Toptup is at the high end of the range. This is used in GDD Method 4.
 NAME=Trifoliate Leaf
-A leaf with three leaflets. Most leaves on a dry bean plant are trifoliate.
+A leaf with three leaflets. Most leaves on a dry bean or soybean plant are trifoliate.
 NAME=Triticum aestivum L.
 The scientific name of wheat.
 NAME=TSI

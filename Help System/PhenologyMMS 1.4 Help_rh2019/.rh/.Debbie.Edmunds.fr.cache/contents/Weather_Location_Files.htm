@@ -1,0 +1,46 @@
+
+Weather/Location Files
+A.    The Structure of a Weather File – A location weather file contains data for a specific number of years/days and includes at the least, precipitation and temperature data. PhenologyMMS can run with just these two weather variables. Additional climate inputs may be included in the file, if available.
+1.       Precipitation (precip) – This is the daily precipitation for each day of the weather record. Depending on the location, many days will be 0.0. The units are in mm. 25.4 mm = 1 inch.
+2.       Temperature -
+a.    Maximum Temperature (Tmax) – This is the day’s recorded maximum temperature. It is provided in °C.
+b.    Minimum Temperature (Tmin) – This is the day’s recorded minimum temperature. It is provided in °C.
+3.       Solar Radiation (Solar Rad) – This is the light and energy that comes from the sun, i.e. sunlight. The required units for PhenologyMMS are megajoules/meter² (MJ/m²).
+4.       Soil temperature at 5 cm – This is the maximum soil temperature at 5 cm.
+5.       Calendar Year – This is simply the calendar year of the data, e.g., 2004; not the number of the year of the data in the data file at a point in time, i.e. 1, 2, 3, etc.
+6.       Day of Year – The day in the year of observation, e.g. 150, that corresponds to the date, May 30, in a non-leap year.
+7.       Additional columns are included in the supplied weather files as these are also used for another model which requires these columns. These are for the day, month and year. This year is not the calendar year; it is the number of the year in the sequence of years within the weather file.
+    
+     B.    How to Add a Weather File.
+1.       Construct the weather file with the following order of data columns:
+a. Day – 1 to 28, 29, 30 or 31, whichever is appropriate for the month and year.
+b. Month – 1 to 12
+c. Year – year within the weather file sequence of years; 1, 2, 3, … .
+d. Precip – daily amount of rainfall in mm.
+e. Tmax – Maximum daily temperature in °C.
+f. Tmin – Minimum daily temperature in °C.
+g. Solar Rad – sunlight in MJ/m². MJ = megajoules.
+h. Year – calendar year, e.g., 2004.
+i.  DOY – Day of year, i.e., the sequentially numbered day from Jan. 1 to the day of the date of interest.
+j.  SoilTemp – the day’s maximum soil temperature at 5 cm depth in °C.
+2.       Unit Conversions:
+    a .To convert between units of precipitation:
+                                          i.           1 cm = 10 mm; 1 inch (in) = 25.4 mm
+                                         ii.           cm * 10 = mm; in * 25.4 = mm
+                                        iii.           Trace amount of precip = 0.01 in = 0.254 mm
+b. To convert between Fahrenheit (°F) and Celsius (°C):
+                                          i.           °C = (°F – 32) * 5/9
+                                         ii.           °F = (9/5 * °C) + 32
+c. To convert between MJ/m² and Langley’s/day
+                                          i.           1 MJ/m² = 23.895 Langley’s/day
+                                         ii.           Example:  50 MJ/ m² = 50 * 23.895 = 1194.8 Langley’s/day.
+                             350 Langley’s/day = 350/23.895 = 14.6 MJ/m²
+d. Fill the spreadsheet with data. Even though there are columns in the file not needed by PhenologyMMS, they are read in but not used and therefore, these columns must be present in the file.
+3.       How to Handle Missing Data
+a. Very often data are missing in the weather record. If the number of consecutive days is not too large, data can be interpolated to fill in missing values for temperature and solar radiation.  Precip is much harder to fill in.
+b. To fill in by interpolation, find the difference between the day before and the day after the missing block of data. Then divide that amount by the number of missing days plus 1. Depending on whether the values are increasing or decreasing as observed from the day before and the day after the missing days, add or subtract the calculated value from the day before the missing block of data. Then using that value add or subtract the calculated value to be added (or subtracted) to/from the previous filled in day and so on throughout the missing block of data. The number of days of missing data that can be filled in by this method should not be a large amount. You may want to determine how many days can be filled in but it should not be larger than 30 days and less is probably better. For larger blocks of data it is better to enter 999.9 for those missing data or try to get data from a nearby weather station.
+c. Precip is a difficult climate variable to estimate because it doesn’t rain daily as temperature always has a daily value. Also, the amount of precip when it does occur can be quite variable.  Generally, we simply enter 999.9 to indicate a missing value.
+d. Another possible way to fill in missing Precip values is to find a weather station close by to the area of interest and fill in with data from that station, if data are available for those dates.
+e. A good source of weather data can be found at the NCDC (National Climate Data Center) at the NOAA (National Oceanic and Atmospheric Administration) website. http://www.ncdc.noaa.gov/cdo-web/search#t=secondTabLink . These data are free unless you require them to be certified. (This is usually required when a court has subpoenaed climatic records.) You can select the climate items you want and the period of time for which you want data however, there are often a limited number of climate variables included. Usually, there are more than one climate station and one may be able to piece together a good weather record from one or more stations for the location in question.
+
+

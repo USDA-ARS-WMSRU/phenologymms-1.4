@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/PhenologyMMS_1.4.toc</path>
+      <name>PhenologyMMS_1.4</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/PhenologyMMS_1.4_Help.glo</path>
+      <name>PhenologyMMS_1.4_Help</name>
+    </glossary>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+  </content>
+  <outputPath>C:/Users/Debbie.Edmunds/Documents/My RoboHelp Projects/outputs/PhenologyMMS 1.4 Help/XML Output</outputPath>
+  <starterPage>PhenologyMMS_1.xml</starterPage>
+  <search>
+    <context type="boolean">false</context>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <name>XML Output</name>
+  <type>xml</type>
+  <title>PhenologyMMS 1.4 Help</title>
+  <lowercasenames type="number">0</lowercasenames>
+  <generateMapFiles type="boolean">true</generateMapFiles>
+  <generateBRS type="boolean">true</generateBRS>
+  <undefined>
+    <name>XHTML</name>
+    <displayName>XHTML</displayName>
+  </undefined>
+</preset>

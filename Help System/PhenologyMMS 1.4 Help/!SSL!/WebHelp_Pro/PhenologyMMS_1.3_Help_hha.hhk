@@ -4,5 +4,26 @@
   <param name="SiteType" value="index">
 </object>
 <ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Dry Bean">
+    <param name="Name" value="Dry Bean Diagrams">
+    <param name="Local" value="Dry_Bean_Diagrams.htm">
+    <param name="Name" value="Dry Bean Growth Stages">
+    <param name="Local" value="Dry_Bean_Growth_Stages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Growth">
+    <param name="Name" value="Dry Bean Diagrams">
+    <param name="Local" value="Dry_Bean_Diagrams.htm">
+    <param name="Name" value="Dry Bean Growth Stages">
+    <param name="Local" value="Dry_Bean_Growth_Stages.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Phenology">
+    <param name="Name" value="Dry Bean Diagrams">
+    <param name="Local" value="Dry_Bean_Diagrams.htm">
+    <param name="Name" value="Dry Bean Growth Stages">
+    <param name="Local" value="Dry_Bean_Growth_Stages.htm">
+  </object>
 </ul>
 </html>

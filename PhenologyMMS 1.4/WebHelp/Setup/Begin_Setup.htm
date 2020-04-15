@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="search-keywords" content="Setup, Crop, Location, Scenario, Inputs, Growth Stages" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Begin Setup</title>
+
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("../index.htm", "", ">", "Home", "../Overview_PhenologyMMS_1.4.htm");
+document.write("Begin Setup<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+
+<h1>Begin Setup</h1>
+<p>The Begin Setup Screen appears when the Welcome screen closes. It is in this screen that very basic choices are selected. This includes the Crop and the Location Weather files. You can <a href="javascript:TextPopup(this)" id="HotSpot20866" class="glossterm">run</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot20866', 'POPUP20866');
+//]]></script><span class="glosstext" id="POPUP20866" style="display: none;"> The execution of the scenario set up in PhenologyMMS.</span> the model with just these two selections if you are happy with the default values for the other selections found in the Set Inputs screen, Temperatures screen and the crop's <a href="javascript:TextPopup(this)" id="HotSpot61684" class="glossterm">Growth Stages</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot61684', 'POPUP61684');
+//]]></script><span class="glosstext" id="POPUP61684" style="display: none;"> A period of time in the growth and development of a plant.</span> screen.</p>
+<p>&#160;</p>
+<p style="text-align: center;"></p>
+<p>&#160;</p>
+<p class="msonormal">Choose Crop – select the crop you wish to simulate by clicking the down arrow on the Crop drop-down box. The list includes all the crops for which <a class="glossterm">PhenologyMMS 1.3</a> has been parameterized.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">Select Location <a href="javascript:TextPopup(this)" id="HotSpot6718" class="glossterm">Weather File</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot6718', 'POPUP6718');
+//]]></script><span class="glosstext" id="POPUP6718" style="display: none;"> Many files are included with PhenologyMMS that contain weather data for specific locations. The number of years included in the files varies among locations. At the least, maximum and minimum daily temperatures and daily precipitation are required in a weather file but, other measurements may also be included.</span> – click on the down arrow on the drop down box and choose a weather file from those listed. Generally, the naming convention is <i>the state_city</i> (2 letter code for the state<i>)_beginning year and ending year</i> of data. For example, 'CO_Akron_1813' indicates that there are data from 1918 to 2013 for Akron, Colorado.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">NOTE: If you add a weather file to the MMSWeather folder while you are running PhenologyMMS 1.3, the weather file will not be visible in the drop down list. You must close the program and restart it for the newly added file to be visible. Be sure the new file has the .dat extension.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">Click here for help on the structure of the weather files and how to add a new weather file.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal"><a name="Saved_Scenarios" id="Saved_Scenarios"></a>Saved Scenarios</p>
+<p class="msonormal">The ‘Load Saved <a href="javascript:TextPopup(this)" id="HotSpot44879" class="glossterm">Scenario</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot44879', 'POPUP44879');
+//]]></script><span class="glosstext" id="POPUP44879" style="display: none;"> Selections made to predict the growth stages of a selected crop. A possible sequence of events.</span>’ button - If you would like to re-run a previously saved scenario, click on the drop down arrow box near the ‘Load Saved Scenario’ button. That will display a list of all saved scenarios. Click on the scenario to be re-run and then press the ‘Load Saved Scenario’ button. If you have selected a scenario that runs a different crop than that selected or uses a different weather file, these changes will appear in the Choose Crop drop down and/or in the Location/Weather Files drop down boxes.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">To Save a Scenario, you will do this from the Output screen via the ‘Save Scenario…’ button. If you save a scenario after a run and come back to the Begin Setup screen, the newly saved scenario will not be visible in the drop down box.&#160;&#160;You will need to close the program and re-start it for the file to appear. CAUTION: Make sure to add the extension ‘.dat’ to the file name when saving it or it will not be visible in the saved scenarios list the next time you open the program.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘Help’ button - accesses the Help System.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘Disclaimer…’ button - displays the USDA-ARS disclaimer statement: “USDA-ARS MAKES NO REPRESENTATION NOR EXTENDS ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, OF MERCHANTABILITY or FITNESS OF THE INFORMATION IN OR PRODUCED BY THE PHENOLOGYMMS SOFTWARE FOR ANY PARTICULAR PURPOSE, OR THAT THE USE OF THE INFORMATION WILL NOT INFRINGE ANY PATENT, COPYRIGHT, TRADEMARK, OR OTHER INTELLECTUAL PROPERTY RIGHTS, OR ANY OTHER EXPRESS OR IMPLIED WARRANTIES.”</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">Three buttons below the picture are used to navigate to other screens. These include: ‘Set <a href="javascript:TextPopup(this)" id="HotSpot39398" class="glossterm">Inputs</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot39398', 'POPUP39398');
+//]]></script><span class="glosstext" id="POPUP39398" style="display: none;"> Information that is provided to the model via input screens or files that are read in by the code in order to run the model simulation.</span>…’, ‘Set Growth Stages…’ and ‘Run…’.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘Set Inputs …’ button - opens the ‘Set Inputs’ screen where planting information is entered. Default values load with the program so you can simply accept these values or customize them for your location.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘Set Growth Stages…’ button - opens the ‘Set Growth Stages’ screen and displays the <a href="javascript:TextPopup(this)" id="HotSpot35003" class="glossterm">growing degree-days</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot35003', 'POPUP35003');
+//]]></script><span class="glosstext" id="POPUP35003" style="display: none;"> This is the same as GDD (deg. C/day) and is a measure of thermal time.</span> (<a href="javascript:TextPopup(this)" id="HotSpot29190" class="glossterm">GDD</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot29190', 'POPUP29190');
+//]]></script><span class="glosstext" id="POPUP29190" style="display: none;"> Growing degree-days (deg. C/day), which is a measure of thermal time. Also, in the VarTypes file (provided with the program) for each crop, the GDD row refers to one method of simulating the growth stages in which Growing Degree-Days values, under NO stress conditions, are used. There are four methods  of calculating GDD in PhenologyMMS but only two are implemented.</span>) parameters for each growth stage for Non-Stressed conditions (<a href="javascript:TextPopup(this)" id="HotSpot31856" class="glossterm">GN</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot31856', 'POPUP31856');
+//]]></script><span class="glosstext" id="POPUP31856" style="display: none;"> Refers to Non-Stressed growing conditions. Parameters are given in the Growth Stages screen for the selected crop for each growth stage in terms of GDD's. This selection is comparable to irrigated or well-watered conditions.</span>) and for Stressed conditions (<a href="javascript:TextPopup(this)" id="HotSpot22564" class="glossterm">GS</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot22564', 'POPUP22564');
+//]]></script><span class="glosstext" id="POPUP22564" style="display: none;"> This refers to Stressed growing conditions and parameters are given in terms of GDD's in the chosen crop's Growth Stages screen. This selection is analogous to rainfed/dryland conditions.</span>). Parameters for <a href="javascript:TextPopup(this)" id="HotSpot38178" class="glossterm">Number of Leaves</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot38178', 'POPUP38178');
+//]]></script><span class="glosstext" id="POPUP38178" style="display: none;"> Refers to the number of leaves that can be expected to have formed by a particular growth stage for the selected crop under Non-stressed  or Stressed growing conditions. This is found in the crop's Growth Stages screen. Even though leaf numbers are shown in the Growth Stages screens for the reproductive stages when additional leaves would not be added, it is given as a method of determining the growth stage based on the number of GDD's accumulated from the last growth stage divided by the crop's phyllochron value.</span> for each growth stage are also given for Non-Stressed (<a href="javascript:TextPopup(this)" id="HotSpot47961" class="glossterm">LN</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot47961', 'POPUP47961');
+//]]></script><span class="glosstext" id="POPUP47961" style="display: none;"> Refers to the number of leaves that can be expected to have formed by a particular growth stage for the selected crop under Non-stressed growing conditions. This is found in the crop's Growth Stages screen. Even though leaf numbers are shown in the Growth Stages screens for the reproductive stages when additional leaves would not be added, it is given as a method of determining the growth stage based on the number of GDD's accumulated from the last growth stage divided by the crop's phyllochron value.</span>) conditions and for Stressed (<a href="javascript:TextPopup(this)" id="HotSpot39556" class="glossterm">LS</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot39556', 'POPUP39556');
+//]]></script><span class="glosstext" id="POPUP39556" style="display: none;"> Refers to the number of leaves that can be expected by a particular growth stage for the selected crop under stressed growing conditions. This is found in the crop's Growth Stages screen.</span>) conditions.</p>
+<p class="msonormal">&#160;</p>
+<p class="msonormal">The ‘Run…’ button - causes the program to run displaying output in the Output Screen.</p>
+<p class="msonormal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

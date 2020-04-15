@@ -1,0 +1,121 @@
+﻿[OPTIONS]
+Compiled File=PhenologyMMS 1.4 Help.chm
+Title=PhenologyMMS 1.4 Help
+Contents File=PhenologyMMS_1.4.hhc
+Index File=PhenologyMMS 1.4 Help.hhk
+Default topic=
+Default Window=
+Error log file=
+Display compile progress=No
+Display compile notes=No
+Full-text search=Yes
+Binary Index=Yes
+Auto Index=No
+Enhanced decompilation=No
+Binary TOC=No
+Flat=No
+LANG_ID=1033
+LANG_NAME=English (US)
+
+[WINDOWS]
+
+[FILES]
+Growth_Stages\Hay_Millet_Diagrams.htm
+Sunflower_Growth_Stages.htm
+Growth_Stages\Winter_Barley_Diagrams.htm
+Growth_Stages\Hay_Millet_Growth_Stages.htm
+Spring_Wheat_Diagrams.htm
+Output\Save_Output.htm
+Weather_Location_Files.htm
+Corn_Diagrams.htm
+Setup\Weather_Location_Files.htm
+Save_Current_Output.htm
+Install_PhenologyMMS_1.4.htm
+Growth_Stages\Sunflower_Growth_Stages.htm
+References_and_Documents.htm
+Proso_Millet_Growth_Stages.htm
+Winter_Wheat_Diagrams.htm
+Growth_Stages\Sorghum_Growth_Stages.htm
+Growth_Stages\Spring_Wheat_Diagrams.htm
+Hay_Millet_Diagrams.htm
+Growth_Stages\Corn_Diagrams.htm
+Temperatures.htm
+Cardinal_Temperatures.htm
+Growth_Stages\Dry_Bean_Diagrams.htm
+Dry_Beans_Diagrams.htm
+Growth_Stages\Proso_Millet_Diagrams.htm
+Spring_Barley_Growth_Stages.htm
+Output\Save_Current_Scenario.htm
+Begin_Setup.htm
+Growth_Stages\Soybean_Growth_Stages.htm
+Soybean_Diagrams.htm
+Setup\Emergence.htm
+Overview\Run_PhenologyMMS.htm
+Overview\Overview_PhenologyMMS_1.4.htm
+Overview_PhenologyMMS_1.4.htm
+References_and_Documents1.htm
+GDD_Methods.htm
+Winter_Barley_Growth_Stages.htm
+Growth_Stages\Winter_Barley_Growth_Stages.htm
+Growth_Stages\Sunflower_Diagrams.htm
+Growth_Stages_Example.htm
+Sunflower_Diagrams.htm
+References_and_Documents\References_and_Documents.htm
+Launch_PhenologyMMS_1.4.htm
+Emergence.htm
+Corn_Growth_Stages.htm
+Growth_Stages\Spring_Barley_Diagrams.htm
+Growth_Stages\Growth_Stages_Example.htm
+Run_PhenologyMMS_1.4.htm
+Growth_Stages\Winter_Wheat_Diagrams.htm
+Sorghum_Growth_Stages.htm
+Output.htm
+Setup\Begin_Setup.htm
+Growth_Stages\Winter_Wheat_Growth_Stages.htm
+Proso_Millet_Diagrams.htm
+Overview\Install.htm
+Growth_Stages_Example1.htm
+Spring_Wheat_Growth_Stages.htm
+Output\Output.htm
+Set_Inputs.htm
+Growth_Stages\Sorghum_Diagrams.htm
+Spring_Barley_Diagrams.htm
+References_aqnd_Documents.htm
+Winter_Wheat_Growth_Stages.htm
+Overview\Launch_PhenologyMMS_1.3.htm
+Growth_Stages\Corn_Growth_Stages.htm
+Hay_Millet_Growth_Stages.htm
+Growth_Stages\Soybean_Diagrams.htm
+Temperatures\GDD_Methods.htm
+Winter_Barley_Diagrams.htm
+GDD_Methods1.htm
+Dry_Beans_Growth_Stages.htm
+Setup\Set_Inputs.htm
+Growth_Stages\Spring_Barley_Growth_Stages.htm
+Growth_Stages\Spring_Wheat_Growth_Stages.htm
+Soybean_Growth_Stages.htm
+Overview_of_PhenologyMMS_1.4.htm
+Temperatures\Temperatures.htm
+Save_Current_Scenario.htm
+Launch_-_PhenologyMMS_1.4.htm
+Growth_Stages\Proso_Millet_Growth_Stages.htm
+Sorghum_Diagrams.htm
+Growth_Stages\Dry_Bean_Growth_Stages.htm
+References_and_Documents\McMaster 1997 Phenology development growth of wheat.pdf
+References_and_Documents\McMaster 2009 wheat development chapter 2.pdf
+References_and_Documents\McMaster and Wilhelm 1997 Two GDD equations two interpretations with corrections.pdf
+
+PhenologyMMS_1.4_Help.glo
+PhenologyMMS 1.4 Help.brs
+[ALIAS]
+#include PhenologyMMS 1.4 Help.ali
+
+[MAP]
+#include BSSCDefault.h
+#include PhenologyMMS13.h
+
+[TEXT POPUPS]
+BSSCDefault.h
+PhenologyMMS13.h
+
+

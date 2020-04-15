@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rhpml majorversion="7" minorversion="13">
-	<keywords/>
+	<keywords>
+		<keyword>
+			<name>Growth</name>
+			<keywords/>
+		</keyword>
+		<keyword>
+			<name>Phenology</name>
+			<keywords/>
+		</keyword>
+		<keyword>
+			<name>Dry Bean</name>
+			<keywords/>
+		</keyword>
+	</keywords>
 </rhpml>

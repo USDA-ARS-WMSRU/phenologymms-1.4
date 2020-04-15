@@ -5,7 +5,7 @@
       <element name="SSTemplate" value="" />
       <element name="SSMapFileList" value="" />
       <element name="SSTemplateOption" value="0" />
-      <element name="SSDefaultTopic" value="Overview\Overview_PhenologyMMS_1.4.htm" />
+      <element name="SSDefaultTopic" value="" />
       <element name="default" value="1" />
       <element name="SSPublishLang" value="" />
       <element name="SSEncodeType" value="" />

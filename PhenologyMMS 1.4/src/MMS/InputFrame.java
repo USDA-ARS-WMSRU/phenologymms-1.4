@@ -387,7 +387,8 @@ public class InputFrame extends JFrame {
      *@param  e  Description of the Parameter
      */
     void jBHelp_actionPerformed(ActionEvent e) {
-		if(RoboHelp.openHelpPage("Setup/Set_Inputs.htm")) {
+		//if(RoboHelp.openHelpPage("Setup/Set_Inputs.htm")) {
+                if(RoboHelp.openHelpPage("Set_Inputs.htm")) {    
 			return;
 		}
 		

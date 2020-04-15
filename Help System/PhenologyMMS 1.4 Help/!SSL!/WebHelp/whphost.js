@@ -370,7 +370,7 @@ function putProjectInfo(aRProj)
 		if(gnChecked!=0)
 		{
 			if(aRProj[0].sLangId!=gaProj[0].sLangId)
-				alert("The merged Help system "+aRProj[0].sPPath+" is using a different language from the master Help system, which will cause the index and full-text search functionality to be disabled in the merged Help system.");
+				alert(" "+aRProj[0].sPPath+" ");
 		}
 		gaProj[gnChecked]=aRProj[0];
 		for(var i=1;i<aRProj.length;i++)
@@ -393,7 +393,7 @@ function putProjectInfo(aRProj)
 		setTimeout("checkRemoteProject();", 1);
 	}
 	else
-		alert("Could not load correctly, please click Refresh.");
+		alert("");
 }
 
 function isSamePath(sPath1,sPath2)

@@ -31,7 +31,7 @@ function delayReload()
 	}
 }
 
-var gsToolbarOrder = "toc|idx|fts|glo||blankblock|searchform";
+var gsToolbarOrder = "toc|idx|fts|glo|custom15160||blankblock|searchform";
 var gsMinibarOrder = "avprev|avnext|blankblock|hide2|";
 
 var gsTopic = "Overview_PhenologyMMS_1.4.htm";

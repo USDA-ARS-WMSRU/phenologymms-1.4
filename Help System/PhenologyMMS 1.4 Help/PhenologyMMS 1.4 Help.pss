@@ -1,7 +1,7 @@
 ﻿[Target:Responsive HTML5]
 SSLayoutType=2
 Enable Result Dialog=1
-ActionID For Generation=1005
+ActionID For Generation=1001
 ResultFileName=!SSL!\Responsive_HTML5\index.htm
 Remove Folder with prompt=1
 CreateProjectTime=
@@ -10,39 +10,93 @@ SupportMas_MPJ=1
 ViewFileName=!SSL!\Responsive_HTML5\index.htm
 ResultStatus=2
 ResultStatusSharePoint=2
+MindReader Server=
 [Target:FlashHelp]
 SSLayoutType=2
+ResultFileName=!SSL!\FlashHelp\PhenologyMMS_1.4_Help.htm
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
 [Target:Adobe AIR]
 SSLayoutType=512
+ResultFileName=!SSL!\Adobe_AIR\PhenologyMMS_1.4_Help.air
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
 [Target:WebHelp]
 SSLayoutType=2
+ResultFileName=!SSL!\WebHelp\index.htm
+CreateProjectTime=07:55, March 20, 2020
+CreateProjectUser=Debbie.Edmunds
+SupportMas_MPJ=1
+ActionID For Generation=1005
+Remove Folder with prompt=1
+ViewFileName=!SSL!\WebHelp\index.htm
+ResultStatus=0
+BuildTimeHi=30801599
+BuildTimeLow=1279537270
+Enable Result Dialog=1
 [Target:XML Output]
 SSLayoutType=8129
+ResultFileName=!SSL!\XML_Output\PhenologyMMS_1.4_Help.xml
 [Target:FlashHelp Pro]
 SSLayoutType=2
+ResultFileName=!SSL!\FlashHelp_Pro\PhenologyMMS_1.4_Help.htm
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
 [Target:Printed Documentation]
 SSLayoutType=7
+ResultFileName=!SSL!\Printed_Documentation\Printed_Documentation.doc
+ActionID For Generation=1001
+Remove Folder with prompt=1
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+ViewFileName=!SSL!\Printed_Documentation\Printed_Documentation.doc
+ResultStatus=0
+BuildTimeHi=30787543
+BuildTimeLow=-1832763776
 [Target:Mobile App]
 SSLayoutType=3
+ResultFileName=!SSL!\Mobile_App\PhenologyMMS_1.4_Help.htm
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
 [Target:Multiscreen HTML5]
 SSLayoutType=2
+ResultFileName=!SSL!\Multiscreen_HTML5\PhenologyMMS_1.4_Help.htm
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
 [Target:eBook]
 SSLayoutType=2
+ResultFileName=!SSL!\eBook\PhenologyMMS_1.4_Help.epub
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
 [Target:Microsoft HTML Help]
 SSLayoutType=1
+ResultFileName=!SSL!\Microsoft_HTML_Help\PhenologyMMS_1.4_Help.chm
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
 [Target:WebHelp Pro]
 SSLayoutType=32
 MindReader Server=
 ActionID For Generation=1001
 ResultFileName=!SSL!\WebHelp_Pro\PhenologyMMS_1.3_Help.htm
 Remove Folder with prompt=1
-CreateProjectTime=11:15, December 09, 2019
+CreateProjectTime=09:35, January 10, 2020
 CreateProjectUser=Debbie.Edmunds
 SupportMas_MPJ=1
 ViewFileName=!SSL!\WebHelp_Pro\PhenologyMMS_1.3_Help.htm
 ResultStatus=0
-BuildTimeHi=30781116
-BuildTimeLow=-1011472445
+BuildTimeHi=30787539
+BuildTimeLow=-25649980
+ServerProjectName=PhenologyMMS 1
 [PreSingleSource]
 Html Help Project=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.hhp
 Table Of Content=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS_1.4.hhc
@@ -66,7 +120,7 @@ External URL Settings=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\Sear
 Screen Template File Details=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\PhenologyMMS 1.4 Help.sctfdl
 CPSwfToHTML5Map=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\__cpSwf2HTML5ZipMap
 Default Topic=D:\PhenologyMMS-1.4\Help System\PhenologyMMS 1.4 Help\Overview_PhenologyMMS_1.4.htm
-Build Tags0=29282;Online | Print
+Build Tags0=19641;Online | Print
 Build Tags=
 Build Expression=
 Language ID=1033

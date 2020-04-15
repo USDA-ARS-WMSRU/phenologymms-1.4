@@ -865,7 +865,8 @@ public class HMSetGDDFrame extends JFrame {
      *@param  e  determines whether to open the Help screen
      */
     void jHelpButton_actionPerformed(ActionEvent e) {
-		if(RoboHelp.openHelpPage("Growth_Stages/Hay_Millet_Growth_Stages.htm")) {
+		//if(RoboHelp.openHelpPage("Growth_Stages/Hay_Millet_Growth_Stages.htm")) {
+                if(RoboHelp.openHelpPage("Hay_Millet_Growth_Stages.htm")) {
 			return;
 		}
 		

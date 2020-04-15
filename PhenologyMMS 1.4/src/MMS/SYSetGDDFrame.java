@@ -1102,7 +1102,8 @@ public class SYSetGDDFrame extends JFrame {
      *@param  e  Description of the Parameter
      */
     void jHelpButton_actionPerformed(ActionEvent e) {
-		if(RoboHelp.openHelpPage("Growth_Stages/Soybean_Growth_Stages.htm")) {
+		//if(RoboHelp.openHelpPage("Growth_Stages/Soybean_Growth_Stages.htm")) {
+                if(RoboHelp.openHelpPage("Soybean_Growth_Stages.htm")) {    
 			return;
 		}
 		

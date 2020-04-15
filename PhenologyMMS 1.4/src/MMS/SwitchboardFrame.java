@@ -304,7 +304,8 @@ public class SwitchboardFrame extends JFrame {
  
 //    //old way of accessing help text files
     void jBHelp_actionPerformed(ActionEvent e) {
-		if(RoboHelp.openHelpPage("Setup/Begin_Setup.htm")) {
+		//if(RoboHelp.openHelpPage("Setup/Begin_Setup.htm")) {
+                if(RoboHelp.openHelpPage("Begin_Setup.htm")) {    
 			return;
 		}
 		

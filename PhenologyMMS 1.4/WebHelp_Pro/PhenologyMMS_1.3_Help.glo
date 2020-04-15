@@ -5,11 +5,11 @@ This is the secondary root system and is produced by the crown nodes on the main
 NAME=AIF
 Abbreviation for the Awn Initials Formed growth stage in Barley.
 NAME=Anthers
-Part of the stamen, i.e., the male flower and contains the pollen. The pollen is produced in and released from the anther.
+Part of the stamen, i.e., the male flower and contains the pollen. The pollen is produced in and released from the anthers.
 NAME=Anthesis
 The time of flowering in the plant. This is abbreviated as 'AS' for Anthesis Starts.
 NAME=Anthesis Ends
-In Sunflower, this is the 'R5' reproductive stage and is the end of flowering. The ray flowers are wilting in this stage.
+In all the crops, this is the end of flowering. In Sunflower, this is the 'R5' reproductive stage and is the end of flowering. The ray flowers are wilting in this stage.
 NAME=Anthesis Starts
 The growth stage when flowering begins. It is abbreviated as 'AS'.
 NAME=AS
@@ -37,7 +37,7 @@ This is the flat and expanded portion of the leaf, sepal or petal.
 NAME=Blister
 The second reproductive stage in corn - R2. The kernels on the corn cob appear whitish and have clear fluid. This stage occurs about 10 - 14 days after silking.
 NAME=Bloom
-A flower. The first reproductive stage in Dry Beans abbreviated as R1.
+A flower. The first reproductive stage in Dry Beans and Soybeans and is abbreviated as R1.
 NAME=Booting
 A stage in the growth of grasses when the flag leaf sheath becomes swollen with the developing head enclosed in the sheath. This is abbreviated as 'B'. It occurs at the same time as the Flag Leaf Complete stage.
 NAME=Bract
@@ -49,7 +49,7 @@ A growth habit in dry beans characterized by a bushy appearance. These plants ar
 NAME=Canopy Height
 The canopy of a crop is the collection of the aboveground portion of the plants  formed by the individual plant crowns  in the field or community. Canopy height refers to the height of this aboveground biomass.
 NAME=Celsius
-A measurement of temperature in the metric system. The freezing point is 0 and the boiling point is 100. To convert °C to °F use this equation: °C = 5/9(°F − 32)
+A measurement of temperature in the metric system. The freezing point is 0 and the boiling point is 100. It is symbolized by °C and is equal to (°F − 32) * 5/9.
 NAME=Coleoptilar Node
 This is the second or third node on the plant and is located in the seed. It is from this node that the coleoptile develops.
 NAME=Coleoptilar Tiller
@@ -65,7 +65,7 @@ This is an embryonic leaf and occurs on the seedling or in the seed.
 NAME=Cotyledonary Leaves
 Growth stage in Dry Beans when the cotyledons emerge from the soil. It is abbreviated with 'VC'.
 NAME=Crown
-This consists of several nodes. The internodes do not elongate.
+This consists of several nodes. The internodes do not elongate. In corn, it is the the top of the corn kernel.
 NAME=Culm
 The flowering stems in grasses and sedges.
 NAME=Cultivar
@@ -93,7 +93,7 @@ A diagram which depicts the progression of the development of the plant's struct
 NAME=Disk Flowers
 Flowers that occur in the central part of the head as seen in Sunflower. These flowers are tubular in shape and it is from these flowers that the seeds are produced.
 NAME=Double Ridge
-“In grasses, this stage follows the single ridge stage. At this stage, the tissue immediately above the single ridge develops into the spikelet primordium causing the “double ridges”. The leaf primordium (i.e., the ridge below the spikelet primordium) does not further differentiate and these ridges become less visible as successive double ridges until they are no longer noticeable. The spikelet primordia continue to differentiate and produce spikelets until the Terminal Spikelet stage (i.e., the last spikelet formed at the top of the developing spike). The double ridge stage is abbreviated as 'DR'.”
+“In grasses, this stage follows the single ridge stage. At this stage, the tissue immediately above the single ridge develops into the spikelet primordium causing the “double ridges”. The leaf primordium (i.e., the ridge below the spikelet primordium) does not further differentiate and these ridges become less visible as successive double ridges develop until they are no longer noticeable. The spikelet primordia continue to differentiate and produce spikelets until the Terminal Spikelet stage (i.e., the last spikelet formed at the top of the developing spike). The double ridge stage is abbreviated as 'DR'.”
 NAME=Dough
 This is one of the reproductive stages in grain crops. The kernel's fluid has accumulated more starch and is a 'doughy' consistency. It is often divided into the 'soft dough' and 'hard dough' stages. This is growth stage R4 in Corn.
 NAME=DOY
@@ -107,7 +107,7 @@ The female flower structure of a corn plant. It contains the kernels which when 
 NAME=Ear Initiation
 The beginning of formation of the ears on the corn plant. This occurs at about the V6 stage. It is abbreviated by 'EI'.
 NAME=Early Maturity
-A maturity class for a variety in which maturity is consistently arrrived at earlier in comparision with other varieties for that crop.
+A maturity class for a variety in which maturity is consistently arrived at earlier in comparison with other varieties for that crop.
 NAME=Early Pod Set
 This is R3 growth stage in Dry Beans and occurs when one pod on the plant has reached the maximum length.
 NAME=Early Seed Fill
@@ -137,7 +137,7 @@ Abbreviation for 'End of Spikelet Initiation' in Proso Millet and Hay Millet (Fo
 NAME=F
 Abbreviation for full season variety trype in dry beans.
 NAME=Fahrenheit
-"Of or relating to a temperature scale that registers the freezing point of water as 32° and the boiling point as 212° at one atmosphere of pressure. " The Free Dictionary. It is symbolized by °F and is equal to (F-32)*(5/9) °C.
+"Of or relating to a temperature scale that registers the freezing point of water as 32° and the boiling point as 212° at one atmosphere of pressure. " The Free Dictionary. It is symbolized by °F and is equal to (9/5*°C) +32.
 NAME=FB
 In Sorghum. the abbreviation for the growth stage when the heads have fully flowered; the panicle has fully bloomed.
 NAME=Feekes Scale
@@ -175,7 +175,7 @@ Hay millet. Usually grown for hay.
 NAME=Full Bloom
 In Sorghum, when the panicle is fully flowered or when all the plants in the field are in some stage of bloom. This is noted in the Growth Stages screen and Phenology and Developmental Sequence diagrams as FB.
 NAME=Full Season
-In Dry Beans, a maturity class that is later than the Medium classification but earlier than the Late maturity class. of 95-99 days to maturity.
+In Dry Beans, a maturity class that is later than the Medium classification but earlier than the Late maturity class and is 95-99 days to maturity.
 NAME=Gamete
 "A reproductive cell having the haploid number of chromosomes, especially a mature sperm or egg capable of fusing with a gamete of the opposite sex to produce a zygote." The Free Dictionary
 NAME=GDD
@@ -200,6 +200,8 @@ NAME=Germination
 The beginning of growth from a seed.
 NAME=Glumes
 In the grass spikelet, these are a pair of empty scale-like bracts which occur at the base of the spikelet.
+NAME=Glycine max
+The scientific name for Soybean.
 NAME=GN
 Refers to Non-Stressed growing conditions. Parameters are given in the Growth Stages screen for the selected crop for each growth stage in terms of GDD's. This selection is comparable to irrigated or well-watered conditions.
 NAME=GPD
@@ -277,7 +279,7 @@ The seed or grain produced in grasses. It is the mature ovule.
 NAME=Langley
 "A unit equal to one gram calorie per square centimeter of irradiated surface, used to measure solar radiation." (Ly). The Free Dictionary.
 NAME=Late Maturity
-A maturity class for a variety in which maturity is consistently arrrived at later in comparision with other varieties for that crop.
+A maturity class for a variety in which maturity is consistently arrived at later in comparison with other varieties for that crop.
 NAME=Latitude
 "In geography, latitude is a geographic coordinate that specifies the north-south position of a point on the Earth's surface. Latitude is an angle which ranges from 0° at the Equator to 90° (North or South) at the poles. Lines of constant latitude, or parallels, run east-west as circles parallel to the equator. Latitude is used together with longitude to specify the precise location of features on the surface of the Earth." Wikipedia
 NAME=Leaf Area
@@ -327,7 +329,7 @@ The highest daily temperature for a given day. This is abbreviated as Tmax.
 NAME=Medium
 An input needed by the emergence subroutine. This is a descriptive estimation of the soil moisture condition at planting and is the next best seedbed moisture condition. Soil moisture conditions are good but not as good as Optimum.
 NAME=Medium Maturity
-A maturity class for a variety in which maturity is consistently arrrived at later  than the earlier maturing varieties but earlier than the later maturing varieties for that crop.
+A maturity class for a variety in which maturity is consistently arrived at later than the earlier maturing varieties but earlier than the later maturing varieties for that crop.
 NAME=Megajoules
 "The megajoule (MJ) is equal to one million (106) joules, or approximately the kinetic energy of a one megagram (tonne) vehicle moving at 160 km/h". Wikipedia
 NAME=Mid Pod Set
@@ -337,7 +339,7 @@ The 'R6' growth stage in Dry Beans when 50% of the pods contain fully developed 
 NAME=Mid-Full Flower
 The R2 growth stage in Dry Beans where 50 % of the flowers are open.
 NAME=Milk
-On of the reproductive stages in grain crops. The kernels appear yellow (in corn) and the fluid is a milky white color. This is R3 in the corn plant.
+One of the reproductive stages in grain crops. The kernels appear yellow (in corn) and the fluid is a milky white color. This is R3 in the corn plant.
 NAME=Milk Line
 This occurs in corn kernels and marks the boundary between the liquid milky area and the solid starchy area of the kernel. As the kernel matures, the milk line moves closer to the tip of the kernel. It is barely visible at full dent stage (R5).
 NAME=Milky Ripe
@@ -377,8 +379,8 @@ NAME=Phenology
 NAME=Phenology Diagram
 This figure shows the amount of  thermal time (TT) as GDD's necessary to reach the next stage. The number of leaves that would be expected to appear within a stage based on the thermal time are also given. Values are given for non-stressed conditions, shown in the green 'Water non-limiting' section and for stressed conditions shown in the brown 'Water limiting' section.
 NAME=Phenology Table
-This is part of the output from the model run and shows the predicted Date or number of Days from a specific event, for example,  'Planting' for each growth stage. The columns Day of Year, Date, DAP, DAE and DAV provide this information. The predicted number of Growing Degree-Days for each stage after a specific event, e.g., 'Emergence' or 'Vernalization' are provided in the columns GDD AP, GDD AE, and GDD AV. The Number of Leaves predicted for each vegetative stage is also displayed in the table.The number of leaves shown in the reproductive stages is the same as that at the last vegetative stage and shows that no new leaves are added in the reproductive stages.
-NAME=PhenologyMMS 1.3
+This is part of the output from the model run and shows the predicted Date or number of Days from a specific event, for example,  'Planting' for each growth stage. The columns Day of Year, Date, DAP, DAE and DAV provide this information. The predicted number of Growing Degree-Days for each stage after a specific event, e.g., 'Emergence' or 'Vernalization' are provided in the columns GDD AP, GDD AE, and GDD AV. The Number of Leaves predicted for each vegetative stage is also displayed in the table. The number of leaves shown in the reproductive stages is the same as that at the last vegetative stage and shows that no new leaves are added in the reproductive stages.
+NAME=PhenologyMMS 1.4
 A computer simulation program to predict the growth stages of several crops based on the accumulation of thermal time.
 NAME=Phenotype
 The outward, visible appearance of an organism; what the organism looks like.
@@ -405,7 +407,7 @@ The interval between initiation of leaf primordia on the apex.
 NAME=PM
 Abbreviation for Physiological Maturity. This is found in the Growth Stages screens and in the Phenology and Developmental Sequence Diagrams. It is the same as the 'M' abbreviation  in the Growth Stages screen which is simply Maturity.
 NAME=Pod
-A dry, dehiscent fruit. In PhenologyMMS, It refers to the fruit of Dry Beans.
+A dry, dehiscent fruit. In PhenologyMMS, It refers to the fruit of Dry Beans and Soybeans.
 NAME=Pod Set
 The growth stages in dry beans when the plants are beginning to set pods. Early pod set ,'R3' occurs when one pod has reached the maximum length. Mid-pod set, 'R4' occurs when 50 % of the pods have reached their maximum length.
 NAME=Pollen
@@ -473,9 +475,9 @@ The portion of the shoot which contains apical and primary meristem. This is whe
 NAME=SHOOTGRO
 A computer simulation model of shoot development from planting to booting. This model was the basis for the germination and emergence portions of PhenologyMMS.
 NAME=Silking
-When the silks are visible outside of the husk and are ready to receive the pollen grains. The pollen travels down the silks to the ovary where it fertilizes the seed. The Silking stage occurs near the time of tasseling - about three days after tasseling. This is the first rerpoductive stage in corn - R1.
+When the silks are visible outside of the husk and are ready to receive the pollen grains. The pollen travels down the silks to the ovary where it fertilizes the seed. The Silking stage occurs near the time of tasseling - about three days after tasseling. This is the first reproductive stage in corn - R1.
 NAME=Silks
-A part of the female flower of a corn plant. The silks which are attached to the ovules, emerge from of the husk about the time of pollen shed.They receive the pollen grains which germinate and create the pollen tube through which the pollen grains  travel down the silks to the ovule where fertilization takes place.
+A part of the female flower of a corn plant. The silks which are attached to the ovules, emerge from of the husk about the time of pollen shed. They receive the pollen grains which germinate and create the pollen tube through which the pollen grains  travel down the silks to the ovule where fertilization takes place.
 NAME=Simulation Model
 Computer code that when executed predicts something.
 NAME=Single Ridge
@@ -513,7 +515,7 @@ The male flower structure in corn. It produces the pollen in anthers that fertil
 NAME=Tassel Initiation
 In Corn, the beginning of tassel formation which occurs at about the V6 stage. This is abbreviated as TSI.
 NAME=Tasseling
-The stage when the tassels emerge from the whorl on the corn plant and are fully visible and ready to produce pollen. This is the last stage in the vegetative portion of the life cycle of the plant.and is called the VT stage. Technically, this stage occurs when the last tassel branch has emerged from the whorl. However, this can vary with different hybrids.
+The stage when the tassels emerge from the whorl on the corn plant and are fully visible and ready to produce pollen. This is the last stage in the vegetative portion of the life cycle of the plant and is called the VT stage. Technically, this stage occurs when the last tassel branch has emerged from the whorl. However, this can vary with different hybrids.
 NAME=Tavg
 The average daily temperature calculated by:  (Tmax + Tmin)/2
 NAME=Tbase
@@ -531,7 +533,7 @@ Abbreviation of the Tiller Initiation growth stage.
 NAME=Tiller
 Additional lateral shoots formed from axillary buds. They emerge from the axils of the true leaves at the base of the main stem. They can contribute to the final yield of the plant however, not all tillers produce grain.
 NAME=Tiller Initiation
-Growth stage in grasses where the formation of tillers is begun. In Corn, tillers, ears and tassels are all initiated at about the same time as internode elongation starts. Abbreviated by 'TI'.
+Growth stage in grasses when the first tiller is seen. In Corn, tillers, ears and tassels are all initiated at about the same time as internode elongation starts. Abbreviated by 'TI'.
 NAME=Tmax
 Maximum temperature as in the maximum daily temperature.
 NAME=Tmin
@@ -543,7 +545,7 @@ Lower Optimum Temperature. When the optimum temperature is a range of values, To
 NAME=Toptup
 Upper Optimum Temperature. When the optimum temperature is a range of values, Toptup is at the high end of the range. This is used in GDD Method 4.
 NAME=Trifoliate Leaf
-A leaf with three leaflets. Most leaves on a dry bean plant are trifoliate.
+A leaf with three leaflets. Most leaves on a dry bean or soybean plant are trifoliate.
 NAME=Triticum aestivum L.
 The scientific name of wheat.
 NAME=TSI

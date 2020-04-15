@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="2019.0.10">
+<title>PhenologyMMS 1.4 Help</title>
+<preferences>
+<language></language>
+<noInlineStyle>false</noInlineStyle>
+<defaultCss>contents/assets/css/Growth_Stages/default.css</defaultCss>
+<defaultWsf></defaultWsf>
+<defaultFsf></defaultFsf></preferences>
+<statuslist>
+<status>Draft</status>
+<status>In Progress</status>
+<status>Ready for Review</status>
+<status>Sent for Review</status>
+<status>Reviewed</status>
+<status>Complete</status></statuslist>
+<ctaggroups>
+<group>Audience</group>
+<group>Platform</group>
+<group>Product</group>
+<group>Properties</group>
+<group>Others</group></ctaggroups>
+<colors>
+<color name="Black" value="#000000"></color>
+<color name="Red" value="#ff0000"></color>
+<color name="Lime" value="#00ff00"></color>
+<color name="Blue" value="#0000ff"></color>
+<color name="Maroon" value="#800000"></color>
+<color name="Green" value="#008000"></color>
+<color name="Navy" value="#000080"></color>
+<color name="Gray" value="#808080"></color>
+<color name="White" value="#ffffff"></color>
+<color name="Fuchsia" value="#ff00ff"></color>
+<color name="Aqua" value="#00ffff"></color>
+<color name="Yellow" value="#ffff00"></color>
+<color name="Purple" value="#800080"></color>
+<color name="Olive" value="#808000"></color>
+<color name="Teal" value="#008080"></color>
+<color name="Silver" value="#c0c0c0"></color></colors>
+<links></links>
+<scripts></scripts>
+<content root="contents/"></content>
+<toc root="toc"></toc>
+<snippets root="contents/assets/snippets"></snippets>
+<glossary root="glossary"></glossary>
+<index root="index"></index>
+<seealso root="seealso"></seealso>
+<variable root="variable"></variable>
+<condition root="condition"></condition></project>

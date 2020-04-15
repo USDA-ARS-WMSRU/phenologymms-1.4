@@ -1,1 +1,1 @@
-gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"Begin Setup\" to=\"McMaster_and_Wilhelm_1997_Two_GDD_equations_two_interpretations_with_corrections.pdf\" num=\"72\"/></cki>";
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"Begin Setup\" to=\"McMaster_and_Wilhelm_1997_Two_GDD_equations_two_interpretations_with_corrections.pdf\" num=\"68\"/></cki>";

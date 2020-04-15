@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/PhenologyMMS_1.4.toc</path>
+      <name>PhenologyMMS_1.4</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/PhenologyMMS_1.4_Help.glo</path>
+      <name>PhenologyMMS_1.4_Help</name>
+    </glossary>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+  </content>
+  <outputPath>C:/Users/Debbie.Edmunds/Documents/My RoboHelp Projects/outputs/PhenologyMMS 1.4 Help/Microsoft_HTML_Help</outputPath>
+  <starterPage>PhenologyMMS_1.3_Help.chm</starterPage>
+  <search>
+    <context type="boolean">false</context>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <name>Microsoft HTML Help</name>
+  <type>chm</type>
+  <title>PhenologyMMS 1.4 Help</title>
+  <defaultTopic></defaultTopic>
+  <lowercasenames type="number">0</lowercasenames>
+</preset>

@@ -28,7 +28,7 @@
       <element name="m_strNpiGlossaryOff" value="bssctab8.gif" />
       <element name="m_strFtsHighlightColor" value="enable,#b2b4bf,#000000" />
       <element name="m_strToolBarIniOrder" value="Contents|Index|FtsSearch|Glossary|WebSearch|Custom1|Custom2|Custom3|FtsInputField|" />
-      <element name="SSDefaultTopic" value="Overview\Overview_PhenologyMMS_1.4.htm" />
+      <element name="SSDefaultTopic" value="" />
       <element name="ActiveSkinPathName" value="" />
       <element name="SSBreadCrumbUseTopicFormat" value="1" />
       <element name="m_strTemplateName" value="" />

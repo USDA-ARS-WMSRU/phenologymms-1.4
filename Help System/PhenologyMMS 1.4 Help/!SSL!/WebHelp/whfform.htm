@@ -23,7 +23,7 @@ var gstrInput = "";
 var gstrSyn = "";
 var nNumRslt = 0 ;
 var gbGiveAndSearch = 0;
-var strEnableAndSearch = "Show results that include all search words";
+var strEnableAndSearch = "Enable And Search";
 var gbEnableAndSearch = 0;
 
 
@@ -58,7 +58,7 @@ function ftsLookup(bCR)
 
 function onGetSearchs(oMsg)
 {
-    if(oMsg.oParam != "" && oMsg.oParam.sValue != "- Search -")
+    if(oMsg.oParam != "" && oMsg.oParam.sValue != "%%% WH_LNG_SearchPrompt %%%")
     {
         document.FtsInputForm.keywordField.value = oMsg.oParam.sValue;
 		gfunLookUp(true);
@@ -104,7 +104,7 @@ function onReceiveNotification(oMsg)
 	}
 	else if (oMsg.msgId == WH_MSG_SEARCHTHIS)
 	{
-		if (oMsg.iParam != "- Search -")
+		if (oMsg.iParam != "%%% WH_LNG_SearchPrompt %%%")
 		{
 			document.FtsInputForm.keywordField.value = oMsg.iParam;
 			gfunLookUp(true);
@@ -148,7 +148,7 @@ function onReceiveRequest(oMsg)
 	else if (oMsg.msgId == WH_MSG_GETSEARCHSTR)
 	{
 		oMsg.oParam = "";
-		if (oMsg.oParam != "- Search -")
+		if (oMsg.oParam != "%%% WH_LNG_SearchPrompt %%%")
 		{
 			oMsg.oParam = document.FtsInputForm.keywordField.value;
 			oMsg.oParam += " " + gstrSyn;
@@ -167,7 +167,7 @@ function onReceiveRequest(oMsg)
 	    oMsg.oParam.bHighlight = (document.FtsInputForm.HiLite.checked == true);
 	    oMsg.oParam.nResults = nNumRslt;
 	    oMsg.oParam.strTerms = document.FtsInputForm.keywordField.value;
-	    if (oMsg.oParam.strTerms != "- Search -")
+	    if (oMsg.oParam.strTerms != "%%% WH_LNG_SearchPrompt %%%")
 	    {
 	        oMsg.oParam.strTerms += " " + gstrSyn;
 	    }
@@ -199,7 +199,7 @@ if (window.gbWhForm)
 	gsHiliteSearchTitle = "Highlight search results";
 	gsHiliteSearchTitle = "Highlight search results";
 	gsMaxSearchTitle = "Search results per page" ;
-	gsMaxSearchTitle = "Search results per page";
+	gsMaxSearchTitle = "";
 	setGoImage1("wht_go.gif");
 	setBackgroundcolor("White");
 	
@@ -207,7 +207,7 @@ if (window.gbWhForm)
 	setGoImage1("search-input-go.png");
 	
 	
-	setGoText("Go");
+	setGoText("");
 	setFont("Title", "Arial","9pt","#414042","Normal","Normal","none");
 	
 	

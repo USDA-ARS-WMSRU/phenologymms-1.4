@@ -60,6 +60,8 @@ var isLocal 		= document.location.protocol.substring(0, 4) == "file";
 var gbChromeLocal        = window.chrome && isLocal ;
 var gbInsideCHM 	= document.location.href.search("::")>0 && document.location.href.search(/chm/i)>0;
 var gbBsIsMobile	= (gstrBsAgent.indexOf("mobile") != -1);
+var gbBsiOSDevice		= gbBsMac && (gstrBsAgent.indexOf("ipad") !== -1 || gstrBsAgent.indexOf("iphone") !== -1 || gstrBsAgent.indexOf("macintosh") !== -1);
+
 if(gbBsIsMobile == false)
 {
 	gbBsIsMobile = isTouchDevice();
@@ -1254,7 +1256,7 @@ var gbPopupTimeoutExpired = false;
 
 function DHTMLPopupSupport()
 {
-	if (((gbBsIE4) && (!gbBsMac))||gbBsOpera7|| gbBsNS7 || gbSafari3||gbAIR) {
+	if (((gbBsIE4) && (!gbBsMac))||gbBsOpera7|| gbBsNS7 || gbSafari3||gbAIR || gbBsiOSDevice) {
 		return true;
 	}
 	return false;

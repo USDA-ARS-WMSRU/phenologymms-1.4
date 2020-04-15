@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="PhenologyMMS_1">          
+<title>Glossary Definitions</title>        
+<glossentry id="Abscission">
+<glossterm>Abscission</glossterm>
+<glossdef>The shedding or dropping of plant parts, e.g., leaves, flowers, fruits or seeds, Wikipedia.</glossdef></glossentry>
+<glossentry id="Adventitious_Roots">
+<glossterm>Adventitious Roots</glossterm>
+<glossdef>This is the secondary root system and is produced by the crown nodes on the main shoot and on the tillers.</glossdef></glossentry>
+<glossentry id="AIF">
+<glossterm>AIF</glossterm>
+<glossdef>Abbreviation for the Awn Initials Formed growth stage in Barley.</glossdef></glossentry>
+<glossentry id="Anthers">
+<glossterm>Anthers</glossterm>
+<glossdef>Part of the stamen, i.e., the male flower and contains the pollen. The pollen is produced in and released from the anthers.</glossdef></glossentry>
+<glossentry id="Anthesis">
+<glossterm>Anthesis</glossterm>
+<glossdef>The time of flowering in the plant. This is abbreviated as &#39;AS&#39; for Anthesis Starts.</glossdef></glossentry>
+<glossentry id="Anthesis_Ends">
+<glossterm>Anthesis Ends</glossterm>
+<glossdef>In all the crops, this is the end of flowering. In Sunflower, this is the &#39;R5&#39; reproductive stage and is the end of flowering. The ray flowers are wilting in this stage.</glossdef></glossentry>
+<glossentry id="Anthesis_Starts">
+<glossterm>Anthesis Starts</glossterm>
+<glossdef>The growth stage when flowering begins. It is abbreviated as &#39;AS&#39;.</glossdef></glossentry>
+<glossentry id="AS">
+<glossterm>AS</glossterm>
+<glossdef>The abbreviation for the Anthesis Starts growth stage.</glossdef></glossentry>
+<glossentry id="Auricles">
+<glossterm>Auricles</glossterm>
+<glossdef>These appear as a pair of claw-like projections at the junction of the leaf sheath and blade. These are not present in every crop.</glossdef></glossentry>
+<glossentry id="Awn_Initials Formed">
+<glossterm>Awn Initials Formed</glossterm>
+<glossdef>A growth stage in barley when awns are being formed. The formation of awn initials indicates the end of spikelet initiation. This is abbreviated as &#39;AIF&#39;.</glossdef></glossentry>
+<glossentry id="Awns">
+<glossterm>Awns</glossterm>
+<glossdef>In the grasses, this occurs on the glumes or lemmas and is a bristle-like appendage.</glossdef></glossentry>
+<glossentry id="Axial_Bud">
+<glossterm>Axial Bud</glossterm>
+<glossdef>A bud that forms in the axil of a leaf.</glossdef></glossentry>
+<glossentry id="Axil">
+<glossterm>Axil</glossterm>
+<glossdef>The area or angle that is formed between two organs. For example, between a leaf and the stem.</glossdef></glossentry>
+<glossentry id="Axillary_Tillers">
+<glossterm>Axillary Tillers</glossterm>
+<glossdef>These are tillers that are produced in the leaf axils. They usuallly appear when the plant has three leaves.</glossdef></glossentry>
+<glossentry id="B">
+<glossterm>B</glossterm>
+<glossdef>Abbreviation for the bush growth habit in dry beans.</glossdef></glossentry>
+<glossentry id="Base_Temperature">
+<glossterm>Base Temperature</glossterm>
+<glossdef>This is the temperature below which no GDD are accumulated for the day because it is assumed that no phenological development can occur below that temperature. This temperature varies among crops.</glossdef></glossentry>
+<glossentry id="Black_Layer">
+<glossterm>Black Layer</glossterm>
+<glossdef>At the base of the corn or sorghum kernel, a blackened or brown area which signifies physiological maturity. This is an abscission layer.</glossdef></glossentry>
+<glossentry id="Blade">
+<glossterm>Blade</glossterm>
+<glossdef>This is the flat and expanded portion of the leaf, sepal or petal.</glossdef></glossentry>
+<glossentry id="Blister">
+<glossterm>Blister</glossterm>
+<glossdef>The second reproductive stage in corn - R2. The kernels on the corn cob appear whitish and have clear fluid. This stage occurs about 10 - 14 days after silking.</glossdef></glossentry>
+<glossentry id="Bloom">
+<glossterm>Bloom</glossterm>
+<glossdef>A flower. The first reproductive stage in Dry Beans and Soybeans and is abbreviated as R1.</glossdef></glossentry>
+<glossentry id="Booting">
+<glossterm>Booting</glossterm>
+<glossdef>A stage in the growth of grasses when the flag leaf sheath becomes swollen with the developing head enclosed in the sheath. This is abbreviated as &#39;B&#39;. It occurs at the same time as the Flag Leaf Complete stage.</glossdef></glossentry>
+<glossentry id="Bract">
+<glossterm>Bract</glossterm>
+<glossdef>A modified leaf which subtends a flower or a cluster of flowers.</glossdef></glossentry>
+<glossentry id="Bud">
+<glossterm>Bud</glossterm>
+<glossdef>This is an undeveloped structure which becomes a branch, leaf or flower. It is often protected by enclosing scales.</glossdef></glossentry>
+<glossentry id="Bush">
+<glossterm>Bush</glossterm>
+<glossdef>A growth habit in dry beans characterized by a bushy appearance. These plants are determinate with floral structures terminating the terminal bud and the lateral branches. Bush type plants have a thicker main stem, fewer internodes and flower for a shorter time. These are known as the Type I classification.</glossdef></glossentry>
+<glossentry id="Canopy_Height">
+<glossterm>Canopy Height</glossterm>
+<glossdef>The canopy of a crop is the collection of the aboveground portion of the plants  formed by the individual plant crowns  in the field or community. Canopy height refers to the height of this aboveground biomass.</glossdef></glossentry>
+<glossentry id="Celsius">
+<glossterm>Celsius</glossterm>
+<glossdef>A measurement of temperature in the metric system. The freezing point is 0 and the boiling point is 100. It is symbolized by °C and is equal to (°F − 32) * 5/9.</glossdef></glossentry>
+<glossentry id="Coleoptilar_Node">
+<glossterm>Coleoptilar Node</glossterm>
+<glossdef>This is the second or third node on the plant and is located in the seed. It is from this node that the coleoptile develops.</glossdef></glossentry>
+<glossentry id="Coleoptilar_Tiller">
+<glossterm>Coleoptilar Tiller</glossterm>
+<glossdef>This tiller arises from the coleoptilar node.</glossdef></glossentry>
+<glossentry id="Coleoptile">
+<glossterm>Coleoptile</glossterm>
+<glossdef>A leaf sheath which serves to protect the embryonic plant as it emerges from the seed.</glossdef></glossentry>
+<glossentry id="Collar">
+<glossterm>Collar</glossterm>
+<glossdef>This occurs in grasses at the outer side of the leaf where the leaf blade and sheath come together.</glossdef></glossentry>
+<glossentry id="Collared_Leaf">
+<glossterm>Collared Leaf</glossterm>
+<glossdef>This is used to determine if a plant has fully reached a vegetative stage marked by a particular number of leaves. If, for example, three leaves have emerged and the collar is visible with each leaf, the plant could be said to be in the &#39;three-leaf stage&#39;.</glossdef></glossentry>
+<glossentry id="Cotyledon">
+<glossterm>Cotyledon</glossterm>
+<glossdef>This is an embryonic leaf and occurs on the seedling or in the seed.</glossdef></glossentry>
+<glossentry id="Cotyledonary_Leaves">
+<glossterm>Cotyledonary Leaves</glossterm>
+<glossdef>Growth stage in Dry Beans when the cotyledons emerge from the soil. It is abbreviated with &#39;VC&#39;.</glossdef></glossentry>
+<glossentry id="Crown">
+<glossterm>Crown</glossterm>
+<glossdef>This consists of several nodes. The internodes do not elongate. In corn, it is the the top of the corn kernel.</glossdef></glossentry>
+<glossentry id="Culm">
+<glossterm>Culm</glossterm>
+<glossdef>The flowering stems in grasses and sedges.</glossdef></glossentry>
+<glossentry id="Cultivar">
+<glossterm>Cultivar</glossterm>
+<glossdef>A grouping of plants with desireable characteristics which are maintained through propagation. If included in the taxanomic name, it follows the scientific name and is enclosed in double quotes.</glossdef></glossentry>
+<glossentry id="DAE">
+<glossterm>DAE</glossterm>
+<glossdef>Abbreviation for &#39;Days After Emergence&#39;. This is seen in the Phenology Output Table.</glossdef></glossentry>
+<glossentry id="DAP">
+<glossterm>DAP</glossterm>
+<glossdef>Abbreviation for &#39;Days After Planting&#39; and is seen in the Phenology Output Table.</glossdef></glossentry>
+<glossentry id="DAV">
+<glossterm>DAV</glossterm>
+<glossdef>Abbreviation for &#39;Days After Vernalization&quot; and is seen in the Phenology Output Table. Only those crops which require a vernalization period have values in this column.</glossdef></glossentry>
+<glossentry id="Day">
+<glossterm>Day</glossterm>
+<glossdef>Used in the designation of corn maturity varieties, e.g. &#39;110-Day&#39; variety which indicates that this variety will mature in approximately 110 days.</glossdef></glossentry>
+<glossentry id="Day_of Year">
+<glossterm>Day of Year</glossterm>
+<glossdef>The numerical day of the calendar year (1 - 366).</glossdef></glossentry>
+<glossentry id="Decision_Support System">
+<glossterm>Decision Support System</glossterm>
+<glossdef>A tool designed in computer code to help the user make decisions about the topic being considered.</glossdef></glossentry>
+<glossentry id="Dent">
+<glossterm>Dent</glossterm>
+<glossdef>One of the reproductive stages in grain crops. A dent appears near the crown of the kernels as they are losing moisture. This is growth stage R5 in Corn.</glossdef></glossentry>
+<glossentry id="Determinate">
+<glossterm>Determinate</glossterm>
+<glossdef>A growth habit where vegetative growth is completed by the time flowering begins.</glossdef></glossentry>
+<glossentry id="Development">
+<glossterm>Development</glossterm>
+<glossdef>The process whereby the  organism transforms into a different stage.</glossdef></glossentry>
+<glossentry id="Developmental_Sequence">
+<glossterm>Developmental Sequence</glossterm>
+<glossdef>A diagram which depicts the progression of the development of the plant&#39;s structures and shows the overlap among the growth of these structures. The Number of Leaves produced in each growth stage, the amount of Thermal Time in GDD&#39;s needed to reach the next growth stage as well as the accumulation of GDD&#39;s throughout the life of the plant, are depicted.</glossdef></glossentry>
+<glossentry id="Disk_Flowers">
+<glossterm>Disk Flowers</glossterm>
+<glossdef>Flowers that occur in the central part of the head as seen in Sunflower. These flowers are tubular in shape and it is from these flowers that the seeds are produced.</glossdef></glossentry>
+<glossentry id="Double_Ridge">
+<glossterm>Double Ridge</glossterm>
+<glossdef>“In grasses, this stage follows the single ridge stage. At this stage, the tissue immediately above the single ridge develops into the spikelet primordium causing the “double ridges”. The leaf primordium (i.e., the ridge below the spikelet primordium) does not further differentiate and these ridges become less visible as successive double ridges develop until they are no longer noticeable. The spikelet primordia continue to differentiate and produce spikelets until the Terminal Spikelet stage (i.e., the last spikelet formed at the top of the developing spike). The double ridge stage is abbreviated as &#39;DR&#39;.”</glossdef></glossentry>
+<glossentry id="Dough">
+<glossterm>Dough</glossterm>
+<glossdef>This is one of the reproductive stages in grain crops. The kernel&#39;s fluid has accumulated more starch and is a &#39;doughy&#39; consistency. It is often divided into the &#39;soft dough&#39; and &#39;hard dough&#39; stages. This is growth stage R4 in Corn.</glossdef></glossentry>
+<glossentry id="DOY">
+<glossterm>DOY</glossterm>
+<glossdef>Abbreviation for &#39;Day of Year&#39; and refers to the numerical day in the calendar year (1 - 366).</glossdef></glossentry>
+<glossentry id="DR">
+<glossterm>DR</glossterm>
+<glossdef>Abbreviation for the Double Ridge stage and seen in the Growth Stages screens, Phenology and Developmental Sequence diagrams. Also, refers to &#39;Development Rate&#39; on the Y axis of the graphical depiction of GDD Methods 3 and 4 in the GDD Methods topic.</glossdef></glossentry>
+<glossentry id="Dry">
+<glossterm>Dry</glossterm>
+<glossdef>An input needed by the emergence subroutine. This is a descriptive estimation of the soil moisture condition at planting and is the third best seedbed moisture condition. Soil moisture conditions are declining and this is the lowest soil moisture condition in which germination can still occur.</glossdef></glossentry>
+<glossentry id="Ear">
+<glossterm>Ear</glossterm>
+<glossdef>The female flower structure of a corn plant. It contains the kernels which when sufficiently dried down become the harvested grain.</glossdef></glossentry>
+<glossentry id="Ear_Initiation">
+<glossterm>Ear Initiation</glossterm>
+<glossdef>The beginning of formation of the ears on the corn plant. This occurs at about the V6 stage. It is abbreviated by &#39;EI&#39;.</glossdef></glossentry>
+<glossentry id="Early_Maturity">
+<glossterm>Early Maturity</glossterm>
+<glossdef>A maturity class for a variety in which maturity is consistently arrived at earlier in comparison with other varieties for that crop.</glossdef></glossentry>
+<glossentry id="Early_Pod Set">
+<glossterm>Early Pod Set</glossterm>
+<glossdef>This is R3 growth stage in Dry Beans and occurs when one pod on the plant has reached the maximum length.</glossdef></glossentry>
+<glossentry id="Early_Seed Fill">
+<glossterm>Early Seed Fill</glossterm>
+<glossdef>The &#39;R5&#39; growth stage in Dry Beans which occurs when one pod has fully developed seeds.</glossdef></glossentry>
+<glossentry id="EI">
+<glossterm>EI</glossterm>
+<glossdef>Abbreviation for Ear Initiation growth stage in Corn.</glossdef></glossentry>
+<glossentry id="ELG">
+<glossterm>ELG</glossterm>
+<glossdef>Abbreviation for the End of Leaf Growth stage in Sorghum.</glossdef></glossentry>
+<glossentry id="Elongation">
+<glossterm>Elongation</glossterm>
+<glossdef>The lengthening of a structure. It is usually used in reference to stems and internodes.</glossdef></glossentry>
+<glossentry id="Elongation_Rate">
+<glossterm>Elongation Rate</glossterm>
+<glossdef>This is an input parameter read in from the &#39;emerge.dat&#39; file (provided with the program). It refers to the rate of coleoptilar elongation in mm per GDD and varies based on the initial soil moisture (seedbed) condition.</glossdef></glossentry>
+<glossentry id="EM">
+<glossterm>EM</glossterm>
+<glossdef>Abbreviation for Early Maturity. This is hte same as the &#39;E&#39; abbreviation.</glossdef></glossentry>
+<glossentry id="Embryo">
+<glossterm>Embryo</glossterm>
+<glossdef>A fertilized seed.</glossdef></glossentry>
+<glossentry id="Emergence">
+<glossterm>Emergence</glossterm>
+<glossdef>Appearance of the seedling above the soil surface or appearance of a plant structure in the development of the plant. For example, the appearance of the head from the leaf sheath in grasses. Abbreviated by &#39;E&#39;.</glossdef></glossentry>
+<glossentry id="End_of Leaf Growth">
+<glossterm>End of Leaf Growth</glossterm>
+<glossdef>In Sorghum, when the flag leaf is fully emerged and all the leaves are fully expanded. It is abbreviated as &#39;ELG&#39;.</glossdef></glossentry>
+<glossentry id="End_Spikelet Initiation">
+<glossterm>End Spikelet Initiation</glossterm>
+<glossdef>The growth stage in which spikelets cease being initiated. It is abbreviated by &#39;ESI&#39;.</glossdef></glossentry>
+<glossentry id="ergdd">
+<glossterm>ergdd</glossterm>
+<glossdef>The elongation rate parameter input to the emergence subroutine. For each soil moisture condition, a value is given for the rate of elongation in mm per GDD.</glossdef></glossentry>
+<glossentry id="ESI">
+<glossterm>ESI</glossterm>
+<glossdef>Abbreviation for &#39;End of Spikelet Initiation&#39; in Proso Millet and Hay Millet (Foxtail Millet). When this stage is reached no more spikelets are initiated This is analogous to the &#39;Terminal Spikelet&#39; (TS) stage.</glossdef></glossentry>
+<glossentry id="F">
+<glossterm>F</glossterm>
+<glossdef>Abbreviation for full season variety trype in dry beans.</glossdef></glossentry>
+<glossentry id="Fahrenheit">
+<glossterm>Fahrenheit</glossterm>
+<glossdef>&quot;Of or relating to a temperature scale that registers the freezing point of water as 32° and the boiling point as 212° at one atmosphere of pressure. &quot; The Free Dictionary. It is symbolized by °F and is equal to (9/5*°C) +32.</glossdef></glossentry>
+<glossentry id="FB">
+<glossterm>FB</glossterm>
+<glossdef>In Sorghum. the abbreviation for the growth stage when the heads have fully flowered; the panicle has fully bloomed.</glossdef></glossentry>
+<glossentry id="Feekes_Scale">
+<glossterm>Feekes Scale</glossterm>
+<glossdef>A scale developed by the Dutch agronomist, Willem Feekes,  that describes the growth and development of cereal crops. It is a numerical scale and is used widely in the U.S.</glossdef></glossentry>
+<glossentry id="Female_Flower">
+<glossterm>Female Flower</glossterm>
+<glossdef>The female flower is the pistil which is composed of the stigma, style and ovary.</glossdef></glossentry>
+<glossentry id="FIB">
+<glossterm>FIB</glossterm>
+<glossdef>In Sorghum, this is First Bloom and occurs when the panicle has emerged from the leaf sheath and flowering or anthesis has begun at the tip of hte head.</glossdef></glossentry>
+<glossentry id="Filament">
+<glossterm>Filament</glossterm>
+<glossdef>Part of the male flower and is a slender stalk which supports the anthers.</glossdef></glossentry>
+<glossentry id="First_Bloom">
+<glossterm>First Bloom</glossterm>
+<glossdef>In Sorghum, this is when First Bloom or Anthesis Starts growth stage occurs. Flowering or Bloom begins at the tip of the head and progresses down the panicle. It is abbreviated as &#39;FIB&#39;.</glossdef></glossentry>
+<glossentry id="Flag_Leaf">
+<glossterm>Flag Leaf</glossterm>
+<glossdef>In grasses, this is the last leaf to emerge and the head is enclosed within the sheath. This leaf is crucial to yield production providing 75% or more of the photosynthate needed for maximum yield.</glossdef></glossentry>
+<glossentry id="Flag_Leaf Complete">
+<glossterm>Flag Leaf Complete</glossterm>
+<glossdef>A growth stage of grasses where the flag leaf has emerged and is the final leaf before the head emerges from the sheath. It is abbreviated by &#39;FLC&#39;. It also occurs at the same time as Booting &#39;B&#39;.</glossdef></glossentry>
+<glossentry id="FLC">
+<glossterm>FLC</glossterm>
+<glossdef>Abbreviation for the &#39;Flag Leaf Complete&#39; stage in the grasses. At this stage, the flag leaf has emerged and is the final leaf before the head emerges from the sheath.</glossdef></glossentry>
+<glossentry id="Floret_Primordium Initiation">
+<glossterm>Floret Primordium Initiation</glossterm>
+<glossdef>In grasses, this stage follows the double ridge stage. The parts of the floret within the spikelet are initiated.</glossdef></glossentry>
+<glossentry id="Florets">
+<glossterm>Florets</glossterm>
+<glossdef>A little flower which is often in a dense cluster. In grasses, it includes the lemma and palea and is found in the spikelet.</glossdef></glossentry>
+<glossentry id="Flower_Brown">
+<glossterm>Flower Brown</glossterm>
+<glossdef>In Sunflower, this is the &#39;R8&#39; reproductive growth stage. The back of the head lis yellow but may contain some brown spots.</glossdef></glossentry>
+<glossentry id="Flower_Opens">
+<glossterm>Flower Opens</glossterm>
+<glossdef>In Sunflower, this is the &#39;R4&#39; reproductive growth stage. The inflorescence begins to open in this stage making the small ray flowers visible.</glossdef></glossentry>
+<glossentry id="Flower_Visible">
+<glossterm>Flower Visible</glossterm>
+<glossdef>A growth stage is Sunflower when the inflorescence becomes visible and is surrounded by immature bracts. It is the first stage in the reproductive phase of growth and is abbreviated &#39;R1&#39;.</glossdef></glossentry>
+<glossentry id="Flower_Yellow">
+<glossterm>Flower Yellow</glossterm>
+<glossdef>In Sunflower, this is the &#39;R7&#39; reproductive growth stage. The back of the flower head begins to turn a light yellow.</glossdef></glossentry>
+<glossentry id="Flowering">
+<glossterm>Flowering</glossterm>
+<glossdef>When the flowers of a plant are visible.</glossdef></glossentry>
+<glossentry id="Foxtail_Millet">
+<glossterm>Foxtail Millet</glossterm>
+<glossdef>Hay millet. Usually grown for hay.</glossdef></glossentry>
+<glossentry id="Full_Bloom">
+<glossterm>Full Bloom</glossterm>
+<glossdef>In Sorghum, when the panicle is fully flowered or when all the plants in the field are in some stage of bloom. This is noted in the Growth Stages screen and Phenology and Developmental Sequence diagrams as FB.</glossdef></glossentry>
+<glossentry id="Full_Season">
+<glossterm>Full Season</glossterm>
+<glossdef>In Dry Beans, a maturity class that is later than the Medium classification but earlier than the Late maturity class and is 95-99 days to maturity.</glossdef></glossentry>
+<glossentry id="Gamete">
+<glossterm>Gamete</glossterm>
+<glossdef>&quot;A reproductive cell having the haploid number of chromosomes, especially a mature sperm or egg capable of fusing with a gamete of the opposite sex to produce a zygote.&quot; The Free Dictionary</glossdef></glossentry>
+<glossentry id="GDD">
+<glossterm>GDD</glossterm>
+<glossdef>Growing degree-days (deg. C/day), which is a measure of thermal time. Also, in the VarTypes file (provided with the program) for each crop, the GDD row refers to one method of simulating the growth stages in which Growing Degree-Days values, under NO stress conditions, are used. There are four methods  of calculating GDD in PhenologyMMS but only two are implemented.</glossdef></glossentry>
+<glossentry id="GDD_AE">
+<glossterm>GDD AE</glossterm>
+<glossdef>Abbreviation for &#39;Growing Degree-Days After Emergence&#39; and refers to the accumulation of growing degree-days since emergence occurred. It is found in the output screen in the Phenology Table.</glossdef></glossentry>
+<glossentry id="GDD_AP">
+<glossterm>GDD AP</glossterm>
+<glossdef>Abbreviation for &#39;Growing Degree-Days After Planting&#39; and refers to the accumulation of growing degree-days since planting. It is found in the output screen in the Phenology Table.</glossdef></glossentry>
+<glossentry id="GDD_AV">
+<glossterm>GDD AV</glossterm>
+<glossdef>Abbreviation for &#39;Growing Degree-Days After Vernalization&#39; and refers to the accumulation of growing degree-days since vernalization occurred. It is found in the output screen in the Phenology Table.</glossdef></glossentry>
+<glossentry id="GDD_Method">
+<glossterm>GDD Method</glossterm>
+<glossdef>There are many methods used to calculate growing degree-days. PhenologyMMS provides four methods, although default parameters for each crop are available for only one specific method.</glossdef></glossentry>
+<glossentry id="GDDStress">
+<glossterm>GDDStress</glossterm>
+<glossdef>In the VarTypes file (provided with the program) for each crop, the GDDstress row refers to one method of simulating the growth stages. This method uses Growing Degree-Days values under STRESSED conditions.</glossdef></glossentry>
+<glossentry id="Generic">
+<glossterm>Generic</glossterm>
+<glossdef>A maturity class designation which is analogous to the Medium Maturity variety class.</glossdef></glossentry>
+<glossentry id="Genotype">
+<glossterm>Genotype</glossterm>
+<glossdef>The genetic makeup of an organism.</glossdef></glossentry>
+<glossentry id="germgdd">
+<glossterm>germgdd</glossterm>
+<glossdef>The Germination Time parameter input to the emergence subroutine. For each soil moisture condition, a value is given for the number of GDD&#39;s required to accomplish germination.</glossdef></glossentry>
+<glossentry id="Germination">
+<glossterm>Germination</glossterm>
+<glossdef>The beginning of growth from a seed.</glossdef></glossentry>
+<glossentry id="Glumes">
+<glossterm>Glumes</glossterm>
+<glossdef>In the grass spikelet, these are a pair of empty scale-like bracts which occur at the base of the spikelet.</glossdef></glossentry>
+<glossentry id="Glycine_max">
+<glossterm>Glycine max</glossterm>
+<glossdef>The scientific name for Soybean.</glossdef></glossentry>
+<glossentry id="GN">
+<glossterm>GN</glossterm>
+<glossdef>Refers to Non-Stressed growing conditions. Parameters are given in the Growth Stages screen for the selected crop for each growth stage in terms of GDD&#39;s. This selection is comparable to irrigated or well-watered conditions.</glossdef></glossentry>
+<glossentry id="GPD">
+<glossterm>GPD</glossterm>
+<glossdef>The abbreviation for the growth stage, &#39;Growing Point Differentiation&#39; in Sorghum which occurs when the growing point changes from producing vegetative growth to producing reproductive growth.</glossdef></glossentry>
+<glossentry id="Grain_Filling">
+<glossterm>Grain Filling</glossterm>
+<glossdef>The period of time from pollination to physiological maturity of the grains or kernels. A stress-free grain filling period is critical for maximum yield.</glossdef></glossentry>
+<glossentry id="Growing_Degree-Days">
+<glossterm>Growing Degree-Days</glossterm>
+<glossdef>This is the same as GDD (deg. C/day) and is a measure of thermal time.</glossdef></glossentry>
+<glossentry id="Growing_Point Differentiation">
+<glossterm>Growing Point Differentiation</glossterm>
+<glossdef>In Sorghum, the growth stage when the growing point changes from producing vegetative growth to producing reproductive growth. Rapid culm elongation begins in this stage. It is abbreviated as &#39;GPD&#39;.</glossdef></glossentry>
+<glossentry id="Growth">
+<glossterm>Growth</glossterm>
+<glossdef>The process of advancing in size of the organism. This is a physical change.</glossdef></glossentry>
+<glossentry id="Growth_Stages">
+<glossterm>Growth Stages</glossterm>
+<glossdef>A period of time in the growth and development of a plant.</glossdef></glossentry>
+<glossentry id="GS">
+<glossterm>GS</glossterm>
+<glossdef>This refers to Stressed growing conditions and parameters are given in terms of GDD&#39;s in the chosen crop&#39;s Growth Stages screen. This selection is analogous to rainfed/dryland conditions.</glossdef></glossentry>
+<glossentry id="GS_I">
+<glossterm>GS I</glossterm>
+<glossdef>In Sorghum, some view the growth stages in a more generalized manner breaking the growth of the plant into three main stages. This is Growth Stage I and refers to the time in which the plant is experiencing vegetative growth.</glossdef></glossentry>
+<glossentry id="GS_II">
+<glossterm>GS II</glossterm>
+<glossdef>In Sorghum, some view the growth stages in a more generalized manner breaking the growth of the plant into three main stages. This is Growth Stage II and refers to the time when the reproductive structures are being formed.</glossdef></glossentry>
+<glossentry id="GS_III">
+<glossterm>GS III</glossterm>
+<glossdef>In Sorghum, some view the growth stages in a more generalized manner breaking the growth of the plant into three main stages. This is Growth Stage III and refers to the time when the grain is ripening.</glossdef></glossentry>
+<glossentry id="Half_Bloom">
+<glossterm>Half Bloom</glossterm>
+<glossdef>In Sorghum, the growth stage when flowering has progressed halfway down the head; also, when 50% of the plants in the field are in some stage of bloom. It is abbreviated as &#39;HB&#39;.</glossdef></glossentry>
+<glossentry id="Hard_Dough">
+<glossterm>Hard Dough</glossterm>
+<glossdef>The final stage in the ripening of the kernel. The kernel has lost moisture which has decreased to 30 to 40 percent. The kernel is physiologically mature at this stage.</glossdef></glossentry>
+<glossentry id="Harvest_Ready">
+<glossterm>Harvest Ready</glossterm>
+<glossdef>When the seed of the crop has sufficiently dried to a safe moisture percentage so that the yield can be harvested. This is abbreviated as &#39;HR&#39;. It may also be referred to as Harvest Ripe.</glossdef></glossentry>
+<glossentry id="Haun_Stage">
+<glossterm>Haun Stage</glossterm>
+<glossdef>A linear quantification of the development of a plant. This scale focuses on the main shoot&#39;s rate of development.</glossdef></glossentry>
+<glossentry id="HB">
+<glossterm>HB</glossterm>
+<glossdef>Abbreviation for the &#39;Half Bloom&#39; stage in Sorghum. This is when flowering has progressed halfway down the head; also, when 50% of the plants in the field are in some stage of bloom.</glossdef></glossentry>
+<glossentry id="Head">
+<glossterm>Head</glossterm>
+<glossdef>An inflorescence in which there is a dense grouping of sessile or nearly sessile flowers occurring on a short or broadened axis. This term is often used to refer to the flower of sunflowers and the grasses.</glossdef></glossentry>
+<glossentry id="Heading">
+<glossterm>Heading</glossterm>
+<glossdef>The growth stage when the head is fully emerged from the flag leaf sheath. This is abbreviated as &#39;H&#39;.</glossdef></glossentry>
+<glossentry id="Helianthus_annuus L.">
+<glossterm>Helianthus annuus L.</glossterm>
+<glossdef>The scientific name for Sunflower.</glossdef></glossentry>
+<glossentry id="Hordeum_vulgare L.">
+<glossterm>Hordeum vulgare L.</glossterm>
+<glossdef>The scientific name for Barley.</glossdef></glossentry>
+<glossentry id="HR">
+<glossterm>HR</glossterm>
+<glossdef>Abbreviation for &#39;Harvest Ready&#39;. This is the same as Harvest Ripe. This occurs when the yield of the plant is sufficiently dry to allow harvest with minimal damage or loss.</glossdef></glossentry>
+<glossentry id="HRW">
+<glossterm>HRW</glossterm>
+<glossdef>Abbreviation for hard red winter type of wheat.</glossdef></glossentry>
+<glossentry id="HWW">
+<glossterm>HWW</glossterm>
+<glossdef>Abbreviation for hard white winter wheat.</glossdef></glossentry>
+<glossentry id="Hybrid">
+<glossterm>Hybrid</glossterm>
+<glossdef>The result of breeding two distinct individuals that differ genetically.</glossdef></glossentry>
+<glossentry id="Hypocotyl">
+<glossterm>Hypocotyl</glossterm>
+<glossdef>The axis of an embryo or seedling that is below the cotyledons and above the radicle or young root.</glossdef></glossentry>
+<glossentry id="Hypocotyl_Arch">
+<glossterm>Hypocotyl Arch</glossterm>
+<glossdef>The hypocotyl grows at a differential rate in some plants such as dry beans and therefore curves and is the first structure that appears above the ground. This is the hypocotyl arch.</glossdef></glossentry>
+<glossentry id="Icon">
+<glossterm>Icon</glossterm>
+<glossdef>A small image used to represent or access a definition, file, function, program, etc.</glossdef></glossentry>
+<glossentry id="IES">
+<glossterm>IES</glossterm>
+<glossdef>Abbreviation for &#39;Internode Elongation Starts&#39; growth stage. The spaces between the nodes i.e., internodes, begin to increase the distance between the nodes and the stem grows longer.</glossdef></glossentry>
+<glossentry id="Indeterminate">
+<glossterm>Indeterminate</glossterm>
+<glossdef>A growth habit where vegetative growth continues after flowering begins.</glossdef></glossentry>
+<glossentry id="Inflorescence">
+<glossterm>Inflorescence</glossterm>
+<glossdef>A flower cluster.</glossdef></glossentry>
+<glossentry id="Inputs">
+<glossterm>Inputs</glossterm>
+<glossdef>Information that is provided to the model via input screens or files that are read in by the code in order to run the model simulation.</glossdef></glossentry>
+<glossentry id="Internode">
+<glossterm>Internode</glossterm>
+<glossdef>The area between two successive nodes on a stem.</glossdef></glossentry>
+<glossentry id="Internode_Elongation Starts">
+<glossterm>Internode Elongation Starts</glossterm>
+<glossdef>The space between the nodes on the stem of a plant. When these spaces elongate or increase the distance between nodes, the stem grows longer. Abbreviated by &#39;IES&#39; Internode Elongation Starts.</glossdef></glossentry>
+<glossentry id="Interpolation">
+<glossterm>Interpolation</glossterm>
+<glossdef>&quot;A method of constructing new data points within the range of a discrete set of known data points.&quot;, Wikipedia</glossdef></glossentry>
+<glossentry id="Jan_1">
+<glossterm>Jan 1</glossterm>
+<glossdef>A date used to begin the accumulation of thermal time in grasses such as wheat and barley whose growth requires them to go through a cold period, typically the winter. It is shown as 1/1 in the applicable Phenology Diagrams</glossdef></glossentry>
+<glossentry id="Jointing">
+<glossterm>Jointing</glossterm>
+<glossdef>A growth stage in grasses when the stem begins lengthening as a result of internode elongation and the first node becomes visible just above the soil line or at the base of the shoot. This is abbreviated as &#39;J&#39;.</glossdef></glossentry>
+<glossentry id="Kernels">
+<glossterm>Kernels</glossterm>
+<glossdef>The seed or grain produced in grasses. It is the mature ovule.</glossdef></glossentry>
+<glossentry id="Langley">
+<glossterm>Langley</glossterm>
+<glossdef>&quot;A unit equal to one gram calorie per square centimeter of irradiated surface, used to measure solar radiation.&quot; (Ly). The Free Dictionary.</glossdef></glossentry>
+<glossentry id="Late_Maturity">
+<glossterm>Late Maturity</glossterm>
+<glossdef>A maturity class for a variety in which maturity is consistently arrived at later in comparison with other varieties for that crop.</glossdef></glossentry>
+<glossentry id="Latitude">
+<glossterm>Latitude</glossterm>
+<glossdef>&quot;In geography, latitude is a geographic coordinate that specifies the north-south position of a point on the Earth&#39;s surface. Latitude is an angle which ranges from 0° at the Equator to 90° (North or South) at the poles. Lines of constant latitude, or parallels, run east-west as circles parallel to the equator. Latitude is used together with longitude to specify the precise location of features on the surface of the Earth.&quot; Wikipedia</glossdef></glossentry>
+<glossentry id="Leaf_Area">
+<glossterm>Leaf Area</glossterm>
+<glossdef>The area of green leaf per unit of a given area of ground.</glossdef></glossentry>
+<glossentry id="Leaf_Axil">
+<glossterm>Leaf Axil</glossterm>
+<glossdef>The junction where the leaf joins the main stem.</glossdef></glossentry>
+<glossentry id="Leaf_Number">
+<glossterm>Leaf Number</glossterm>
+<glossdef>The amount of leaves produced by a given growth stage or the number of accumulated GDD&#39;s. Leaves are generally not added once the plant reaches the first reproductive stage.</glossdef></glossentry>
+<glossentry id="Leaf_Number Table">
+<glossterm>Leaf Number Table</glossterm>
+<glossdef>In the Output screen, a table is provided which shows the number of leaves predicted to have been produced by the Day of Year. There are entries for each successive new leaf and the Day of Year on which it occurred.</glossdef></glossentry>
+<glossentry id="Leaved">
+<glossterm>Leaved</glossterm>
+<glossdef>A variety type in spring wheat and spring barley usually preceeded by a number. For example, &#39;8-Leaved&#39; which means this variety would be expected to have a maximum of 8 leaves produced.This is a maturity classification for these crops.</glossdef></glossentry>
+<glossentry id="Leaves">
+<glossterm>Leaves</glossterm>
+<glossdef>Part of the vegetative portion of the plant which provides photosynthate to the growing parts of the plant.</glossdef></glossentry>
+<glossentry id="Lemma">
+<glossterm>Lemma</glossterm>
+<glossdef>The lower, outer bract that encloses the flower in the spikelet.</glossdef></glossentry>
+<glossentry id="Ligule">
+<glossterm>Ligule</glossterm>
+<glossdef>A small appendage occurring in grasses at the blade and sheath junction. It is often tongue or strap-shaped. In Sunflowers, it is found on the ray flowers.</glossdef></glossentry>
+<glossentry id="LM">
+<glossterm>LM</glossterm>
+<glossdef>Abbreviation for late maturity. This is the same as the &#39;L&#39; abbreviation.</glossdef></glossentry>
+<glossentry id="LN">
+<glossterm>LN</glossterm>
+<glossdef>Refers to the number of leaves that can be expected to have formed by a particular growth stage for the selected crop under Non-stressed growing conditions. This is found in the crop&#39;s Growth Stages screen. Even though leaf numbers are shown in the Growth Stages screens for the reproductive stages when additional leaves would not be added, it is given as a method of determining the growth stage based on the number of GDD&#39;s accumulated from the last growth stage divided by the crop&#39;s phyllochron value.</glossdef></glossentry>
+<glossentry id="Location_Weather File">
+<glossterm>Location Weather File</glossterm>
+<glossdef>The weather file that is provided for each of the locations simulated in PhenologyMMS.</glossdef></glossentry>
+<glossentry id="Lower_Optimum Temperature">
+<glossterm>Lower Optimum Temperature</glossterm>
+<glossdef>The low end of the optimum temperature range of values for plant growth. It is abbreviated as Toptlo.</glossdef></glossentry>
+<glossentry id="LS">
+<glossterm>LS</glossterm>
+<glossdef>Refers to the number of leaves that can be expected by a particular growth stage for the selected crop under stressed growing conditions. This is found in the crop&#39;s Growth Stages screen.</glossdef></glossentry>
+<glossentry id="LVS">
+<glossterm>LVS</glossterm>
+<glossdef>In the VarTypes file (provided with the program) for each crop, LVS refers to one method of simulating the growth stages. This method uses the Number of Leaves values under NO stress conditions. This abbreviation is also found in the Phenology and Developemental Sequence Diagrams in the number of leaves row (#LVS).</glossdef></glossentry>
+<glossentry id="LVSstress">
+<glossterm>LVSstress</glossterm>
+<glossdef>In the VarTypes file for each crop, LVSstress refers to one method of simulating the growth stages. This method uses the Number of Leaves values under STRESSED conditions.</glossdef></glossentry>
+<glossentry id="M">
+<glossterm>M</glossterm>
+<glossdef>Abbreviation for medium plant height in wheat.</glossdef></glossentry>
+<glossentry id="Main_Stem">
+<glossterm>Main Stem</glossterm>
+<glossdef>The initial stem from the crown in grasses. All other stems are tillers and most arise from the main stem. In other plants, the main stem is the initial, primary stem.</glossdef></glossentry>
+<glossentry id="Male_Flower">
+<glossterm>Male Flower</glossterm>
+<glossdef>The male flower or stamen is composed of the anthers and filament.</glossdef></glossentry>
+<glossentry id="Maturity">
+<glossterm>Maturity</glossterm>
+<glossdef>The plant has completed development and no additional dry matter is added to the plant. Grain ripening follows maturity. This is abbreviated &#39;M&#39; in the Growth Stages screen and PM in the Phenology and Developmental Sequence diagrams. This is analogous to Physiological Maturity which is abbreviated as &#39;PM&#39;.</glossdef></glossentry>
+<glossentry id="Maturity_Class">
+<glossterm>Maturity Class</glossterm>
+<glossdef>Different crops determine maturity classes differently. Corn maturity classes are based on the Days to Maturity and given as 90, 95, up to 120 days. However, this has more to do with the amount of time a hybrid takes to lose grain moisture in the field compared to a standard hybrid and less to do with actual calendar days to maturity.   Dry Beans maturity classes are an estimate of how many days it will take to go from planting to vine cutting.   Winter Wheat maturity classes are an estimate of time to Heading.   Spring Barley is considered to be physiologically mature when the grain moisture content is between 30 -40 %. No more dry matter will be accumulated at this point.  Foxtail and Proso millet maturity classes are given in terms of days to maturity.  Sorghum time to maturity or maturity classes are based on the accumulation of GDD&#39;s.   The Sunflower is determined to be mature when a major portion of the back of the sunflower head is turning brown.</glossdef></glossentry>
+<glossentry id="Maturity_Group">
+<glossterm>Maturity Group</glossterm>
+<glossdef>In soybean, the maturity classification of a variety depends on its adaptability to effectively utilize the growing season, i.e., the photoperiod and temperature in a given region. The different regions are east to west belts and are rather narrow from north to south. The Maturity Group classifications range from 00 in the northern regions to VIII in the southern regions of the United States. There are ten divisions within each maturity group, as well, e.g., 3.0 to 3.9.</glossdef></glossentry>
+<glossentry id="Maximum_Temperature">
+<glossterm>Maximum Temperature</glossterm>
+<glossdef>The highest daily temperature for a given day. This is abbreviated as Tmax.</glossdef></glossentry>
+<glossentry id="Medium">
+<glossterm>Medium</glossterm>
+<glossdef>An input needed by the emergence subroutine. This is a descriptive estimation of the soil moisture condition at planting and is the next best seedbed moisture condition. Soil moisture conditions are good but not as good as Optimum.</glossdef></glossentry>
+<glossentry id="Medium_Maturity">
+<glossterm>Medium Maturity</glossterm>
+<glossdef>A maturity class for a variety in which maturity is consistently arrived at later than the earlier maturing varieties but earlier than the later maturing varieties for that crop.</glossdef></glossentry>
+<glossentry id="Megajoules">
+<glossterm>Megajoules</glossterm>
+<glossdef>&quot;The megajoule (MJ) is equal to one million (106) joules, or approximately the kinetic energy of a one megagram (tonne) vehicle moving at 160 km/h&quot;. Wikipedia</glossdef></glossentry>
+<glossentry id="Mid_Pod Set">
+<glossterm>Mid Pod Set</glossterm>
+<glossdef>This is R4 growth stage in Dry Beans and occurs when 50% of the pods are at their maximum length.</glossdef></glossentry>
+<glossentry id="Mid_Seed Fill">
+<glossterm>Mid Seed Fill</glossterm>
+<glossdef>The &#39;R6&#39; growth stage in Dry Beans when 50% of the pods contain fully developed seeds.</glossdef></glossentry>
+<glossentry id="Mid-Full_Flower">
+<glossterm>Mid-Full Flower</glossterm>
+<glossdef>The R2 growth stage in Dry Beans where 50 % of the flowers are open.</glossdef></glossentry>
+<glossentry id="Milk">
+<glossterm>Milk</glossterm>
+<glossdef>One of the reproductive stages in grain crops. The kernels appear yellow (in corn) and the fluid is a milky white color. This is R3 in the corn plant.</glossdef></glossentry>
+<glossentry id="Milk_Line">
+<glossterm>Milk Line</glossterm>
+<glossdef>This occurs in corn kernels and marks the boundary between the liquid milky area and the solid starchy area of the kernel. As the kernel matures, the milk line moves closer to the tip of the kernel. It is barely visible at full dent stage (R5).</glossdef></glossentry>
+<glossentry id="Milky_Ripe">
+<glossterm>Milky Ripe</glossterm>
+<glossdef>The second stage in kernel development wherein the kernel has a white, milky fluid. The embryo is completely formed at this stage.</glossdef></glossentry>
+<glossentry id="Minimum_Temperature">
+<glossterm>Minimum Temperature</glossterm>
+<glossdef>The lowest daily temperature for a given day. This is abbreviated as Tmin.</glossdef></glossentry>
+<glossentry id="MM">
+<glossterm>MM</glossterm>
+<glossdef>Abbreviation for medium maturity. This is the same as the &#39;M&#39; abbreviation.</glossdef></glossentry>
+<glossentry id="Node">
+<glossterm>Node</glossterm>
+<glossdef>Enlarged areas on the stem where active cell division takes place. Leaves, buds, tillers or branches may rise from these areas.</glossdef></glossentry>
+<glossentry id="Number_of Leaves">
+<glossterm>Number of Leaves</glossterm>
+<glossdef>Refers to the number of leaves that can be expected to have formed by a particular growth stage for the selected crop under Non-stressed  or Stressed growing conditions. This is found in the crop&#39;s Growth Stages screen. Even though leaf numbers are shown in the Growth Stages screens for the reproductive stages when additional leaves would not be added, it is given as a method of determining the growth stage based on the number of GDD&#39;s accumulated from the last growth stage divided by the crop&#39;s phyllochron value.</glossdef></glossentry>
+<glossentry id="Oil">
+<glossterm>Oil</glossterm>
+<glossdef>A type of sunflower grown for its high oil content.</glossdef></glossentry>
+<glossentry id="Optimum">
+<glossterm>Optimum</glossterm>
+<glossdef>An input needed by the emergence subroutine. This is a descriptive estimation of the soil moisture condition at planting and is the best seedbed moisture condition, i.e., soil moisture is not limiting.</glossdef></glossentry>
+<glossentry id="Outputs">
+<glossterm>Outputs</glossterm>
+<glossdef>Information that is reported from the model run showing the predicted values for each growth stage and the number of leaves.</glossdef></glossentry>
+<glossentry id="Ovary">
+<glossterm>Ovary</glossterm>
+<glossdef>Part of the female flower or pistil. It is at the base of the pistil and contains the ovules.</glossdef></glossentry>
+<glossentry id="Ovule">
+<glossterm>Ovule</glossterm>
+<glossdef>Contains the female gametophyte with the egg cell and when fertilized by the pollen grains becomes the seed.</glossdef></glossentry>
+<glossentry id="Palea">
+<glossterm>Palea</glossterm>
+<glossdef>An inner, uper bract that encloses the flower in the spikelet.</glossdef></glossentry>
+<glossentry id="Panicle">
+<glossterm>Panicle</glossterm>
+<glossdef>A type of flower inflorescence. It is elongated and has compound branching.</glossdef></glossentry>
+<glossentry id="Panicum_miliaceum L.">
+<glossterm>Panicum miliaceum L.</glossterm>
+<glossdef>The scientific name of Proso Millet.</glossdef></glossentry>
+<glossentry id="Parameter">
+<glossterm>Parameter</glossterm>
+<glossdef>&quot;In its common meaning, [it] is a characteristic, feature, or measurable factor that can help in defining a particular system.&quot; Wikipedia</glossdef></glossentry>
+<glossentry id="Peduncle">
+<glossterm>Peduncle</glossterm>
+<glossdef>A stalk or a stem of a single flower or the main stem of an inflorescence. Also, the last elongated internode which supports the head.</glossdef></glossentry>
+<glossentry id="Phaseolus_vulgaris L.">
+<glossterm>Phaseolus vulgaris L.</glossterm>
+<glossdef>The scientific name for Dry Bean.</glossdef></glossentry>
+<glossentry id="Phenology">
+<glossterm>Phenology</glossterm>
+<glossdef>&quot;The sequence and timing of developmental events or stages.&quot; McMaster et. al., 2013</glossdef></glossentry>
+<glossentry id="Phenology_Diagram">
+<glossterm>Phenology Diagram</glossterm>
+<glossdef>This figure shows the amount of  thermal time (TT) as GDD&#39;s necessary to reach the next stage. The number of leaves that would be expected to appear within a stage based on the thermal time are also given. Values are given for non-stressed conditions, shown in the green &#39;Water non-limiting&#39; section and for stressed conditions shown in the brown &#39;Water limiting&#39; section.</glossdef></glossentry>
+<glossentry id="Phenology_Table">
+<glossterm>Phenology Table</glossterm>
+<glossdef>This is part of the output from the model run and shows the predicted Date or number of Days from a specific event, for example,  &#39;Planting&#39; for each growth stage. The columns Day of Year, Date, DAP, DAE and DAV provide this information. The predicted number of Growing Degree-Days for each stage after a specific event, e.g., &#39;Emergence&#39; or &#39;Vernalization&#39; are provided in the columns GDD AP, GDD AE, and GDD AV. The Number of Leaves predicted for each vegetative stage is also displayed in the table. The number of leaves shown in the reproductive stages is the same as that at the last vegetative stage and shows that no new leaves are added in the reproductive stages.</glossdef></glossentry>
+<glossentry id="PhenologyMMS_1.4">
+<glossterm>PhenologyMMS 1.4</glossterm>
+<glossdef>A computer simulation program to predict the growth stages of several crops based on the accumulation of thermal time.</glossdef></glossentry>
+<glossentry id="Phenotype">
+<glossterm>Phenotype</glossterm>
+<glossdef>The outward, visible appearance of an organism; what the organism looks like.</glossdef></glossentry>
+<glossentry id="Photoperiod">
+<glossterm>Photoperiod</glossterm>
+<glossdef>The optimal illumination period or length of day for the normal growth of a plant to maturity.</glossdef></glossentry>
+<glossentry id="Photosynthate">
+<glossterm>Photosynthate</glossterm>
+<glossdef>That which is produced by photosynthesis.</glossdef></glossentry>
+<glossentry id="Phyllochron">
+<glossterm>Phyllochron</glossterm>
+<glossdef>The rate of leaf appearance.</glossdef></glossentry>
+<glossentry id="Physiological_Maturity">
+<glossterm>Physiological Maturity</glossterm>
+<glossdef>This is the final reproductive stage in the growth of the plant. It is usually characterized by the seed having attained the maximum dry weight with no more growth occurring. This is abbreviated &#39;PM&#39; in the Growth Stages screens, Phenology Diagrams and Developmental Sequence Diagrams. This is analogous to Maturity. It may also be abbreviated as an &#39;R&#39; stage.</glossdef></glossentry>
+<glossentry id="Phytomer">
+<glossterm>Phytomer</glossterm>
+<glossdef>A basic building block of plant canopies consisting of the leaf, axillary bud, node and internode.</glossdef></glossentry>
+<glossentry id="Pistil">
+<glossterm>Pistil</glossterm>
+<glossdef>The female flower. It is composed of three parts: stigma, style and ovary.</glossdef></glossentry>
+<glossentry id="Planted_in Dust">
+<glossterm>Planted in Dust</glossterm>
+<glossdef>An input needed by the emergence subroutine. This is a descriptive estimation of the soil moisture condition at planting and is the poorest seedbed moisture condition. The seed will not germinate until sufficient moisture is received  to advance the soil moisture condition to at least Dry.</glossdef></glossentry>
+<glossentry id="Planting_Depth">
+<glossterm>Planting Depth</glossterm>
+<glossdef>A measure of how deep the seed is placed in the soil.</glossdef></glossentry>
+<glossentry id="Planting_Rate">
+<glossterm>Planting Rate</glossterm>
+<glossdef>The number of seeds planted in a given area.</glossdef></glossentry>
+<glossentry id="Plastochron">
+<glossterm>Plastochron</glossterm>
+<glossdef>The interval between initiation of leaf primordia on the apex.</glossdef></glossentry>
+<glossentry id="PM">
+<glossterm>PM</glossterm>
+<glossdef>Abbreviation for Physiological Maturity. This is found in the Growth Stages screens and in the Phenology and Developmental Sequence Diagrams. It is the same as the &#39;M&#39; abbreviation  in the Growth Stages screen which is simply Maturity.</glossdef></glossentry>
+<glossentry id="Pod">
+<glossterm>Pod</glossterm>
+<glossdef>A dry, dehiscent fruit. In PhenologyMMS, It refers to the fruit of Dry Beans and Soybeans.</glossdef></glossentry>
+<glossentry id="Pod_Set">
+<glossterm>Pod Set</glossterm>
+<glossdef>The growth stages in dry beans when the plants are beginning to set pods. Early pod set ,&#39;R3&#39; occurs when one pod has reached the maximum length. Mid-pod set, &#39;R4&#39; occurs when 50 % of the pods have reached their maximum length.</glossdef></glossentry>
+<glossentry id="Pollen">
+<glossterm>Pollen</glossterm>
+<glossdef>The male element, which are microspores produced by the anther and involved in pollination. It is a powder-like material.</glossdef></glossentry>
+<glossentry id="Pollen_Grain">
+<glossterm>Pollen Grain</glossterm>
+<glossdef>The microspores produced by the anther of the stamen. It fertilizes the ovule.</glossdef></glossentry>
+<glossentry id="Pollen_Tube">
+<glossterm>Pollen Tube</glossterm>
+<glossdef>The tube down which the pollen grain travels through the style of the pistil to the ovary where fertilization takes place.</glossdef></glossentry>
+<glossentry id="Pollination">
+<glossterm>Pollination</glossterm>
+<glossdef>The embryo is fertilized when the pollen is transferred from the stamen to the stigma.</glossdef></glossentry>
+<glossentry id="Primary_Leaves">
+<glossterm>Primary Leaves</glossterm>
+<glossdef>Unifoliate leaves. At the &#39;VC&#39; stage in Dry Beans, there are two primary or unifoliate leaves unfolded at node 2.</glossdef></glossentry>
+<glossentry id="Primary_Root">
+<glossterm>Primary Root</glossterm>
+<glossdef>The radical root. It is the first structure to grow from the seed in germination.</glossdef></glossentry>
+<glossentry id="Primary_Tiller">
+<glossterm>Primary Tiller</glossterm>
+<glossdef>A tiller that is produced by a main stem node.</glossdef></glossentry>
+<glossentry id="Primordium">
+<glossterm>Primordium</glossterm>
+<glossdef>The beginning or the origin of any part of an organ.</glossdef></glossentry>
+<glossentry id="Prophyll">
+<glossterm>Prophyll</glossterm>
+<glossdef>An enclosing sheath which occurs at the base of the tiller.</glossdef></glossentry>
+<glossentry id="R_Stages">
+<glossterm>R Stages</glossterm>
+<glossdef>The R Stages refer to periods in the reproductive life cycle of the plant. The number following the &#39;R&#39; indicates which reproductive stage the crop is in. The number of reproductive stages varies among crops.</glossdef></glossentry>
+<glossentry id="Rachis">
+<glossterm>Rachis</glossterm>
+<glossdef>The elongated main axis of an inflorescence.</glossdef></glossentry>
+<glossentry id="Radicle">
+<glossterm>Radicle</glossterm>
+<glossdef>The primary or seed root which emerges from the seed.</glossdef></glossentry>
+<glossentry id="Ray_Flower">
+<glossterm>Ray Flower</glossterm>
+<glossdef>The strap-shaped or ligulate flowers of an inflorescence. These are found in Compositae flowers, such as sunflowers, where tubular disk flowers are also present.</glossdef></glossentry>
+<glossentry id="Receptacle">
+<glossterm>Receptacle</glossterm>
+<glossdef>The relatively expanded portion of the flower stalk to which the organs of the flower are attached.</glossdef></glossentry>
+<glossentry id="Reproductive_Phase">
+<glossterm>Reproductive Phase</glossterm>
+<glossdef>The growth stages which occur during the reproductive portion of the plant&#39;s life cycle.</glossdef></glossentry>
+<glossentry id="Ripening">
+<glossterm>Ripening</glossterm>
+<glossdef>The changes in a fruit following seed maturation which prepares the fruit to disperse its seed.</glossdef></glossentry>
+<glossentry id="Run">
+<glossterm>Run</glossterm>
+<glossdef>The execution of the scenario set up in PhenologyMMS.</glossdef></glossentry>
+<glossentry id="S">
+<glossterm>S</glossterm>
+<glossdef>Abbreviation for short plant height in wheat.</glossdef></glossentry>
+<glossentry id="Scenario">
+<glossterm>Scenario</glossterm>
+<glossdef>Selections made to predict the growth stages of a selected crop. A possible sequence of events.</glossdef></glossentry>
+<glossentry id="Secondary_Tiller">
+<glossterm>Secondary Tiller</glossterm>
+<glossdef>A tiller produced by a primary tiller.</glossdef></glossentry>
+<glossentry id="Seed">
+<glossterm>Seed</glossterm>
+<glossdef>&quot;A seed is an embryonic plant enclosed in a protective outer covering. The formation of the seed is part of the process of reproduction in seed plants, the spermatophytes, including the gymnosperm and angiosperm plants.&quot; Wikipedia</glossdef></glossentry>
+<glossentry id="Seed_Fill">
+<glossterm>Seed Fill</glossterm>
+<glossdef>This relates to Dry Beans and is the period of time when the pods are filling with fully developed seeds. It is broken into two stages including Early Seed Fill &#39;R5&#39; and Mid Seed Fill &#39;R6&#39;.</glossdef></glossentry>
+<glossentry id="Seed_sunflowers">
+<glossterm>Seed sunflowers</glossterm>
+<glossdef>A type of sunflower grown for the seeds which are sold as confections, i.e., the seeds are the product consumed from the sunflower.</glossdef></glossentry>
+<glossentry id="Seeding">
+<glossterm>Seeding</glossterm>
+<glossdef>Sowing, seeding or planting the crop. Abbreviated by &#39;P&#39; for Planting in the Phenology Diagrams and Developmental Sequence figures.</glossdef></glossentry>
+<glossentry id="Seedling">
+<glossterm>Seedling</glossterm>
+<glossdef>A young plant that develops from the plant embryo contained in the seed.</glossdef></glossentry>
+<glossentry id="Seminal_Roots">
+<glossterm>Seminal Roots</glossterm>
+<glossdef>The primary roots that come from the seed.</glossdef></glossentry>
+<glossentry id="Senescence">
+<glossterm>Senescence</glossterm>
+<glossdef>The process by which plant parts cease to function and die off. The gradual deterioration of function which increases mortality. Wikipedia</glossdef></glossentry>
+<glossentry id="Setaria_italica (L.) P. Beauv.">
+<glossterm>Setaria italica (L.) P. Beauv.</glossterm>
+<glossdef>The scientific name of Foxtail Millet which is also Hay Millet.</glossdef></glossentry>
+<glossentry id="Sheath">
+<glossterm>Sheath</glossterm>
+<glossdef>The tubular portion of the grass leaf that wraps around and encloses the stem.</glossdef></glossentry>
+<glossentry id="Shoot">
+<glossterm>Shoot</glossterm>
+<glossdef>Consists of the stem, leaves, lateral buds, flower buds and flowering stems. It is the new growth from seed germination. Wikipedia</glossdef></glossentry>
+<glossentry id="Shoot_Apex">
+<glossterm>Shoot Apex</glossterm>
+<glossdef>The portion of the shoot which contains apical and primary meristem. This is where early stages of differentiation occur.</glossdef></glossentry>
+<glossentry id="SHOOTGRO">
+<glossterm>SHOOTGRO</glossterm>
+<glossdef>A computer simulation model of shoot development from planting to booting. This model was the basis for the germination and emergence portions of PhenologyMMS.</glossdef></glossentry>
+<glossentry id="Silking">
+<glossterm>Silking</glossterm>
+<glossdef>When the silks are visible outside of the husk and are ready to receive the pollen grains. The pollen travels down the silks to the ovary where it fertilizes the seed. The Silking stage occurs near the time of tasseling - about three days after tasseling. This is the first reproductive stage in corn - R1.</glossdef></glossentry>
+<glossentry id="Silks">
+<glossterm>Silks</glossterm>
+<glossdef>A part of the female flower of a corn plant. The silks which are attached to the ovules, emerge from of the husk about the time of pollen shed. They receive the pollen grains which germinate and create the pollen tube through which the pollen grains  travel down the silks to the ovule where fertilization takes place.</glossdef></glossentry>
+<glossentry id="Simulation_Model">
+<glossterm>Simulation Model</glossterm>
+<glossdef>Computer code that when executed predicts something.</glossdef></glossentry>
+<glossentry id="Single_Ridge">
+<glossterm>Single Ridge</glossterm>
+<glossdef>In grasses, this is the stage when the shoot apex elongates and the leaf primordium forms a &quot;single ridge&quot; around the shoot apex. The leaf primordium will not further differentiate and grow, thus ending the phase of leaf appearance. Therefore, this could be considered as the transition from vegetative to reproductive phases of the shoot apex. This is abbreviated as &#39;SR&#39;.</glossdef></glossentry>
+<glossentry id="Soft_Dough">
+<glossterm>Soft Dough</glossterm>
+<glossdef>The fluid in the developing kernel is thicker than in the milky stage and has a &#39;dough&#39; consistency. Starch and nutrients rapidly accumulate in the kernel at this stage.</glossdef></glossentry>
+<glossentry id="Solar_Rad">
+<glossterm>Solar Rad</glossterm>
+<glossdef>Abbreviation for Solar Radiation. It is the name of the column for solar radiation in the weather files.</glossdef></glossentry>
+<glossentry id="Solar_Radiation">
+<glossterm>Solar Radiation</glossterm>
+<glossdef>&quot;Radiant energy emitted by the sun, particularly electromagnetic energy&quot;. ScienceDaily</glossdef></glossentry>
+<glossentry id="Sorghum_bicolor (L.) Moench">
+<glossterm>Sorghum bicolor (L.) Moench</glossterm>
+<glossdef>The scientific name of Sorghum.</glossdef></glossentry>
+<glossentry id="Sowing">
+<glossterm>Sowing</glossterm>
+<glossdef>Planting or seeding the crop.</glossdef></glossentry>
+<glossentry id="Spike">
+<glossterm>Spike</glossterm>
+<glossdef>An elongated inflorescence with the flowers sessile or subsessile on the axis. The youngest flowers are at the tip. An example is a wheat head.</glossdef></glossentry>
+<glossentry id="Spikelet">
+<glossterm>Spikelet</glossterm>
+<glossdef>In grasses, the unit of inflorescence. A wheat flower, for example.</glossdef></glossentry>
+<glossentry id="SR">
+<glossterm>SR</glossterm>
+<glossdef>Abbreviation for the Single Ridge growth stage.</glossdef></glossentry>
+<glossentry id="Stamen">
+<glossterm>Stamen</glossterm>
+<glossdef>The male flower. It is composed of the anthers and filament</glossdef></glossentry>
+<glossentry id="Stem">
+<glossterm>Stem</glossterm>
+<glossdef>The supporting structure of a plant. Other plant parts such as buds, leaves and flowers are attached to the stem at nodes.</glossdef></glossentry>
+<glossentry id="Stigma">
+<glossterm>Stigma</glossterm>
+<glossdef>The part of the pistil,which is the female part of the flower, to which pollen adheres and germinates. It is usually positioned at the tip of the style and is often enlarged.</glossdef></glossentry>
+<glossentry id="Style">
+<glossterm>Style</glossterm>
+<glossdef>Part of the female flower or pistil. It is a slender stalk that supports the stigma.</glossdef></glossentry>
+<glossentry id="SU">
+<glossterm>SU</glossterm>
+<glossdef>Abbreviation for the semi-upright growth habit in dry beans.</glossdef></glossentry>
+<glossentry id="T">
+<glossterm>T</glossterm>
+<glossdef>Abbreviation for tall plant height in wheat.</glossdef></glossentry>
+<glossentry id="Tassel">
+<glossterm>Tassel</glossterm>
+<glossdef>The male flower structure in corn. It produces the pollen in anthers that fertilize the corn seed via the corn silks.</glossdef></glossentry>
+<glossentry id="Tassel_Initiation">
+<glossterm>Tassel Initiation</glossterm>
+<glossdef>In Corn, the beginning of tassel formation which occurs at about the V6 stage. This is abbreviated as TSI.</glossdef></glossentry>
+<glossentry id="Tasseling">
+<glossterm>Tasseling</glossterm>
+<glossdef>The stage when the tassels emerge from the whorl on the corn plant and are fully visible and ready to produce pollen. This is the last stage in the vegetative portion of the life cycle of the plant and is called the VT stage. Technically, this stage occurs when the last tassel branch has emerged from the whorl. However, this can vary with different hybrids.</glossdef></glossentry>
+<glossentry id="Tavg">
+<glossterm>Tavg</glossterm>
+<glossdef>The average daily temperature calculated by:  (Tmax + Tmin)/2</glossdef></glossentry>
+<glossentry id="Tbase">
+<glossterm>Tbase</glossterm>
+<glossdef>The temperature below which the process of interest does not progress. Tbase is used in all four GDD Methods.</glossdef></glossentry>
+<glossentry id="Terminal_Spikelet">
+<glossterm>Terminal Spikelet</glossterm>
+<glossdef>The end spikelet; the last spikelet to be initiated.</glossdef></glossentry>
+<glossentry id="Tertiary_Tiller">
+<glossterm>Tertiary Tiller</glossterm>
+<glossdef>A tiller that is produced by one of the secondary tillers.</glossdef></glossentry>
+<glossentry id="TF">
+<glossterm>TF</glossterm>
+<glossdef>&#39;tf&#39; is the Temperature Factor calculated for GDD Methods 3 and 4 using the slope of a line segment.</glossdef></glossentry>
+<glossentry id="Thermal_Time">
+<glossterm>Thermal Time</glossterm>
+<glossdef>The amount of heat that is required to reach a particular stage of development. Growing degree-days is a common method used to calculate the amount of  thermal time accumulated on a particular day. It is abbreviated as &#39;TT&#39; as seen in the Phenology and Developmental Sequence Diagrams.</glossdef></glossentry>
+<glossentry id="TI">
+<glossterm>TI</glossterm>
+<glossdef>Abbreviation of the Tiller Initiation growth stage.</glossdef></glossentry>
+<glossentry id="Tiller">
+<glossterm>Tiller</glossterm>
+<glossdef>Additional lateral shoots formed from axillary buds. They emerge from the axils of the true leaves at the base of the main stem. They can contribute to the final yield of the plant however, not all tillers produce grain.</glossdef></glossentry>
+<glossentry id="Tiller_Initiation">
+<glossterm>Tiller Initiation</glossterm>
+<glossdef>Growth stage in grasses when the first tiller is seen. In Corn, tillers, ears and tassels are all initiated at about the same time as internode elongation starts. Abbreviated by &#39;TI&#39;.</glossdef></glossentry>
+<glossentry id="Tmax">
+<glossterm>Tmax</glossterm>
+<glossdef>Maximum temperature as in the maximum daily temperature.</glossdef></glossentry>
+<glossentry id="Tmin">
+<glossterm>Tmin</glossterm>
+<glossdef>Minimum temperature as in the minimum daily temperature.</glossdef></glossentry>
+<glossentry id="Topt">
+<glossterm>Topt</glossterm>
+<glossdef>Optimum Temperature. This is used in GDD Method 3</glossdef></glossentry>
+<glossentry id="Toptlo">
+<glossterm>Toptlo</glossterm>
+<glossdef>Lower Optimum Temperature. When the optimum temperature is a range of values, Toptlo is at the low end of the range. This is used in GDD Method 4.</glossdef></glossentry>
+<glossentry id="Toptup">
+<glossterm>Toptup</glossterm>
+<glossdef>Upper Optimum Temperature. When the optimum temperature is a range of values, Toptup is at the high end of the range. This is used in GDD Method 4.</glossdef></glossentry>
+<glossentry id="Trifoliate_Leaf">
+<glossterm>Trifoliate Leaf</glossterm>
+<glossdef>A leaf with three leaflets. Most leaves on a dry bean or soybean plant are trifoliate.</glossdef></glossentry>
+<glossentry id="Triticum_aestivum L.">
+<glossterm>Triticum aestivum L.</glossterm>
+<glossdef>The scientific name of wheat.</glossdef></glossentry>
+<glossentry id="TSI">
+<glossterm>TSI</glossterm>
+<glossdef>Abbreviation for Tassel Initiation growth stage in Corn.</glossdef></glossentry>
+<glossentry id="TT">
+<glossterm>TT</glossterm>
+<glossdef>Abbreviation for Thermal Time as seen in the Phenology and Developmental Sequence diagrams.</glossdef></glossentry>
+<glossentry id="Tupper">
+<glossterm>Tupper</glossterm>
+<glossdef>An Upper Temperature threshold which is the highest temperature at which growth can still occur. This limits the amount of GDD that can be accumulated for the day. It is used in GDD Methods 2, 3 and 4.</glossdef></glossentry>
+<glossentry id="U">
+<glossterm>U</glossterm>
+<glossdef>Abbreviation for the upright growth habit in dry beans.</glossdef></glossentry>
+<glossentry id="Unifoliate_Leaf">
+<glossterm>Unifoliate Leaf</glossterm>
+<glossdef>A leaf that is actually a compound leaf with all but one of the leaflets suppressed. It appears as a simple leaf in a group with compound leaves. This is also termed Primary Leaves in Dry Beans.</glossdef></glossentry>
+<glossentry id="Upper_Optimum Temperature">
+<glossterm>Upper Optimum Temperature</glossterm>
+<glossdef>The upper end of the optimum temperature range of values for plant growth. It is abbreviated as Toptup.</glossdef></glossentry>
+<glossentry id="V">
+<glossterm>V</glossterm>
+<glossdef>Abbreviation for the vine growth habit in dry beans.</glossdef></glossentry>
+<glossentry id="V_Stages">
+<glossterm>V Stages</glossterm>
+<glossdef>Each crop has V Stages which refer to the vegetative period in the life cycle of the plant. These stages occur during plant growth before the reproductive structures are formed, however, in some crops, the vegetative period can overlap the reproductive period. The number after the V&#39;&#39; indicates a particular vegetative stage and the number of V Stages vary among crops.</glossdef></glossentry>
+<glossentry id="V#">
+<glossterm>V#</glossterm>
+<glossdef>Abbvreviation for the number of collared leaves in Corn.</glossdef></glossentry>
+<glossentry id="Variety">
+<glossterm>Variety</glossterm>
+<glossdef>Formally, this is a taxanomic rank that occurs below Subspecies and above Rank. It is often used informally as the same as cultivar.</glossdef></glossentry>
+<glossentry id="VC">
+<glossterm>VC</glossterm>
+<glossdef>Abbreviation for the Cotyledonary Leaves stage in Dry Beans.</glossdef></glossentry>
+<glossentry id="Vegetative_Phase">
+<glossterm>Vegetative Phase</glossterm>
+<glossdef>The first phase in the plant&#39;s development and includes the time from emergence to the beginning of the reproductive phase.</glossdef></glossentry>
+<glossentry id="Vernalization">
+<glossterm>Vernalization</glossterm>
+<glossdef>A period of cold treatment to promote flowering that is required by winter grasses such as winter wheat or winter barley.</glossdef></glossentry>
+<glossentry id="Vine">
+<glossterm>Vine</glossterm>
+<glossdef>A growth habit in Dry Beans. The plant gows as a vine and is indeterminate. That is, it continues to flower throughout the season because the terminal bud and lateral branches end in vegetative structures and therefore continue to produce more nodes and flower longer than the Bush type.</glossdef></glossentry>
+<glossentry id="VN">
+<glossterm>VN</glossterm>
+<glossdef>Abbreviation for the growth stage in Dry Beans when the nth trifoliate leaf has unfolded at the nth node. It is the last vegetative stage. See Reference: Schwartz, H. F., et al., 2004. Dry Bean Production and Pest Management Bulletin 562A, Colorado State Univ.</glossdef></glossentry>
+<glossentry id="VT">
+<glossterm>VT</glossterm>
+<glossdef>Abbreviation for the final vegetative stage in corn which occurs when the entire tassel is visible on the corn plant.</glossdef></glossentry>
+<glossentry id="Water_Limiting">
+<glossterm>Water Limiting</glossterm>
+<glossdef>Conditions where water is a limiting factor to plant growth. This might be analogous to dryland or rainfed conditions.</glossdef></glossentry>
+<glossentry id="Water_Non-Limiting">
+<glossterm>Water Non-Limiting</glossterm>
+<glossdef>Conditions where water is not a limiting factor to plant growth. This might be analogous to irrigated conditions.</glossdef></glossentry>
+<glossentry id="Water-Filled_Pore Space">
+<glossterm>Water-Filled Pore Space</glossterm>
+<glossdef>The spaces between the solid particles in the soil which are filled with water.</glossdef></glossentry>
+<glossentry id="Watery_Ripe">
+<glossterm>Watery Ripe</glossterm>
+<glossdef>The first stage in kernel development. The kernel has a clear liquid at this stage and little dry matter has accumulated.</glossdef></glossentry>
+<glossentry id="Weather_File">
+<glossterm>Weather File</glossterm>
+<glossdef>Many files are included with PhenologyMMS that contain weather data for specific locations. The number of years included in the files varies among locations. At the least, maximum and minimum daily temperatures and daily precipitation are required in a weather file but, other measurements may also be included.</glossdef></glossentry>
+<glossentry id="wfpslo">
+<glossterm>wfpslo</glossterm>
+<glossdef>An input parameter to the emergence subroutine. Each soil moisture condition has a range of values for the percent of pore spaces that are filled with water. This parameter gives the low end of that range.</glossdef></glossentry>
+<glossentry id="wfpsup">
+<glossterm>wfpsup</glossterm>
+<glossdef>An input parameter to the emergence subroutine. Each soil moisture condition has a range of values for the percent of pore spaces that are filled with water. This parameter gives the upper or high end of that range.</glossdef></glossentry>
+<glossentry id="Whorl">
+<glossterm>Whorl</glossterm>
+<glossdef>A circle of leaves or flower parts.</glossdef></glossentry>
+<glossentry id="Yield">
+<glossterm>Yield</glossterm>
+<glossdef>The part of the plant/crop which is harvested and provides an economic return, e.g., grain, fruits, forage, etc.</glossdef></glossentry>
+<glossentry id="Zadoks_Scale">
+<glossterm>Zadoks Scale</glossterm>
+<glossdef>A standardized reference scale used to evaluate and measure the growth stage of a cereal plant.</glossdef></glossentry>
+<glossentry id="Zea_mays L.">
+<glossterm>Zea mays L.</glossterm>
+<glossdef>The scientific name for Corn.</glossdef></glossentry>
+<glossentry id="ƩTT">
+<glossterm>ƩTT</glossterm>
+<glossdef>Abbreviation for the Sum of Thermal Time. The Growing Degree-days for each stage are summed as the crop moves through the life cycle revealing the estimated total number of GDD&#39;s required to reach maturity. It is seen in the Phenology and Developmental Sequence Diagrams.</glossdef></glossentry></glossgroup>

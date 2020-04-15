@@ -891,7 +891,8 @@ public class SGSetGDDFrame extends JFrame {
      *@param  e  Description of the Parameter
      */
     void jHelpButton_actionPerformed(ActionEvent e) {
-		if(RoboHelp.openHelpPage("Growth_Stages/Sorghum_Growth_Stages.htm")) {
+		//if(RoboHelp.openHelpPage("Growth_Stages/Sorghum_Growth_Stages.htm")) {
+                if(RoboHelp.openHelpPage("Sorghum_Growth_Stages.htm")) {    
 			return;
 		}
 		

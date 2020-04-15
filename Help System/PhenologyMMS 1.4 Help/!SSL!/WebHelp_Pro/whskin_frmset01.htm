@@ -63,7 +63,7 @@ var gsPane="";
 	        strHTML += "</frameset>";
         }
         else
-	        strHTML += "<frameset cols=\"220,*\" hostof=\"parent:minibar_navpane|topic!startpage:no\" frameborder=\"1\" id=\"whPfset\"> <frame src=\"whskin_frmset010.htm\" id=\"minibar_navpane\" frameborder=\"0\" border=\"0\" scrolling=\"auto\" marginheight=\"0\" marginwidth=\"0\"></frame> <frame src=\""+strDefaultTopic+"\" id=\"topic\" frameborder=\"1\" border=\"1\" scrolling=\"auto\" title=\"Topic\" name=\"bsscright\"></frame></frameset>";
+	        strHTML += "<frameset cols=\"300,*\" hostof=\"parent:minibar_navpane|topic!startpage:no\" frameborder=\"1\" id=\"whPfset\"> <frame src=\"whskin_frmset010.htm\" id=\"minibar_navpane\" frameborder=\"0\" border=\"0\" scrolling=\"auto\" marginheight=\"0\" marginwidth=\"0\"></frame> <frame src=\""+strDefaultTopic+"\" id=\"topic\" frameborder=\"1\" border=\"1\" scrolling=\"auto\" title=\"Topic\" name=\"bsscright\"></frame></frameset>";
         if(isChromeLocal())
         {	
 		      var obj = document.getElementsByTagName('body')[0];
@@ -110,7 +110,7 @@ function onReceiveNotification(oMsg)
 				if (gstrFrameLastSetting)
 					oFrameset.cols= gstrFrameLastSetting;
 				else
- 					oFrameset.cols= "220,*";
+ 					oFrameset.cols= "300,*";
 			}
 			gbShow=true;
 			oMsgout = new whMessage(WH_MSG_PANESTATUE, "visible", null);

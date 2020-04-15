@@ -1359,7 +1359,7 @@ function addButton(sType,nStyle,sText,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidth
 	{
 		if(canGo(false))
 		{
-			var sTitle="Previous Topic";
+			var sTitle="%%%WH_LNG_PreTooltip%%%";
 			goPrev=new button(sText,nWidth,nHeight,sImg1,sImg2,sImg3);
 			sButton="<a title=\""+sTitle+"\" class=\"whtbtnprev\" href=\"javascript:void(0);\" onclick=\"goAvenue(false);return false;\">";
 			if(nStyle==BTN_TEXT)
@@ -1373,7 +1373,7 @@ function addButton(sType,nStyle,sText,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidth
 	{
 		if(canGo(true))
 		{
-			var sTitle="Next Topic";
+			var sTitle="%%%WH_LNG_NextTooltip%%%";
 			goNext=new button(sText,nWidth,nHeight,sImg1,sImg2,sImg3);
 			sButton="<a title=\""+sTitle+"\" class=\"whtbtnnext\" href=\"javascript:void(0);\" onclick=\"goAvenue(true);return false;\">";
 			if(nStyle==BTN_TEXT)
@@ -1387,7 +1387,7 @@ function addButton(sType,nStyle,sText,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidth
 	{
 		if(isTopicOnly()&&(!gbOpera6||gbOpera7))
 		{
-			var sTitle="Show Navigation Component";
+			var sTitle="%%%WH_LNG_Show_Navigation_Component%%%";
 			goShow=new button(sText,nWidth,nHeight,sImg1,sImg2,sImg3);
 			sButton="<a title=\""+sTitle+"\" class=\"whtbtnshow\" href=\"javascript:void(0);\" onclick=\"show();return false;\">";
 			if(nStyle==BTN_TEXT)
@@ -1401,7 +1401,7 @@ function addButton(sType,nStyle,sText,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidth
 	{
 		if(!isTopicOnly()&&!gbOpera6)
 		{
-			var sTitle="Hide Navigation Component";
+			var sTitle="%%%WH_LNG_Hide_Navigation_Component%%%";
 			goHide=new button(sText,nWidth,nHeight,sImg1,sImg2,sImg3);
 			sButton="<a title=\""+sTitle+"\" class=\"whtbtnhide\" href=\"javascript:void(0);\" onclick=\"hide();return false;\">";
 			if(nStyle==BTN_TEXT)
@@ -1415,7 +1415,7 @@ function addButton(sType,nStyle,sText,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidth
 	{
 		if(isShowHideEnable())
 		{
-			var sTitle="Show Navigation Component";
+			var sTitle="%%%WH_LNG_Show_Navigation_Component%%%";
 			goShowNav=new button(sText,nWidth,nHeight,sImg1,sImg2,sImg3);
 			sButton="<a title=\""+sTitle+"\" class=\"whtbtnshownav\" href=\"javascript:void(0);\" onclick=\"showHidePane(true);return false;\">";
 			if(nStyle==BTN_TEXT)
@@ -1429,7 +1429,7 @@ function addButton(sType,nStyle,sText,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidth
 	{
 		if(isShowHideEnable())
 		{
-			var sTitle="Hide Navigation Component";
+			var sTitle="%%%WH_LNG_Hide_Navigation_Component%%%";
 			goHideNav=new button(sText,nWidth,nHeight,sImg1,sImg2,sImg3);
 			sButton="<a title=\""+sTitle+"\" class=\"whtbtnhidenav\" href=\"javascript:void(0);\" onclick=\"showHidePane(false);return false;\">";
 			if(nStyle==BTN_TEXT)
@@ -1443,7 +1443,7 @@ function addButton(sType,nStyle,sText,sHref,sOnClick,sOnMouseOver,sOnLoad,nWidth
 	{
 		if(gaPaths.length>0)
 		{
-			var sTitle="Sync TOC";
+			var sTitle="%%%WH_LNG_SyncTocTooltip%%%";
 			goSync=new button(sText,nWidth,nHeight,sImg1,sImg2,sImg3);
 			sButton="<a title=\""+sTitle+"\" class=\"whtbtnsynctoc\" href=\"javascript:void(0);\" onclick=\"syncWithShow();return false;\">";
 			if(nStyle==BTN_TEXT)

@@ -356,7 +356,8 @@ public class TempSettingsFrame extends JFrame{
      *@param  e  Description of the Parameter
      */
     void jBHelp_actionPerformed(ActionEvent e) {
-		if(RoboHelp.openHelpPage("Temperatures/Temperatures.htm")) { 
+		//if(RoboHelp.openHelpPage("Temperatures/Temperatures.htm")) { 
+                if(RoboHelp.openHelpPage("Temperatures.htm")) {    
 			return;
 		}
 		

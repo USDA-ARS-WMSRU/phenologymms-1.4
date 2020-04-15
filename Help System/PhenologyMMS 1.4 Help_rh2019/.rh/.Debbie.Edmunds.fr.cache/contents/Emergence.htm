@@ -1,0 +1,111 @@
+
+Emergence
+Germination and emergence are predicted based on the accumulation of thermal time and soil moisture based on the SHOOTGRO model (Wilhelm et al., 1993. Ecological Modelling 68:183-203). Four soil water levels are available and the user inputs the condition of the soil at planting time. The GDD required for germination increases and the elongation rate decreases as water content decreases. After planting, precipitation can shift the soil moisture condition upwards toward Optimum but there is no provision reducing the soil moisture level due to evaporation.
+ 
+The four soil moisture levels are: Optimum, Medium, Dry and Planted in Dust. These are shown for Winter Wheat in Table 1 below which is found in Table 2 in the reference cited above. Other input parameters include the lower and upper Water-filled pore space (wfpslo and wfpsup), Germination time (germgdd), and Elongation rate (ergdd).
+ 
+Daily precipitation is read in from the weather file and is given in mm.
+ 
+Seeds planted in soil water conditions considered to be ‘Planted in Dust’ are assumed to not begin the germination process until some minimal soil water level is reached (i.e., 'Dry' conditions). Therefore, seeds Planted in Dust must move up to the Dry soil moisture level before beginning the accumulation of thermal time required for germination. At least seven mm or more of precipitation must be received before soil moisture can move from Planted in Dust to Dry conditions.
+ 
+In order to provide a more realistic process of germination, two intermediate soil moisture levels were added. These occur between Optimum and Medium and between Medium and Dry. These were necessary because germination was occurring too rapidly with only the four soil moisture conditions named above.
+ 
+Once germination has occurred, the elongation rate of the coleoptile (ergdd) is increased based on the input elongation rate in mm per growing degree-day for the soil moisture condition. This value is multiplied by the day’s growing degree-day value and added to the elongation length already achieved. Once the elongation length is greater than the planting depth, emergence has occurred.
+ 
+TABLE 1  (from Table 2 in the Ref. cited above)
+ 
+Seed germination and seedling elongation rates for several broad categories of seedbed conditions.
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+Seedbed condition
+
+
+Water-filled pore space (%)
+
+
+Germination time (GDDa)
+
+
+Elongation rate (mm GDD-1)
+
+
+
+
+Optimum
+
+
+> 45
+
+
+80
+
+
+0.50
+
+
+
+
+Barely adequate
+
+
+35-45
+
+
+90
+
+
+0.40
+
+
+
+
+Dry
+
+
+25-35
+
+
+110
+
+
+0.33
+
+
+
+
+Planted in Dust
+
+
+<25
+
+
+-
+
+
+-
+
+
+
+ 
+ 
+aGDD = growing degree-day (base 0°C) Wheat
+ 
+
+
+ 
+ 
+ 
+Links to: GDD Methods
+               Temperatures
+               Weather/Location Files
+
+

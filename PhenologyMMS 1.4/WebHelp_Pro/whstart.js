@@ -31,10 +31,10 @@ function delayReload()
 	}
 }
 
-var gsToolbarOrder = "toc|idx|fts|glo||blankblock|searchform";
+var gsToolbarOrder = "toc|idx|fts|glo|custom15160||blankblock|searchform";
 var gsMinibarOrder = "avprev|avnext|blankblock|hide2|";
 
-var gsTopic = "Overview/Overview_of_PhenologyMMS_1.3.htm";
+var gsTopic = "Overview_PhenologyMMS_1.4.htm";
 var PANE_OPT_SEARCH = 1;
 var PANE_OPT_BROWSESEQ = 2;
 var gnOpts=-1;

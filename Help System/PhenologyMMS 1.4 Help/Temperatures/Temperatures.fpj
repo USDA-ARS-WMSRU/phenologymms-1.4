@@ -2,11 +2,6 @@
 <rhpml majorversion="7" minorversion="13">
 	<topics>
 		<topic>
-			<name>GDD_Methods.htm</name>
-			<comments></comments>
-			<frameset>0</frameset>
-		</topic>
-		<topic>
 			<name>Temperatures.htm</name>
 			<comments></comments>
 			<frameset>0</frameset>

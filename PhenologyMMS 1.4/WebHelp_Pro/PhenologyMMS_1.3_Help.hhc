@@ -11,20 +11,20 @@
   </object>
   <ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Overview of PhenologyMMS 1.3">
-      <param name="Local" value="Overview/Overview_of_PhenologyMMS_1.3.htm">
+      <param name="Name" value="Overview PhenologyMMS 1.4">
+      <param name="Local" value="Overview_PhenologyMMS_1.4.htm">
     </object>
     <li><object type="text/sitemap">
-      <param name="Name" value="Install PhenologyMMS 1.3">
-      <param name="Local" value="Overview/Install.htm">
+      <param name="Name" value="Install PhenologyMMS 1.4">
+      <param name="Local" value="Install_PhenologyMMS_1.4.htm">
     </object>
     <li><object type="text/sitemap">
-      <param name="Name" value="Launch PhenologyMMS 1.3">
-      <param name="Local" value="Overview/Launch_PhenologyMMS_1.3.htm">
+      <param name="Name" value="Launch PhenologyMMS 1.4">
+      <param name="Local" value="Launch_-_PhenologyMMS_1.4.htm">
     </object>
     <li><object type="text/sitemap">
-      <param name="Name" value="Run PhenologyMMS 1.3">
-      <param name="Local" value="Overview/Run_PhenologyMMS.htm">
+      <param name="Name" value="Run PhenologyMMS 1.4">
+      <param name="Local" value="Run_PhenologyMMS_1.4.htm">
     </object>
     </ul>
   <li><object type="text/sitemap">
@@ -33,44 +33,32 @@
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="Begin Setup">
-      <param name="Local" value="Setup/Begin_Setup.htm">
+      <param name="Local" value="Begin_Setup.htm">
     </object>
-    <ul>
-      <li><object type="text/sitemap">
-        <param name="Name" value="Saved_Scenarios">
-        <param name="Local" value="Setup/Begin_Setup.htm#Saved_Scenarios">
-      </object>
-      </ul>
     <li><object type="text/sitemap">
       <param name="Name" value="Weather/Location Files">
-      <param name="Local" value="Setup/Weather_Location_Files.htm">
+      <param name="Local" value="Weather_Location_Files.htm">
     </object>
     <li><object type="text/sitemap">
       <param name="Name" value="Set Inputs">
-      <param name="Local" value="Setup/Set_Inputs.htm">
+      <param name="Local" value="Set_Inputs.htm">
     </object>
     <li><object type="text/sitemap">
-      <param name="Name" value="Emergence in PhenologyMMS 1.3">
-      <param name="Local" value="Setup/Emergence.htm">
+      <param name="Name" value="Emergence">
+      <param name="Local" value="Emergence.htm">
     </object>
     </ul>
   <li><object type="text/sitemap">
-    <param name="Name" value="Temperatures">
+    <param name="Name" value="Temperature">
   </object>
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="Temperatures">
-      <param name="Local" value="Temperatures/Temperatures.htm">
+      <param name="Local" value="Temperatures.htm">
     </object>
-    <ul>
-      <li><object type="text/sitemap">
-        <param name="Name" value="Phyllochron">
-        <param name="Local" value="Temperatures/Temperatures.htm#Phyllochron">
-      </object>
-      </ul>
     <li><object type="text/sitemap">
       <param name="Name" value="GDD Methods">
-      <param name="Local" value="Temperatures/GDD_Methods.htm">
+      <param name="Local" value="GDD_Methods.htm">
     </object>
     </ul>
   <li><object type="text/sitemap">
@@ -78,213 +66,157 @@
   </object>
   <ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Corn Diagrams">
-      <param name="Local" value="Growth_Stages/Corn_Diagrams.htm">
+      <param name="Name" value="Corn">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Corn_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Corn Diagrams">
+        <param name="Local" value="Corn_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence_Diagram">
-        <param name="Local" value="Growth_Stages/Corn_Diagrams.htm#Developmental_Sequence_Diagram">
+        <param name="Name" value="Corn Growth Stages">
+        <param name="Local" value="Corn_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Corn Growth Stages">
-      <param name="Local" value="Growth_Stages/Corn_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Dry Beans Diagrams">
-      <param name="Local" value="Growth_Stages/Dry_Bean_Diagrams.htm">
+      <param name="Name" value="Dry Bean">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Dry_Bean_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Dry Bean Diagrams">
+        <param name="Local" value="Dry_Bean_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence_Diagram">
-        <param name="Local" value="Growth_Stages/Dry_Bean_Diagrams.htm#Developmental_Sequence_Diagram">
+        <param name="Name" value="Dry Bean Growth Stages">
+        <param name="Local" value="Dry_Bean_Growth_Stages.htm">
       </object>
       </ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Growth_Stages/Dry_Bean_Growth_Stages.htm">
-    </object>
     <li><object type="text/sitemap">
       <param name="Name" value="Growth Stages Example">
-      <param name="Local" value="Growth_Stages/Growth_Stages_Example.htm">
     </object>
     <ul>
       <li><object type="text/sitemap">
         <param name="Name" value="Growth Stages Example">
-        <param name="Local" value="Growth_Stages/Growth_Stages_Example.htm#Growth_Stages_Example">
+        <param name="Local" value="Growth_Stages_Example.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Hay Millet Diagrams">
-      <param name="Local" value="Growth_Stages/Hay_Millet_Diagrams.htm">
+      <param name="Name" value="Hay Millet">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Hay_Millet_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Hay Millet Diagrams">
+        <param name="Local" value="Hay_Millet_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Hay_Millet_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Hay Millet Growth Stages">
+        <param name="Local" value="Hay_Millet_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Hay Millet Growth Stages">
-      <param name="Local" value="Growth_Stages/Hay_Millet_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Proso Millet Diagrams">
-      <param name="Local" value="Growth_Stages/Proso_Millet_Diagrams.htm">
+      <param name="Name" value="Proso Millet">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Proso_Millet_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Proso Millet Diagrams">
+        <param name="Local" value="Proso_Millet_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Proso_Millet_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Proso Millet Growth Stages">
+        <param name="Local" value="Proso_Millet_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Proso Millet Growth Stages">
-      <param name="Local" value="Growth_Stages/Proso_Millet_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Sorghum Diagrams">
-      <param name="Local" value="Growth_Stages/Sorghum_Diagrams.htm">
+      <param name="Name" value="Sorghum">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Sorghum_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Sorghum Diagrams">
+        <param name="Local" value="Sorghum_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Sorghum_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Sorghum Growth Stages">
+        <param name="Local" value="Sorghum_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Sorghum Growth Stages">
-      <param name="Local" value="Growth_Stages/Sorghum_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Soybean Diagrams">
-      <param name="Local" value="Growth_Stages/Soybean_Diagrams.htm">
+      <param name="Name" value="Soybeans">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Soybean_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Soybean Diagrams">
+        <param name="Local" value="Soybean_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Soybean_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Soybean Growth Stages">
+        <param name="Local" value="Soybean_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Soybean Growth Stages">
-      <param name="Local" value="Growth_Stages/Soybean_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Spring Barley Diagrams">
-      <param name="Local" value="Growth_Stages/Spring_Barley_Diagrams.htm">
+      <param name="Name" value="Spring Barley">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Spring_Barley_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Spring Barley Diagrams">
+        <param name="Local" value="Spring_Barley_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Spring_Barley_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Spring Barley Growth Stages">
+        <param name="Local" value="Spring_Barley_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Spring Barley Growth Stages">
-      <param name="Local" value="Growth_Stages/Spring_Barley_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Spring Wheat Diagrams">
-      <param name="Local" value="Growth_Stages/Spring_Wheat_Diagrams.htm">
+      <param name="Name" value="Spring Wheat">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Spring_Wheat_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Spring Wheat Diagrams">
+        <param name="Local" value="Spring_Wheat_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Spring_Wheat_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Spring Wheat Growth Stages">
+        <param name="Local" value="Spring_Wheat_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Spring Wheat Growth Stages">
-      <param name="Local" value="Growth_Stages/Spring_Wheat_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Sunflower Diagrams">
-      <param name="Local" value="Growth_Stages/Sunflower_Diagrams.htm">
+      <param name="Name" value="Sunflower">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Sunflower_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Sunflower Diagrams">
+        <param name="Local" value="Sunflower_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Sunflower_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Sunflower Growth Stages">
+        <param name="Local" value="Sunflower_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Sunflower Growth Stages">
-      <param name="Local" value="Growth_Stages/Sunflower_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Winter Barley Diagrams">
-      <param name="Local" value="Growth_Stages/Winter_Barley_Diagrams.htm">
+      <param name="Name" value="Winter Barley">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Winter_Barley_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Winter Barley Diagrams">
+        <param name="Local" value="Winter_Barley_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Winter_Barley_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Winter Barley Growth Stages">
+        <param name="Local" value="Winter_Barley_Growth_Stages.htm">
       </object>
       </ul>
     <li><object type="text/sitemap">
-      <param name="Name" value="Winter Barley Growth Stages">
-      <param name="Local" value="Growth_Stages/Winter_Barley_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Winter Wheat Diagrams">
-      <param name="Local" value="Growth_Stages/Winter_Wheat_Diagrams.htm">
+      <param name="Name" value="Winter Wheat">
     </object>
     <ul>
       <li><object type="text/sitemap">
-        <param name="Name" value="Phenology_Diagram">
-        <param name="Local" value="Growth_Stages/Winter_Wheat_Diagrams.htm#Phenology_Diagram">
+        <param name="Name" value="Winter Wheat Diagrams">
+        <param name="Local" value="Winter_Wheat_Diagrams.htm">
       </object>
       <li><object type="text/sitemap">
-        <param name="Name" value="Developmental_Sequence">
-        <param name="Local" value="Growth_Stages/Winter_Wheat_Diagrams.htm#Developmental_Sequence">
+        <param name="Name" value="Winter Wheat Growth Stages">
+        <param name="Local" value="Winter_Wheat_Growth_Stages.htm">
       </object>
       </ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Winter Wheat Growth Stages">
-      <param name="Local" value="Growth_Stages/Winter_Wheat_Growth_Stages.htm">
-    </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="Output">
@@ -292,21 +224,15 @@
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="Output">
-      <param name="Local" value="Output/Output.htm">
+      <param name="Local" value="Output.htm">
     </object>
-    <ul>
-      <li><object type="text/sitemap">
-        <param name="Name" value="Output">
-        <param name="Local" value="Output/Output.htm#Output_buttons">
-      </object>
-      </ul>
     <li><object type="text/sitemap">
       <param name="Name" value="Save Current Output">
-      <param name="Local" value="Output/Save_Output.htm">
+      <param name="Local" value="Save_Current_Output.htm">
     </object>
     <li><object type="text/sitemap">
       <param name="Name" value="Save Current Scenario">
-      <param name="Local" value="Output/Save_Current_Scenario.htm">
+      <param name="Local" value="Save_Current_Scenario.htm">
     </object>
     </ul>
   <li><object type="text/sitemap">
@@ -315,7 +241,7 @@
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="References and Documents">
-      <param name="Local" value="References_and_Documents/References_and_Documents.htm">
+      <param name="Local" value="References_and_Documents.htm">
     </object>
     </ul>
 </ul>

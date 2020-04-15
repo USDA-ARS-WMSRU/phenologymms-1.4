@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/PhenologyMMS_1.4.toc</path>
+      <name>PhenologyMMS_1.4</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/PhenologyMMS_1.4_Help.glo</path>
+      <name>PhenologyMMS_1.4_Help</name>
+    </glossary>
+    <brs type="array"></brs>
+    <mapFiles type="array">
+      <mapFilesitem>
+        <name>BSSCDefault</name>
+        <path>../mapfiles/BSSCDefault.ali</path>
+      </mapFilesitem>
+    </mapFiles>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+  </content>
+  <outputPath>C:/Users/Debbie.Edmunds/Documents/My RoboHelp Projects/outputs/PhenologyMMS 1.4 Help/Multiscreen_HTML5</outputPath>
+  <starterPage>index.htm</starterPage>
+  <search>
+    <context type="boolean">true</context>
+    <contextLimit>100</contextLimit>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <suggestion type="boolean">true</suggestion>
+    <fuzzy type="boolean">true</fuzzy>
+    <glossary type="boolean">true</glossary>
+    <maxSearchresults type="number">20</maxSearchresults>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <skin>
+    <name>Desktop_Layout</name>
+    <path>../skins/Desktop_Layout/html5.skn</path>
+  </skin>
+  <name>Multiscreen HTML5</name>
+  <type>html5</type>
+  <title>PhenologyMMS 1.4 Help</title>
+  <defaultTopic>
+    <name>Overview_PhenologyMMS_1.4.htm</name>
+    <path>../../contents/Overview_PhenologyMMS_1.4.htm</path>
+  </defaultTopic>
+  <lowercasenames type="number">0</lowercasenames>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+</preset>

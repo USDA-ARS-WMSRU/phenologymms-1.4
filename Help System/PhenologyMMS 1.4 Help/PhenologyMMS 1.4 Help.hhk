@@ -81,8 +81,6 @@
 		</section>
 		<section name="Output" link="Output.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="Optimum">
 		<section name="Emergence" link="Emergence.htm">
@@ -103,19 +101,13 @@
 		</section>
 		<section name="Output" link="Output.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<section name="Begin Setup" link="Begin_Setup.htm">
 		</section>
 		<item name="calculating">
 			<section name="GDD Methods" link="GDD_Methods.htm">
 			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 		<item name="choose">
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Emergence">
@@ -126,8 +118,6 @@
 		<section name="Sorghum Growth Stages" link="Sorghum_Growth_Stages.htm">
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
-		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
 		</section>
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 		</section>
@@ -151,8 +141,6 @@
 			<section name="Sorghum Growth Stages" link="Sorghum_Growth_Stages.htm">
 			</section>
 			<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
-			</section>
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
 			</section>
 			<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 			</section>
@@ -202,8 +190,6 @@
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
-		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 		</section>
 		<section name="Winter Wheat Growth Stages" link="Winter_Wheat_Growth_Stages.htm">
 		</section>
@@ -265,8 +251,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
@@ -298,8 +282,6 @@
 			</section>
 		</item>
 		<item name="R6">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Barley Growth Stages">
@@ -479,8 +461,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
@@ -499,8 +479,6 @@
 			<section name="Sorghum Growth Stages" link="Sorghum_Growth_Stages.htm">
 			</section>
 			<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
-			</section>
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
 			</section>
 			<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 			</section>
@@ -593,8 +571,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Winter Wheat Diagrams" link="Winter_Wheat_Diagrams.htm">
 		</section>
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
@@ -604,8 +580,6 @@
 		<section name="Sunflower Diagrams" link="Sunflower_Diagrams.htm">
 		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
-		</section>
-		<section name="Dry Beans Diagrams" link="Dry_Beans_Diagrams.htm">
 		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
@@ -638,8 +612,6 @@
 			</section>
 		</item>
 		<item name="Dry Beans">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Spring Wheat">
 			<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
@@ -803,8 +775,6 @@
 	<item name="Spring Barley">
 		<section name="Spring Barley Growth Stages" link="Spring_Barley_Growth_Stages.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Developmental Sequence">
 			<section name="Spring Barley Growth Stages" link="Spring_Barley_Growth_Stages.htm">
 			</section>
@@ -861,8 +831,6 @@
 		</section>
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Developmental Sequence">
 			<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 			</section>
@@ -877,8 +845,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Winter Wheat Diagrams" link="Winter_Wheat_Diagrams.htm">
 		</section>
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
@@ -888,8 +854,6 @@
 		<section name="Sunflower Diagrams" link="Sunflower_Diagrams.htm">
 		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
-		</section>
-		<section name="Dry Beans Diagrams" link="Dry_Beans_Diagrams.htm">
 		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
@@ -921,8 +885,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
@@ -942,8 +904,6 @@
 			</section>
 		</item>
 		<item name="R7">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="R6">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -981,8 +941,6 @@
 	<item name="Set Inputs">
 		<section name="Install PhenologyMMS 1.4" link="Install_PhenologyMMS_1.4.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<section name="Launch - PhenologyMMS 1.4" link="Launch_-_PhenologyMMS_1.4.htm">
 		</section>
 		<section name="Run PhenologyMMS 1.4" link="Run_PhenologyMMS_1.4.htm">
@@ -1012,8 +970,6 @@
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
 		<section name="GDD Methods" link="GDD_Methods.htm">
-		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 		</section>
 		<section name="Run PhenologyMMS 1.4" link="Run_PhenologyMMS_1.4.htm">
 		</section>
@@ -1087,8 +1043,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
 		</section>
 		<section name="Proso Millet Growth Stages" link="Proso_Millet_Growth_Stages.htm">
@@ -1118,8 +1072,6 @@
 		<section name="Sorghum Growth Stages" link="Sorghum_Growth_Stages.htm">
 		</section>
 		<section name="GDD Methods" link="GDD_Methods.htm">
-		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 		</section>
 		<item name="Developmental Sequence">
 			<section name="Sorghum Growth Stages" link="Sorghum_Growth_Stages.htm">
@@ -1171,8 +1123,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
 		</section>
 		<section name="Proso Millet Growth Stages" link="Proso_Millet_Growth_Stages.htm">
@@ -1199,8 +1149,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Spring Wheat Growth Stages" link="Spring_Wheat_Growth_Stages.htm">
 		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
@@ -1225,8 +1173,6 @@
 		</section>
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
 		</section>
 		<section name="Proso Millet Growth Stages" link="Proso_Millet_Growth_Stages.htm">
@@ -1249,8 +1195,6 @@
 	<item name="Leaf">
 		<section name="Growth Stages Example" link="Growth_Stages_Example.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="Medium Maturing">
 		<section name="Growth Stages Example" link="Growth_Stages_Example.htm">
@@ -1267,15 +1211,9 @@
 	<item name="Dry Beans">
 		<section name="Growth Stages Example" link="Growth_Stages_Example.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Developmental Sequence">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Winter Wheat Growth Stages">
@@ -1295,8 +1233,6 @@
 		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<section name="Weather/Location Files" link="Weather_Location_Files.htm">
 		</section>
 		<item name="120 Day">
@@ -1306,8 +1242,6 @@
 	</item>
 	<item name="Temperatures">
 		<section name="Growth Stages Example" link="Growth_Stages_Example.htm">
-		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 		</section>
 		<section name="Run PhenologyMMS 1.4" link="Run_PhenologyMMS_1.4.htm">
 		</section>
@@ -1327,8 +1261,6 @@
 	<item name="R4">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1338,8 +1270,6 @@
 			</section>
 		</item>
 		<item name="Early Seed Fill">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Dent">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -1365,8 +1295,6 @@
 	<item name="R5">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1376,8 +1304,6 @@
 			</section>
 		</item>
 		<item name="Mid Seed Fill">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Maturity R6">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -1391,8 +1317,6 @@
 	<item name="R3">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1402,8 +1326,6 @@
 			</section>
 		</item>
 		<item name="Mid Pod Set">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Dough">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -1425,8 +1347,6 @@
 	<item name="R2">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1436,8 +1356,6 @@
 			</section>
 		</item>
 		<item name="Early Pod Set">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Milk">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -1451,8 +1369,6 @@
 	<item name="R1">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1462,8 +1378,6 @@
 			</section>
 		</item>
 		<item name="Mid">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Blister">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -1545,8 +1459,6 @@
 	<item name="V4">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1556,8 +1468,6 @@
 			</section>
 		</item>
 		<item name="Bloom">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Ear Initiation">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -1588,8 +1498,6 @@
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
 		<section name="GDD Methods" link="GDD_Methods.htm">
-		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 		</section>
 	</item>
 	<item name="Flower Visible">
@@ -1653,8 +1561,6 @@
 	<item name="R8">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="Maturity">
@@ -1669,8 +1575,6 @@
 	<item name="R6">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1680,8 +1584,6 @@
 			</section>
 		</item>
 		<item name="Maturity">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Harvest Ready">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -1695,8 +1597,6 @@
 	<item name="R7">
 		<section name="Sunflower Growth Stages" link="Sunflower_Growth_Stages.htm">
 		</section>
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="Flower Brown">
@@ -1704,8 +1604,6 @@
 			</section>
 		</item>
 		<item name="Harvest Ready">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Full Maturity">
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1713,77 +1611,47 @@
 		</item>
 	</item>
 	<item name="V1">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="2nd Trifoliate Leaf">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Stage II">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 	</item>
 	<item name="Early Seed Fill">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<item name="R4">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 	</item>
 	<item name="VC">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="1st Trifoliate Leaf">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Full Flower">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 	</item>
 	<item name="3rd Trifoliate Leaf">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="V2">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Stage III">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 	</item>
 	<item name="Early Pod Set">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<item name="R2">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 	</item>
 	<item name="4th Trifoliate Leaf">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="V3">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="V4">
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1791,95 +1659,57 @@
 		</item>
 	</item>
 	<item name="V3">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="4th Trifoliate Leaf">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Dry Beans Growth Stages">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
-		<section name="Dry Beans Diagrams" link="Dry_Beans_Diagrams.htm">
-		</section>
 	</item>
 	<item name="2nd Trifoliate Leaf">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="V1">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 			</section>
 		</item>
 	</item>
 	<item name="V2">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="3rd Trifoliate Leaf">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Vine">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 	</item>
 	<item name="Full Season">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 	</item>
 	<item name="Cotyledonary Leaves">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Mid Seed Fill">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<item name="R5">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 	</item>
 	<item name="1st Trifoliate Leaf">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="VC">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Mid Pod Set">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<item name="R3">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Bloom">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 		<item name="V4">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 		<item name="Beginning">
 			<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
@@ -1887,26 +1717,16 @@
 		</item>
 	</item>
 	<item name="Stage IV">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 	</item>
 	<item name="Mid">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<item name="R1">
-			<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-			</section>
 		</item>
 	</item>
 	<item name="VN">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
 	</item>
 	<item name="Phaseolus">
-		<section name="Dry Beans Growth Stages" link="Dry_Beans_Growth_Stages.htm">
-		</section>
 	</item>
 	<item name="Winter Wheat Diagrams">
 		<section name="Winter Wheat Diagrams" link="Winter_Wheat_Diagrams.htm">
@@ -1971,47 +1791,31 @@
 	<item name="Tupper">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Topt">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 		<item name="Toptup">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Tbase">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Optimum Temperature">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 		<item name="Lower Optimum Temperature">
 			<section name="GDD Methods" link="GDD_Methods.htm">
 			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 		<item name="compared">
 			<section name="GDD Methods" link="GDD_Methods.htm">
 			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 		<item name="value">
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Adjusting">
@@ -2025,19 +1829,13 @@
 	<item name="Topt">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Tupper">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Tmax">
 		<section name="GDD Methods" link="GDD_Methods.htm">
-		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 		</section>
 		<section name="Weather/Location Files" link="Weather_Location_Files.htm">
 		</section>
@@ -2049,18 +1847,12 @@
 	<item name="Method 2">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="Lower Optimum Temperature">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Tbase">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 	</item>
@@ -2075,58 +1867,38 @@
 	<item name="Upper Optimum Temperature">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Toptlo">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Toptlo">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Upper Optimum Temperature">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Method 1">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="Value">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Tavg">
 			<section name="GDD Methods" link="GDD_Methods.htm">
 			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 		<item name="Tbase">
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Optimum Temperature">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Tbase">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 	</item>
@@ -2143,8 +1915,6 @@
 		</section>
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Developmental Sequence">
 			<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
 			</section>
@@ -2153,19 +1923,13 @@
 	<item name="Calculating">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="GDD">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Soybean">
 		<section name="GDD Methods" link="GDD_Methods.htm">
-		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 		</section>
 		<section name="Soybean Growth Stages" link="Soybean_Growth_Stages.htm">
 		</section>
@@ -2177,8 +1941,6 @@
 	<item name="Methods">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="GDD Methods Figure">
 		<section name="GDD Methods" link="GDD_Methods.htm">
@@ -2187,19 +1949,13 @@
 	<item name="Toptup">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Tupper">
 			<section name="GDD Methods" link="GDD_Methods.htm">
-			</section>
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Tmin">
 		<section name="GDD Methods" link="GDD_Methods.htm">
-		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
 		</section>
 		<section name="Weather/Location Files" link="Weather_Location_Files.htm">
 		</section>
@@ -2207,11 +1963,7 @@
 	<item name="Tavg">
 		<section name="GDD Methods" link="GDD_Methods.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="value">
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Save Output From Current Run">
@@ -2329,16 +2081,12 @@
 	<item name="Winter Barley">
 		<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
 		</section>
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Developmental Sequence">
 			<section name="Winter Barley Growth Stages" link="Winter_Barley_Growth_Stages.htm">
 			</section>
 		</item>
 	</item>
 	<item name="Dry Beans Diagrams">
-		<section name="Dry Beans Diagrams" link="Dry_Beans_Diagrams.htm">
-		</section>
 	</item>
 	<item name="Maturity R6">
 		<section name="Corn Growth Stages" link="Corn_Growth_Stages.htm">
@@ -2453,8 +2201,6 @@
 		</item>
 	</item>
 	<item name="Hay Millet">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<section name="Hay Millet Growth Stages" link="Hay_Millet_Growth_Stages.htm">
 		</section>
 		<item name="Developmental Sequence">
@@ -2463,50 +2209,28 @@
 		</item>
 	</item>
 	<item name="Used">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Corn">
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Cardinal Temperatures">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="GDD METHOD 4">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="GDD METHOD 3">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="GDD METHOD 2">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="GDD METHOD 1">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="Compared">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="Tbase">
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Maximum">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<section name="Weather/Location Files" link="Weather_Location_Files.htm">
 		</section>
 	</item>
 	<item name="Proso Millet">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<section name="Proso Millet Growth Stages" link="Proso_Millet_Growth_Stages.htm">
 		</section>
 		<item name="Developmental Sequence">
@@ -2515,45 +2239,27 @@
 		</item>
 	</item>
 	<item name="Method 4">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="If Tavg">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="Choose">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<item name="GDD">
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 	</item>
 	<item name="Minimum">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<section name="Weather/Location Files" link="Weather_Location_Files.htm">
 		</section>
 	</item>
 	<item name="WARNING">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="Upper Temperature">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 	</item>
 	<item name="Set Growth Stages">
-		<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-		</section>
 		<section name="Begin Setup" link="Begin_Setup.htm">
 		</section>
 	</item>
 	<item name="Applied">
 		<item name="Winter Wheat">
-			<section name="Cardinal Temperatures" link="Cardinal_Temperatures.htm">
-			</section>
 		</item>
 	</item>
 	<item name="PhenologyMMS 1.4 Flash Screen">

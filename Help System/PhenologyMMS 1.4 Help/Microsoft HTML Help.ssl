@@ -23,7 +23,7 @@
       <element name="m_strAuthoringToolName" value="" />
       <element name="m_strNbiShow" value="" />
       <element name="m_eDefaultTab" value="0" />
-      <element name="SSDefaultTopic" value="Overview\Overview_PhenologyMMS_1.4.htm" />
+      <element name="SSDefaultTopic" value="" />
       <element name="m_dwTOCWindowExStyles" value="256" />
       <element name="m_bTocFolderIcon" value="0" />
       <element name="SSBreadCrumbUseTopicFormat" value="1" />

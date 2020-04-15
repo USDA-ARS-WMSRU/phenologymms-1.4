@@ -4,7 +4,7 @@
       <element name="SSMapFileList" value="" />
       <element name="SSTemplate" value="" />
       <element name="SSTemplateOption" value="0" />
-      <element name="SSDefaultTopic" value="Overview\Overview_PhenologyMMS_1.4.htm" />
+      <element name="SSDefaultTopic" value="" />
       <element name="SSEncodeType" value="" />
       <element name="SSPublishLang" value="" />
       <element name="SSRemoveOrphanTopics" value="0" />
@@ -52,7 +52,7 @@
       <element name="m_strFtsHighlightColor" value="enable,#b2b4bf,#000000" />
       <element name="m_strToolBarIniOrder" value="Contents|Index|FtsSearch|Glossary|WebSearch|Custom1|Custom2|Custom3|FtsInputField|" />
       <element name="m_strCommentSyncRHServer" value="" />
-      <element name="SSDefaultTopic" value="Overview\Overview_PhenologyMMS_1.4.htm" />
+      <element name="SSDefaultTopic" value="" />
       <element name="m_strUpdateXmlLocationWindows" value="" />
       <element name="m_strCommentSyncLocationWindows" value="" />
       <element name="ActiveSkinPathName" value="" />
@@ -138,6 +138,7 @@
       <element name="m_strCompanyDescriptiveText" value="Powered by Adobe RoboHelp" />
       <element name="m_nNavPaneMode" value="1" />
       <element name="PublishingURLColumn" value="200" />
+      <element name="m_bUseInstallerSettings" value="1" />
       <element name="m_bTopicRating" value="1" />
       <element name="m_bCommentsModeration" value="0" />
       <element name="m_strThemePath" value="" />

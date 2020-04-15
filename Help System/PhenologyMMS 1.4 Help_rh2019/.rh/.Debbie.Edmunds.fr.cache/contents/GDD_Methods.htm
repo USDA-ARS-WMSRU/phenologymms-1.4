@@ -1,0 +1,28 @@
+
+GDD Methods
+There are many methods used to calculate growing degree-days (GDD). PhenologyMMS provides four methods, although default parameters for each crop are available for only one specific method. For example, parameters for Method 1 are provided for winter wheat  while parameters for Method 2 for are provided for corn. A description of each of the Methods follows.
+ 
+GDD Method 1 - this is a very common and simple method of calculating GDD. GDD is calculated by summing the daily maximum temperature (Tmax) and the daily minimum temperature (Tmin), dividing that result by two to estimate the daily average temperature (Tavg), and then subtracting the base temperature (Tbase) from Tavg. Tbase is the temperature below which the process of interest does not progress.
+     Tavg = ((Tmax + Tmin)/2)
+     GDD = (Tavg - Tbase)
+     Note: GDD >= 0 (i.e., cannot be negative). If the GDD value is less than zero, it is set equal to 0.0.
+ 
+Method 1 is commonly used for small grains such as wheat, barley and millet.
+ 
+GDD Method 2 - this method is a slight variation of GDD Method 1. The differences are: a) adding an upper temperature threshold (Tupper), which limits the amount of GDD that can be accumulated for the day, and b) adjusting Tmax and Tmin for each day based on the base (Tbase) and upper (Tupper) thresholds as follows. Both Tmax and Tmin are compared to Tbase and if Tmax and/or Tmin is less than Tbase then Tmax and/or Tmin is set equal to Tbase. Likewise, if Tmax and/or Tmin is greater than Tupper, then Tmax and/or Tmin is set equal to Tupper. The average temperature is calculated and Tbase is subtracted from Tavg. If the resulting value is less than zero, then it is set to zero.
+ 
+Method Two is used for Corn, Dry Beans, Sorghum, Soybean, and Sunflower.
+ 
+GDD Method 3 - this method employs a two-segmented linear model. The first segment extends from Tbase to an Optimum Temperature (Topt), and the second segment extends from Topt to Tupper. The Average temperature is calculated and compared to Tbase and Topt. If Tavg is greater than or equal to Tbase and less than or equal to Topt, then a temperature factor (tf), which uses the slope of the first segment of the line, is calculated and multiplied by the value of Tavg minus Tbase. This gives the GDD value for the day. However, if the Tavg is greater than Topt and less than or equal to Tupper, then 'tf', which uses the slope of the second segment of the line, is multiplied by the value of Tavg minus Tbase to give today's GDD value. If neither comparisons are true and Tavg is less than Tbase or greater than Tupper, then the GDD for the day is zero. 
+  
+GDD Method 4 - this method uses a three-segmented linear model. The first segment extends from Tbase to the Lower Optimum Temperature (Toptlo); the second segment from Toptlo to the Upper Optimum Temperature (Toptup); the third segment runs from Toptup to Tupper. The Average temperature (Tavg) is calculated and compared to Tbase and the Lower Optimum Temperature (Toptlo). If Tavg is greater than or equal to Tbase and if Tavg is less than Toptlo, then Tbase is subtracted from Tavg. This value is multiplied by the calculated temperature factor, 'tf' which is calculated using the slope of this first segment of the line to get the GDD value for the day. However, if Tavg is greater than or equal to Toptlo and less than or equal to Toptup, then Tbase is subtracted from Tavg and that value is multiplied by 'tf' which has been calculated using the slope of the second line segment (which is 1). This gives the GDD value for the day. If Tavg is greater than Toptup and less than or equal to Tupper, then 'tf' is calculated using the slope of the third segment of the line and is multiplied by the result of Tavg minus Tbase to yield the GDD value for the day. If none of the situations are true and Tavg is less than Tbase or greater than Tupper, then GDD for the day is set equal to zero.
+ 
+All methods calculate thermal time as described above, however Methods 3 and 4 add another modifier to the thermal time calculation which assumes that not all temperatures between Tbase and the maximum temperature have the same effect on plant development. For example, temperatures at the optimum level (Method 3), or in the optimum range (Method 4) result in faster development than those near Tbase or the maximum temperature. Therefore, the calculated thermal time is then reduced by the 0-1 development rate factor (shown on the y-axis) to calculate the final thermal time for the day. Adding this development rate factor is often considered theoretically more correct, but often in practice for field conditions does not result in significant improvement in accuracy for many reasons. Further, it adds additional parameters for optimum temperature (or range) and uses a simple linear relationship. The figures for Methods 3 and 4 also show a curvilinear relationship for calculating thermal time and the development rate factor, but this approach has not been incorporated into PhenologyMMS.
+ 
+ 
+GDD Methods Figure  (McMaster, G. S. 2009. Development of the wheat plant. page 44.) -
+ 
+                               
+Link to: Temperatures
+
+

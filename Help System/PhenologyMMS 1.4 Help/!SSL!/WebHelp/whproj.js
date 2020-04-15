@@ -68,7 +68,7 @@ function window_OnLoad()
 	if(nPos!=-1)
 		gaProj[0].sPPath=gsName.substring(0,nPos+1);
 	else
-		alert("Error in Loading navigation component. Please regenerate WebHelp.");
+		alert("");
 	patchPath(gaProj);
 	if(parent&&parent!=this&& typeof(parent.putProjectInfo)=="function")
 	{

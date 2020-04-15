@@ -1012,7 +1012,8 @@ public class CNSetGDDFrame extends JFrame {
      *  sets the functionality of the Help button
      */
     void jHelpButton_actionPerformed(ActionEvent e) {
-		if(RoboHelp.openHelpPage("Growth_Stages/Corn_Growth_Stages.htm")) {
+		//if(RoboHelp.openHelpPage("Growth_Stages/Corn_Growth_Stages.htm")) {
+                if(RoboHelp.openHelpPage("Corn_Growth_Stages.htm")) {
 			return;
 		}
 		

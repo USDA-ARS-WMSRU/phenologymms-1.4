@@ -22,7 +22,7 @@
 	</glossentry>
 	<glossentry>
 		<glossterm>Anthesis Ends</glossterm>
-		<glossdef>In Sunflower, this is the 'R5' reproductive stage and is the end of flowering. The ray flowers are wilting in this stage.</glossdef>
+		<glossdef>In all the crops, this is the end of flowering. In Sunflower, this is the 'R5' reproductive stage and is the end of flowering. The ray flowers are wilting in this stage.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>Anthesis Starts</glossterm>
@@ -130,7 +130,7 @@
 	</glossentry>
 	<glossentry>
 		<glossterm>Cotyledonary Leaves</glossterm>
-		<glossdef>Growth stage in Dry Beans when the cotyledons emerge from the soil. It is abbreviated with 'VC'.</glossdef>
+		<glossdef>Growth stage in Dry Beans and Soybeans when the cotyledons emerge from the soil. It is abbreviated with 'VC'.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>Crown</glossterm>
@@ -246,7 +246,7 @@
 	</glossentry>
 	<glossentry>
 		<glossterm>EM</glossterm>
-		<glossdef>Abbreviation for Early Maturity. This is hte same as the 'E' abbreviation.</glossdef>
+		<glossdef>Abbreviation for Early Maturity. This is the same as the 'E' abbreviation.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>Embryo</glossterm>
@@ -326,7 +326,7 @@
 	</glossentry>
 	<glossentry>
 		<glossterm>Flower Brown</glossterm>
-		<glossdef>In Sunflower, this is the 'R8' reproductive growth stage. The back of the head lis yellow but may contain some brown spots.</glossdef>
+		<glossdef>In Sunflower, this is the 'R8' reproductive growth stage. The back of the head is yellow but may contain some brown spots.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>Flower Opens</glossterm>
@@ -762,7 +762,7 @@
 	</glossentry>
 	<glossentry>
 		<glossterm>Phenology Table</glossterm>
-		<glossdef>This is part of the output from the model run and shows the predicted Date or number of Days from a specific event, for example,  'Planting' for each growth stage. The columns Day of Year, Date, DAP, DAE and DAV provide this information. The predicted number of Growing Degree-Days for each stage after a specific event, e.g., 'Emergence' or 'Vernalization' are provided in the columns GDD AP, GDD AE, and GDD AV. The Number of Leaves predicted for each vegetative stage is also displayed in the table. The number of leaves shown in the reproductive stages is the same as that at the last vegetative stage and shows that no new leaves are added in the reproductive stages.</glossdef>
+		<glossdef>This is part of the output from the model run and shows the predicted Date or number of Days from a specific event, for example,  'Planting' for each growth stage. The columns Day of Year, Date, DAP, DAE and DAV provide this information. The predicted number of Growing Degree-Days for each stage after a specific event, e.g., 'Planting',  'Emergence' or 'Vernalization' are provided in the columns GDD AP, GDD AE, and GDD AV. The Number of Leaves predicted for each vegetative stage is also displayed in the table. The number of leaves shown in the reproductive stages is the same as that at the last vegetative stage and shows that no new leaves are added in the reproductive stages.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>PhenologyMMS 1.4</glossterm>
@@ -1094,7 +1094,7 @@
 	</glossentry>
 	<glossentry>
 		<glossterm>Trifoliate Leaf</glossterm>
-		<glossdef>A leaf with three leaflets. Most leaves on a dry bean plant are trifoliate.</glossdef>
+		<glossdef>A leaf with three leaflets. Most leaves on a dry bean or soybean plant are trifoliate.</glossdef>
 	</glossentry>
 	<glossentry>
 		<glossterm>Triticum aestivum L.</glossterm>

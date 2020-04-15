@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <section name="PDF">
+    <element name="TitlePageFileName" value="Chapter__Title_Page.doc"></element>
+    <element name="GlossaryDefinitionStyleName" value="Glossary Definition"></element>
+    <element name="TitlePage" value="Title Page"></element>
+    <element name="TitlePageTitleStyleName" value="Title Page Title"></element>
+    <element name="TocPageTitleStyleName" value="Table of Contents Page Title"></element>
+    <element name="CrossReferencePrefix" value="See"></element>
+    <element name="ChapterFileNamePrefix" value="Chapter_"></element>
+    <element name="GlossaryTermStyleName" value="Glossary Term"></element>
+    <element name="GlossaryHeadingStyleName" value="Glossary Heading"></element>
+    <element name="TableOfContents" value="Table of Contents"></element>
+  </section>
+  <section name="ResponsiveHelp">
+    <element name="Reset" value="Reset"></element>
+    <element name="SearchResultsPerScreen" value="Search results per page"></element>
+    <element name="HomeButton" value="Home"></element>
+    <element name="ApplyTip" value="Apply"></element>
+    <element name="HighlightSearchResults" value="Highlight Search Results"></element>
+    <element name="GlossaryFilterTerms" value="Filter Terms"></element>
+    <element name="EnableAndSearch" value="Display results with all search words"></element>
+    <element name="ShowAll" value="All"></element>
+    <element name="Print" value="Print"></element>
+    <element name="NoScriptErrorMsg" value="Enable JavaScript support in the browser to view this page."></element>
+    <element name="Next" value="Next"></element>
+    <element name="PreviousLabel" value="Previous"></element>
+    <element name="ShowHide" value="Show/Hide"></element>
+    <element name="Canceled" value="Canceled"></element>
+    <element name="Search" value="-Search-"></element>
+    <element name="EndOfResults" value="End of search results."></element>
+    <element name="Loading" value="Loading..."></element>
+    <element name="SidebarToggleTip" value="Expand/Collapse"></element>
+    <element name="ContentFilterChanged" value="Content filter is changed, search again"></element>
+    <element name="Logo" value="Logo"></element>
+    <element name="JS_alert_LoadXmlFailed" value="Failed to load XML file"></element>
+    <element name="SearchTitle" value="Search"></element>
+    <element name="Searching" value="Searching..."></element>
+    <element name="Cancel" value="Cancel"></element>
+    <element name="JS_alert_InitDatabaseFailed" value="Failed to initialize database"></element>
+    <element name="ResultsFoundText" value="%1 result(s) found for %2"></element>
+    <element name="UnknownError" value="Unknown error"></element>
+    <element name="TopicsNotFound" value="No results found"></element>
+    <element name="SearchPageTitle" value="Search Results"></element>
+    <element name="Filter" value="Filter"></element>
+    <element name="HideAll" value="Hide All"></element>
+    <element name="TableOfContents" value="Table of Contents"></element>
+    <element name="NextLabel" value="Next"></element>
+    <element name="Back" value="Back"></element>
+    <element name="SearchOptions" value="Search Options"></element>
+    <element name="ToTopTip" value="Go to top"></element>
+    <element name="NavTip" value="Menu"></element>
+    <element name="IeCompatibilityErrorMsg" value="This page cannot be viewed in Internet Explorer 8 or earlier version."></element>
+    <element name="IndexFilterKewords" value="Filter Keywords"></element>
+    <element name="Prev" value="Previous"></element>
+    <element name="JS_alert_InvalidExpression_1" value="The search string you typed is not valid."></element>
+  </section>
+</configuration>

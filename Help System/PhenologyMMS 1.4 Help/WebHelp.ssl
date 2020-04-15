@@ -2,10 +2,10 @@
 <configuration>
    <section name="Content0">
       <element name="SSEmbeddFontNames" value="" />
-      <element name="SSMapFileList" value="PhenologyMMS13.h:" />
+      <element name="SSMapFileList" value="PhenologyMMS14.h:" />
       <element name="SSTemplate" value="" />
       <element name="SSTemplateOption" value="0" />
-      <element name="SSDefaultTopic" value="Overview\Overview_PhenologyMMS_1.4.htm" />
+      <element name="SSDefaultTopic" value="Overview_PhenologyMMS_1.4.htm" />
       <element name="SSRemoveOrphanTopics" value="0" />
       <element name="SSEncodeType" value="" />
       <element name="SSPublishLang" value="" />
@@ -15,11 +15,11 @@
       <element name="SSCSS" value="" />
       <element name="SSVariableSet" value="" />
       <element name="SSGlossary" value="" />
-      <element name="SSTableOfContent" value="" />
+      <element name="SSTableOfContent" value="PhenologyMMS_1.4.hhc" />
       <element name="SSBrsName" value="" />
       <element name="SSExcludeBaggageFile" value="0" />
       <element name="BuildExpression" value="" />
-      <element name="SSIndex" value="" />
+      <element name="SSIndex" value="PhenologyMMS 1.4 Help.hhk" />
       <element name="name" value="Content" />
    </section>
    <section name="Target:WebHelp">
@@ -33,7 +33,7 @@
       <element name="m_strNbiBrowsePrev" value="" />
       <element name="SSBreadCrumbHomePage" value="Home" />
       <element name="m_bEnableAndSearch" value="0" />
-      <element name="SSFavIconPath" value="" />
+      <element name="SSFavIconPath" value="Phenology.ico" />
       <element name="m_strNptContent" value="Contents" />
       <element name="m_strNavBarFontName" value="Arial" />
       <element name="SSBreadCrumbBgColor" value="" />
@@ -103,7 +103,7 @@
       <element name="SSBreadCrumbLayout" value="0" />
       <element name="FilterName" value="" />
       <element name="SSBrsName" value="" />
-      <element name="SSHelpTitle" value="PhenologyMMS 1.3 Help" />
+      <element name="SSHelpTitle" value="PhenologyMMS 1.4 Help" />
       <element name="m_bNeedSubstrSearch" value="0" />
       <element name="m_bAutoMngFlashCfg" value="1" />
       <element name="SSBreadCrumbLabel" value="" />

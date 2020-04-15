@@ -17,25 +17,42 @@ body {margin:0;}
 <script  src="whmozemu.js" charset="utf-8"></script>
 <script  src="whtbar.js" charset="utf-8"></script>
 
+<script type="text/javascript" language="JavaScript1.2">
+//<![CDATA[
+function printTopic() {
+var topicPane;
+if (top.frames[0].name == "ContentFrame")
+topicPane = top.frames[0].frames[1].frames[1];
+else
+topicPane = top.frames[1].frames[1];
+topicPane.focus();
+var msg = new whMessage(WH_MSG_PRINT, 0, 0);
+                notify(msg);
+}
 
+
+//]]>
+</script>
 </head>
-<body marginheight="0"  marginwidth="0"  bgcolor="#99ccff"     scroll="no">
+<body marginheight="0"  marginwidth="0"  bgcolor="#363f48"    background="background.png"  scroll="no">
 <script language="javascript1.2">
 <!--
 if (window.gbWhTBar)
 {
-	setButtonFont("toc","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
-setButtonFont("toc","Microsoft Sans Serif","8pt","White","Normal","Normal","none", true);
-setButtonFont("idx","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
-setButtonFont("idx","Microsoft Sans Serif","8pt","White","Normal","Normal","none", true);
-setButtonFont("fts","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
-setButtonFont("fts","Microsoft Sans Serif","8pt","White","Normal","Normal","none", true);
-setButtonFont("glo","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
-setButtonFont("glo","Microsoft Sans Serif","8pt","White","Normal","Normal","none", true);
-setButtonFont("searchform","Microsoft Sans Serif","8pt","Black","Normal","Normal","none");
+	setButtonFont("toc","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("toc","Arial","11pt","White","Normal","Normal","none", true);
+setButtonFont("idx","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("idx","Arial","11pt","White","Normal","Normal","none", true);
+setButtonFont("fts","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("fts","Arial","11pt","White","Normal","Normal","none", true);
+setButtonFont("glo","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("glo","Arial","11pt","White","Normal","Normal","none", true);
+setButtonFont("searchform","Arial","11pt","#a7abaf","Normal","Normal","none");
 setButtonFont("searchform","","","","","","", true);
 setButtonFont("banner","","","","","","");
 setButtonFont("banner","","","","","","", true);
+setButtonFont("custom15160","Arial","11pt","#a7abaf","Normal","Normal","none");
+setButtonFont("custom15160","Arial","11pt","White","Normal","Normal","none", true);
 
 	gsIToc = "wht_toc_n.gif";
 	gsITocS = "wht_toc_h.gif";
@@ -49,10 +66,10 @@ setButtonFont("banner","","","","","","", true);
 	gsIWebSearchD = "wht_ws_g.gif";
 	gsIBanner = "wht_logo1.gif";
 	gsIGo = "wht_go.gif";
-	setBackgroundcolor("#99ccff");
-	
+	setBackgroundcolor("#363f48");
+	setBackground("background.png");
 	setAlignment("left");
-	
+	setGoImage("search-input-go.png");
 	
 	if (!gsBgImage)
 	{
@@ -64,26 +81,29 @@ setButtonFont("banner","","","","","","", true);
 	setButtonBgColor("idx", gsTBSelectedBgColor, true);
 	setButtonBgColor("fts", gsTBSelectedBgColor, true);
 	setButtonBgColor("glo", gsTBSelectedBgColor, true);
-	setButtonBgColor("toc","#99ccff");
-setButtonBgColor("idx","#99ccff");
-setButtonBgColor("fts","#99ccff");
-setButtonBgColor("glo","#99ccff");
+	setButtonBgColor("toc","#363f48");
+setButtonBgColor("idx","#363f48");
+setButtonBgColor("fts","#363f48");
+setButtonBgColor("glo","#363f48");
 setButtonBgColor("searchform","");
 setButtonBgColor("banner","");
+setButtonBgColor("custom15160","#363f48");
 
 	}
-	setButtonBgColor("toc","#639ace", true);
-setButtonBgColor("idx","#639ace", true);
-setButtonBgColor("fts","#639ace", true);
-setButtonBgColor("glo","#639ace", true);
+	setButtonBgColor("toc","#363f48", true);
+setButtonBgColor("idx","#363f48", true);
+setButtonBgColor("fts","#363f48", true);
+setButtonBgColor("glo","#363f48", true);
 setButtonBgColor("searchform","", true);
 setButtonBgColor("banner","", true);
+setButtonBgColor("custom15160","#363f48", true);
 
-	addButton("toc",BTN_TEXT|BTN_IMG,"Contents","","","","",0,0,"","","","","","");
-addButton("idx",BTN_TEXT|BTN_IMG,"Index","","","","",0,0,"","","","","","");
-addButton("fts",BTN_TEXT|BTN_IMG,"Search","","","","",0,0,"","","","","","");
-addButton("glo",BTN_TEXT|BTN_IMG,"Glossary","","","","",0,0,"","","","","","");
+	addButton("toc",BTN_TEXT|BTN_IMG,"Contents","","","","",0,0,"contents-unselected.png","contents-selected.png","","contents-selected.png","","");
+addButton("idx",BTN_TEXT|BTN_IMG,"Index","","","","",0,0,"index-unselected.png","index-selected.png","","index-selected.png","","");
+addButton("fts",BTN_TEXT|BTN_IMG,"Search","","","","",0,0,"search-unselected.png","search-selected.png","","search-selected.png","","");
+addButton("glo",BTN_TEXT|BTN_IMG,"Glossary","","","","",0,0,"glossary-unselected.png","glossary-selected.png","","glossary-selected.png","","");
 addButton("searchform",BTN_TEXT,"","","","","",0,0,"","","","","","");
+addButton("custom15160",BTN_TEXT|BTN_IMG,"Print","","printTopic();","","",0,0,"print-unselected.png","print-selected.png","","print-selected.png","","");
 
 	addButton("blankblock");
 	writeStyle(false);

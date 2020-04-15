@@ -3,7 +3,7 @@ var gaHSLoad=new Array();
 var gnMinIdx=0;
 var gnInsIdx=-1;
 var gsLoadingDivID="LoadingDiv";
-var gsLoadingMsg="Loading, click here to cancel...";
+var gsLoadingMsg="";
 var gsPageDir="ltr"
 var gaProj=null;
 var gaTocs=new Array();
@@ -278,7 +278,7 @@ function writeBook(nIdx)
 				sHTML+="markBook("+nIdx+");insertBookItems("+nIdx+", "+getItemContentsNum(nIdx);
 			else
 				sHTML+="insertBookItems("+nIdx+", "+getItemContentsNum(nIdx);
-			sHTML+=");return false;\" title=\""+sName+"\"><img alt=\"Book\" name=\""+getBId(nIdx)+"\" src=\""+sIcon+"\" border=0 align=\"absmiddle\">";
+			sHTML+=");return false;\" title=\""+sName+"\"><img alt=\"\" name=\""+getBId(nIdx)+"\" src=\""+sIcon+"\" border=0 align=\"absmiddle\">";
 			sHTML+="&nbsp;"+sName+"</a></nobr></p></div>";
 			if(sURL!="")
 				addBookItem(getBookId(nIdx),_textToHtml_nonbsp(getTopicTarget(nIdx)),sURL);
@@ -433,9 +433,9 @@ function writeAnItem(nIdx)
 	var sHTML="<p><nobr><a id=\""+getItemId(nIdx)+"\" onfocus =\"markItem("+nIdx+");\" onclick=\"markItem("+nIdx+");\""
 	var sAltString="";
 	if(nItemType&2)
-		sAltString="Page";
+		sAltString="";
 	else
-		sAltString="Remote Page";
+		sAltString="";
 	if(sTarget!="")
 		sHTML+="target=\""+sTarget+"\" ";
 	sHTML+="href=\""+_textToHtml_nonbsp(getItemURL(nIdx))+"\" title=\""+sName+"\"><img alt=\""+sAltString+"\" src=\""+sIcon+"\" border=0 align=\"absmiddle\">&nbsp;"+sName+"</a></nobr></p>";

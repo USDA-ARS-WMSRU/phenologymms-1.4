@@ -2,10 +2,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="search-keywords" content="weather precipitation temperature solar_radiation soil_temperature calendar_year day_of_year DOY precip Tmax Tmin Soalr_Rad Year convert_units missing_data interpolation 999.9 station NCDC NOAA" />
+<meta name="search-keywords" content="Weather, Location, Temperature, Radiation, Precip, Units, Missing Data" />
 <meta name="generator" content="Adobe RoboHelp 2015" />
 <title>Weather/Location Files</title>
-<link rel="StyleSheet" href="../default.css" type="text/css" />
  <link rel="StyleSheet" href="../default.css" type="text/css" />
 <script type="text/javascript" language="JavaScript">
 //<![CDATA[
@@ -38,7 +37,6 @@ visibility:hidden; }
 <script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
 
 </head>
-
 <body><script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--
 if (window.gbWhTopic)
@@ -54,8 +52,7 @@ if (window.gbWhTopic)
 
 	if (window.addTocInfo)
 	{
-	addTocInfo("Setup\nWeather/Location Files");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
 
 	}
 	if (window.writeBtnStyle)
@@ -66,8 +63,8 @@ addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
 
 	
 	document.write("<p style=\"text-align:right\"> ");
-AddMasterBreadcrumbs("../PhenologyMMS_1.3_Help.htm", "", ">", "Home", "../Overview/Overview_of_PhenologyMMS_1.3.htm");
-document.write("<a href=\"Begin_Setup.htm\">Setup<\/a> > Weather/Location Files<\/p>");
+AddMasterBreadcrumbs("../PhenologyMMS_1.3_Help.htm", "", ">", "Home", "../Overview_PhenologyMMS_1.4.htm");
+document.write("Weather/Location Files<\/p>");
 
 }
 else
@@ -101,206 +98,81 @@ function onSetStartPage()
 <script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
 
 
-<h1><a name="Weather_Location_Files"></a>Weather/Location Files</h1>
-<p class="msolistparagraphcxspfirst" style="text-indent: -0.25in;">A.A. 
- &#160;&#160;&#160;The Structure of a <a href="javascript:TextPopup(this)" id="HotSpot34860" class="glossterm">Weather 
- File</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot34860', 'POPUP34860');
-//]]></script><span class="glosstext" id="POPUP34860" style="display: none;"> Many files are included with PhenologyMMS that contain weather data for specific locations. The number of years included in the files varies among locations. At the least, maximum and minimum daily temperatures and daily precipitation are required in a weather file but, other measurements may also be included.</span> – A <a href="javascript:TextPopup(this)" id="HotSpot43939" class="glossterm">location weather 
- file</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot43939', 'POPUP43939');
-//]]></script><span class="glosstext" id="POPUP43939" style="display: none;"> The weather file that is provided for each of the locations simulated in PhenologyMMS.</span> contains data for a specific number of years/days 
- and includes at the least, precipitation and temperature data. PhenologyMMS 
- can <a href="javascript:TextPopup(this)" id="HotSpot3170" class="glossterm">run</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot3170', 'POPUP3170');
-//]]></script><span class="glosstext" id="POPUP3170" style="display: none;"> The execution of the scenario set up in PhenologyMMS.</span> with just these 
- two weather variables. Additional climate <a href="javascript:TextPopup(this)" id="HotSpot37571" class="glossterm">inputs</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot37571', 'POPUP37571');
-//]]></script><span class="glosstext" id="POPUP37571" style="display: none;"> Information that is provided to the model via input screens or files that are read in by the code in order to run the model simulation.</span> 
- may be included in the file, if available.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">1. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Precipitation 
- (precip) – This is the daily precipitation for each day of the weather 
- record. Depending on the location, many days will be 0.0. The units are 
- in mm. 25.4 mm = 1 inch.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">2. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Temperature 
- -</p>
-<p class="msolistparagraphcxspmiddle" style="margin-left: 256px; text-indent: -1.5in;">a. 
- &#160;&#160;&#160;<a href="javascript:TextPopup(this)" id="HotSpot54261" class="glossterm">Maximum Temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot54261', 'POPUP54261');
-//]]></script><span class="glosstext" id="POPUP54261" style="display: none;"> The highest daily temperature for a given day. This is abbreviated as Tmax.</span> 
- (<a href="javascript:TextPopup(this)" id="HotSpot56334" class="glossterm">Tmax</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot56334', 'POPUP56334');
-//]]></script><span class="glosstext" id="POPUP56334" style="display: none;"> Maximum temperature as in the maximum daily temperature.</span>) – This is the 
- day’s recorded maximum temperature. It is provided in °C.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -1.5in; margin-left: 256px;"><span 
-	 style="text-indent: -1.5in;">b. &#160;&#160;&#160;<a href="javascript:TextPopup(this)" id="HotSpot31709" class="glossterm">Minimum 
- Temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot31709', 'POPUP31709');
-//]]></script><span class="glosstext" id="POPUP31709" style="display: none;"> The lowest daily temperature for a given day. This is abbreviated as Tmin.</span> (<a href="javascript:TextPopup(this)" id="HotSpot28725" class="glossterm">Tmin</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot28725', 'POPUP28725');
-//]]></script><span class="glosstext" id="POPUP28725" style="display: none;"> Minimum temperature as in the minimum daily temperature.</span>) 
- – This is the day’s recorded minimum temperature. It is provided in °C.</span></p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">3. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Solar 
- Radiation (<a href="javascript:TextPopup(this)" id="HotSpot47826" class="glossterm">Solar Rad</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot47826', 'POPUP47826');
-//]]></script><span class="glosstext" id="POPUP47826" style="display: none;"> Abbreviation for Solar Radiation. It is the name of the column for solar radiation in the weather files.</span>) 
- – This is the light and energy that comes from the sun, i.e. sunlight. 
- The required units for PhenologyMMS are m<span class="spelle">egajoules</span>/meter² 
- (MJ/m²).</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">4. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Soil 
- temperature at 5 cm – This is the maximum soil temperature at 5 cm.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">5. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Calendar 
- Year – This is simply the calendar year of the data, e.g., 2004; not the 
- number of the year of the data in the data file at a point in time, i.e. 
- 1, 2, 3, etc.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">6. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Day 
- of Year – The day in the year of observation, e.g. 150, that corresponds 
- to the date, May 30, in a non-leap year.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 96px;">7. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Additional 
- columns are included in the supplied weather files as these are also used 
- for another model which requires these columns. These are for the day, 
- month and year. This year is not the &#160;calendar year; it is the number 
- of the year in the sequence of years within the weather file.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in;">B. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;</span></p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in;">&#160;&#160;&#160;B. 
- &#160;&#160;&#160;How to Add a Weather File.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">1. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Construct 
- the weather file with the following order of data columns:</p>
-<p class="msolistparagraphcxspmiddle" style="margin-left: 1.5in; text-indent: -9pt;">a.&#160;Day 
- – 1 to 28, 29, 30 or 31, whichever is appropriate for the month and year.</p>
-<p class="msolistparagraphcxspmiddle" style="margin-left: 1.5in; text-indent: -9pt;">b. 
- Month – 1 to 12</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">c.&#160;Year 
- – year within the weather file sequence of years; 1, 2, 3, <span class="grame">… 
- .</span></p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;"><span 
-	 class="grame">d.</span> Precip – daily amount of rainfall in mm.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">e. 
- Tmax – Maximum daily temperature in °C.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">f. 
- Tmin – Minimum daily temperature in °C.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">g. 
- Solar Rad – sunlight in MJ/m². MJ = <a href="javascript:TextPopup(this)" id="HotSpot53126" class="glossterm">megajoules</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot53126', 'POPUP53126');
-//]]></script><span class="glosstext" id="POPUP53126" style="display: none;"> &quot;The megajoule (MJ) is equal to one million (106) joules, or approximately the kinetic energy of a one megagram (tonne) vehicle moving at 160 km/h&quot;. Wikipedia</span>.</p>
-<p class="msolistparagraphcxspmiddle" style="margin-left: 1.5in; text-indent: -9pt;">h. 
- Year – calendar year, e.g., 2004.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;"><span 
-	 style="text-indent: -9pt;">i.</span> <span style="text-indent: -9pt;">&#160;<a href="javascript:TextPopup(this)" id="HotSpot44382" class="glossterm">DOY</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot44382', 'POPUP44382');
-//]]></script><span class="glosstext" id="POPUP44382" style="display: none;"> Abbreviation for 'Day of Year' and refers to the numerical day in the calendar year (1 - 366).</span> – <a href="javascript:TextPopup(this)" id="HotSpot23845" class="glossterm">Day 
- of year</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot23845', 'POPUP23845');
-//]]></script><span class="glosstext" id="POPUP23845" style="display: none;"> The numerical day of the calendar year (1 - 366).</span>, i.e., the sequentially numbered day from Jan. 
- 1 to the day of the date of interest.</span></p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">j. 
- &#160;<span class="spelle">SoilTemp</span> – the day’s maximum soil temperature 
- at 5 cm depth in °C.</p>
-<p class="msolistparagraphcxspmiddle" style="margin-left: 1in; text-indent: -0.25in;">2. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Unit 
- Conversions:</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 136px;"><span 
-	 style="text-indent: -0.25in;">&#160;&#160;&#160;&#160;a .To convert 
- between units of precipitation:</span></p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span 
-	 style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;i. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;1 
- cm = 10 mm; 1 inch (in) = 25.4 mm</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span 
-	 style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;ii. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;cm 
- * 10 = mm; in * 25.4 = mm</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span 
-	 style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;iii. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Trace 
- amount of precip = 0.01 in = 0.254 mm</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">b. 
- To convert between <a href="javascript:TextPopup(this)" id="HotSpot12299" class="glossterm">Fahrenheit</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot12299', 'POPUP12299');
-//]]></script><span class="glosstext" id="POPUP12299" style="display: none;"> &quot;Of or relating to a temperature scale that registers the freezing point of water as 32° and the boiling point as 212° at one atmosphere of pressure. &quot; The Free Dictionary. It is symbolized by °F and is equal to (F-32)*(5/9) °C.</span> 
- (°F) and <a href="javascript:TextPopup(this)" id="HotSpot27694" class="glossterm">Celsius</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot27694', 'POPUP27694');
-//]]></script><span class="glosstext" id="POPUP27694" style="display: none;"> A measurement of temperature in the metric system. The freezing point is 0 and the boiling point is 100. To convert °C to °F use this equation: °C = 5/9(°F − 32)</span> (°C):</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span 
-	 style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;i. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;°C 
- = (°F – 32) * 5/9</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span 
-	 style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;ii. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;°F 
- = (9/5 * °C) + 32</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">c. 
- To convert between MJ/m² and Langley’s/day</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span 
-	 style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;i. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;1 
- MJ/m² = 23.895 Langley’s/day</p>
-<p class="msolistparagraphcxsplast" style="text-indent: -2in; margin-left: 2in;"><span 
-	 style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;ii. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Example:&#160;&#160;50 
- MJ/ m² = 50 * 23.895 = 1194.8 Langley’s/day.</p>
-<p class="msonormal" style="margin-left: 1.75in;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;350 
- Langley’s/day = 350/23.895 = 14.6 MJ/m²</p>
-<p class="msolistparagraphcxspfirst" style="text-indent: -9pt; margin-left: 1.5in;">d. 
- Fill the spreadsheet with data. Even though there are columns in the file 
- not needed by PhenologyMMS, they are read in but not used and therefore, 
- these columns must be present in the file.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">3. 
- <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;How 
- to Handle Missing Data</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">a.&#160;Very 
- often data are missing in the weather record. If the number of consecutive 
- days is not too large, data can be interpolated to fill in data that are 
- missing for temperature and <a href="javascript:TextPopup(this)" id="HotSpot40647" class="glossterm">solar radiation</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot40647', 'POPUP40647');
-//]]></script><span class="glosstext" id="POPUP40647" style="display: none;"> &quot;Radiant energy emitted by the sun, particularly electromagnetic energy&quot;. ScienceDaily</span>.&#160;&#160;Precip 
- is much harder to fill in.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">b.&#160;To 
- fill in by <a href="javascript:TextPopup(this)" id="HotSpot45867" class="glossterm">interpolation</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot45867', 'POPUP45867');
-//]]></script><span class="glosstext" id="POPUP45867" style="display: none;"> &quot;A method of constructing new data points within the range of a discrete set of known data points.&quot;, Wikipedia</span> 
- find the difference between the day before and the day after the missing 
- block of data. Then divide that amount by the number of missing days plus 
- 1. Depending on whether the values are increasing or decreasing as observed 
- from the day before and the day after the missing days, add or subtract 
- the calculated value from the day before the missing block of data. Then 
- using that value add or subtract the calculated value to be added (or 
- subtracted) to/from the previous filled in day and so on throughout the 
- missing block of data. The number of days of missing data that can be 
- filled in by this method should not be a large amount. You may want to 
- determine how many days can be filled in but it should not be larger than 
- 30 days and less is probably better. For larger blocks of data it is better 
- to enter 999.9 for those missing data or try to get data from a nearby 
- weather station.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">c.&#160;Precip 
- is a difficult climate variable to estimate because it doesn’t rain daily 
- as temperature always has a daily value. Also, the amount of precip when 
- it does occur can be quite variable.&#160;&#160;Generally, we simply enter 
- 999.9 to indicate a missing value.</p>
-<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">d.&#160;Another 
- possible way to fill in missing Precip values is to find a weather station 
- close by to the area of interest and fill in with data from that station, 
- if data are available for those dates.</p>
-<p class="msolistparagraphcxsplast" style="text-indent: -9pt; margin-left: 1.5in;">e.&#160;A 
- good source of weather data can be found at the <a href="../References_and_Documents/References_and_Documents.htm#NCDC_weather_data_access">NCDC</a> 
- (National Climate Data Center) at the NOAA (National Oceanic and Atmospheric 
- Administration) website. <a href="http://www.ncdc.noaa.gov/cdo-web/search#t=secondTabLink">http://www.ncdc.noaa.gov/cdo-web/search#t=secondTabLink</a> . These 
- data are free unless you require them to be certified. (This is usually 
- required when a court has subpoenaed climatic records.) You can select 
- the climate items you want and the period of time for which you want data 
- however, there are often a limited number of climate variables included. 
- Usually, there are more than one climate station and one may be able to 
- piece together a good weather record from one or more stations for <span 
-	 class="grame">the location</span> in question.</p>
+<h1>Weather/Location Files</h1>
+<p class="msolistparagraphcxspfirst" style="text-indent: -0.25in;">A. &#160;&#160;&#160;The Structure of a <a href="javascript:TextPopup(this)" id="HotSpot21039" class="glossterm">Weather File</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot21039', 'POPUP21039');
+//]]></script><span class="glosstext" id="POPUP21039" style="display: none;"> Many files are included with PhenologyMMS that contain weather data for specific locations. The number of years included in the files varies among locations. At the least, maximum and minimum daily temperatures and daily precipitation are required in a weather file but, other measurements may also be included.</span> – A <a href="javascript:TextPopup(this)" id="HotSpot16237" class="glossterm">location weather file</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot16237', 'POPUP16237');
+//]]></script><span class="glosstext" id="POPUP16237" style="display: none;"> The weather file that is provided for each of the locations simulated in PhenologyMMS.</span> contains data for a specific number of years/days and includes at the least, precipitation and temperature data. PhenologyMMS can <a href="javascript:TextPopup(this)" id="HotSpot7052" class="glossterm">run</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot7052', 'POPUP7052');
+//]]></script><span class="glosstext" id="POPUP7052" style="display: none;"> The execution of the scenario set up in PhenologyMMS.</span> with just these two weather variables. Additional climate <a href="javascript:TextPopup(this)" id="HotSpot32777" class="glossterm">inputs</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot32777', 'POPUP32777');
+//]]></script><span class="glosstext" id="POPUP32777" style="display: none;"> Information that is provided to the model via input screens or files that are read in by the code in order to run the model simulation.</span> may be included in the file, if available.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">1. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Precipitation (precip) – This is the daily precipitation for each day of the weather record. Depending on the location, many days will be 0.0. The units are in mm. 25.4 mm = 1 inch.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">2. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Temperature -</p>
+<p class="msolistparagraphcxspmiddle" style="margin-left: 256px; text-indent: -1.5in;">a. &#160;&#160;&#160;<a href="javascript:TextPopup(this)" id="HotSpot28823" class="glossterm">Maximum Temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot28823', 'POPUP28823');
+//]]></script><span class="glosstext" id="POPUP28823" style="display: none;"> The highest daily temperature for a given day. This is abbreviated as Tmax.</span> (<a href="javascript:TextPopup(this)" id="HotSpot31984" class="glossterm">Tmax</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot31984', 'POPUP31984');
+//]]></script><span class="glosstext" id="POPUP31984" style="display: none;"> Maximum temperature as in the maximum daily temperature.</span>) – This is the day’s recorded maximum temperature. It is provided in °C.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -1.5in; margin-left: 256px;"><span style="text-indent: -1.5in;">b. &#160;&#160;&#160;<a href="javascript:TextPopup(this)" id="HotSpot15187" class="glossterm">Minimum Temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot15187', 'POPUP15187');
+//]]></script><span class="glosstext" id="POPUP15187" style="display: none;"> The lowest daily temperature for a given day. This is abbreviated as Tmin.</span> (<a href="javascript:TextPopup(this)" id="HotSpot15349" class="glossterm">Tmin</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot15349', 'POPUP15349');
+//]]></script><span class="glosstext" id="POPUP15349" style="display: none;"> Minimum temperature as in the minimum daily temperature.</span>) – This is the day’s recorded minimum temperature. It is provided in °C.</span></p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">3. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Solar Radiation (<a href="javascript:TextPopup(this)" id="HotSpot33725" class="glossterm">Solar Rad</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot33725', 'POPUP33725');
+//]]></script><span class="glosstext" id="POPUP33725" style="display: none;"> Abbreviation for Solar Radiation. It is the name of the column for solar radiation in the weather files.</span>) – This is the light and energy that comes from the sun, i.e. sunlight. The required units for PhenologyMMS are m<span class="spelle">egajoules</span>/meter² (MJ/m²).</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">4. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Soil temperature at 5 cm – This is the maximum soil temperature at 5 cm.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">5. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Calendar Year – This is simply the calendar year of the data, e.g., 2004; not the number of the year of the data in the data file at a point in time, i.e. 1, 2, 3, etc.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">6. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Day of Year – The day in the year of observation, e.g. 150, that corresponds to the date, May 30, in a non-leap year.</p>
+<p class="msolistparagraphcxspmiddle" style="margin-left: 96px; text-indent: -0.25in;">7. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Additional columns are included in the supplied weather files as these are also used for another model which requires these columns. These are for the day, month and year. This year is not the &#160;calendar year; it is the number of the year in the sequence of years within the weather file.</p>
+<p class="msolistparagraphcxspmiddle" style="margin-left: 96px; text-indent: -0.25in;"><span style="font: '7pt/normal' 'Times New Roman'; text-indent: -0.25in;">&#160;&#160;&#160;&#160;</span></p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in;">&#160;&#160;&#160;&#160;&#160;B. &#160;&#160;&#160;How to Add a Weather File.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">1. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Construct the weather file with the following order of data columns:</p>
+<p class="msolistparagraphcxspmiddle" style="margin-left: 1.5in; text-indent: -9pt;">a.&#160;Day – 1 to 28, 29, 30 or 31, whichever is appropriate for the month and year.</p>
+<p class="msolistparagraphcxspmiddle" style="margin-left: 1.5in; text-indent: -9pt;">b. Month – 1 to 12</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">c.&#160;Year – year within the weather file sequence of years; 1, 2, 3, <span class="grame">… .</span></p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;"><span class="grame">d.</span> Precip – daily amount of rainfall in mm.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">e. Tmax – Maximum daily temperature in °C.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">f. Tmin – Minimum daily temperature in °C.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">g. Solar Rad – sunlight in MJ/m². MJ = <a href="javascript:TextPopup(this)" id="HotSpot42438" class="glossterm">megajoules</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot42438', 'POPUP42438');
+//]]></script><span class="glosstext" id="POPUP42438" style="display: none;"> &quot;The megajoule (MJ) is equal to one million (106) joules, or approximately the kinetic energy of a one megagram (tonne) vehicle moving at 160 km/h&quot;. Wikipedia</span>.</p>
+<p class="msolistparagraphcxspmiddle" style="margin-left: 1.5in; text-indent: -9pt;">h. Year – calendar year, e.g., 2004.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;"><span style="text-indent: -9pt;">i.</span> <span style="text-indent: -9pt;">&#160;<a href="javascript:TextPopup(this)" id="HotSpot32088" class="glossterm">DOY</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot32088', 'POPUP32088');
+//]]></script><span class="glosstext" id="POPUP32088" style="display: none;"> Abbreviation for 'Day of Year' and refers to the numerical day in the calendar year (1 - 366).</span> – <a href="javascript:TextPopup(this)" id="HotSpot34672" class="glossterm">Day of year</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot34672', 'POPUP34672');
+//]]></script><span class="glosstext" id="POPUP34672" style="display: none;"> The numerical day of the calendar year (1 - 366).</span>, i.e., the sequentially numbered day from Jan. 1 to the day of the date of interest.</span></p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">j. &#160;<span class="spelle">SoilTemp</span> – the day’s maximum soil temperature at 5 cm depth in °C.</p>
+<p class="msolistparagraphcxspmiddle" style="margin-left: 1in; text-indent: -0.25in;">2. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;Unit Conversions:</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 136px;"><span style="text-indent: -0.25in;">&#160;&#160;&#160;&#160;a .To convert between units of precipitation:</span></p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;i. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;1 cm = 10 mm; 1 inch (in) = 25.4 mm</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;ii. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;cm * 10 = mm; in * 25.4 = mm</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;iii. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Trace amount of precip = 0.01 in = 0.254 mm</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">b. To convert between <a href="javascript:TextPopup(this)" id="HotSpot50733" class="glossterm">Fahrenheit</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot50733', 'POPUP50733');
+//]]></script><span class="glosstext" id="POPUP50733" style="display: none;"> &quot;Of or relating to a temperature scale that registers the freezing point of water as 32° and the boiling point as 212° at one atmosphere of pressure. &quot; The Free Dictionary. It is symbolized by °F and is equal to (9/5*°C) +32.</span> (°F) and <a href="javascript:TextPopup(this)" id="HotSpot36166" class="glossterm">Celsius</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot36166', 'POPUP36166');
+//]]></script><span class="glosstext" id="POPUP36166" style="display: none;"> A measurement of temperature in the metric system. The freezing point is 0 and the boiling point is 100. It is symbolized by °C and is equal to (°F − 32) * 5/9.</span> (°C):</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;i. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;°C = (°F – 32) * 5/9</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;ii. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;°F = (9/5 * °C) + 32</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">c. To convert between MJ/m² and Langley’s/day</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -2in; margin-left: 2in;"><span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;i. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;1 MJ/m² = 23.895 Langley’s/day</p>
+<p class="msolistparagraphcxsplast" style="text-indent: -2in; margin-left: 2in;"><span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;ii. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>&#160;Example:&#160;&#160;50 MJ/ m² = 50 * 23.895 = 1194.8 Langley’s/day.</p>
+<p class="msonormal" style="margin-left: 1.75in;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;350 Langley’s/day = 350/23.895 = 14.6 MJ/m²</p>
+<p class="msolistparagraphcxspfirst" style="text-indent: -9pt; margin-left: 1.5in;">d. Fill the spreadsheet with data. Even though there are columns in the file not needed by PhenologyMMS, they are read in but not used and therefore, these columns must be present in the file.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -0.25in; margin-left: 1in;">3. <span style="font: '7pt/normal' 'Times New Roman';">&#160;&#160;&#160;&#160;&#160;</span>&#160;How to Handle Missing Data</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">a.&#160;Very often data are missing in the weather record. If the number of consecutive days is not too large, data can be interpolated to fill in data that are missing for temperature and <a href="javascript:TextPopup(this)" id="HotSpot51728" class="glossterm">solar radiation</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot51728', 'POPUP51728');
+//]]></script><span class="glosstext" id="POPUP51728" style="display: none;"> &quot;Radiant energy emitted by the sun, particularly electromagnetic energy&quot;. ScienceDaily</span>.&#160;&#160;Precip is much harder to fill in.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">b.&#160;To fill in by <a href="javascript:TextPopup(this)" id="HotSpot14977" class="glossterm">interpolation</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot14977', 'POPUP14977');
+//]]></script><span class="glosstext" id="POPUP14977" style="display: none;"> &quot;A method of constructing new data points within the range of a discrete set of known data points.&quot;, Wikipedia</span> find the difference between the day before and the day after the missing block of data. Then divide that amount by the number of missing days plus 1. Depending on whether the values are increasing or decreasing as observed from the day before and the day after the missing days, add or subtract the calculated value from the day before the missing block of data. Then using that value add or subtract the calculated value to be added (or subtracted) to/from the previous filled in day and so on throughout the missing block of data. The number of days of missing data that can be filled in by this method should not be a large amount. You may want to determine how many days can be filled in but it should not be larger than 30 days and less is probably better. For larger blocks of data it is better to enter 999.9 for those missing data or try to get data from a nearby weather station.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">c.&#160;Precip is a difficult climate variable to estimate because it doesn’t rain daily as temperature always has a daily value. Also, the amount of precip when it does occur can be quite variable.&#160;&#160;Generally, we simply enter 999.9 to indicate a missing value.</p>
+<p class="msolistparagraphcxspmiddle" style="text-indent: -9pt; margin-left: 1.5in;">d.&#160;Another possible way to fill in missing Precip values is to find a weather station close by to the area of interest and fill in with data from that station, if data are available for those dates.</p>
+<p class="msolistparagraphcxsplast" style="text-indent: -9pt; margin-left: 1.5in;">e.&#160;A good source of weather data can be found at the <a href="../../../PhenologyMMS-1.3/Help System/PhenologyMMS 1.3 Help/References_and_Documents/References_and_Documents.htm#NCDC_weather_data_access">NCDC</a> (National Climate Data Center) at the NOAA (National Oceanic and Atmospheric Administration) website. <a href="http://www.ncdc.noaa.gov/cdo-web/search#t=secondTabLink">http://www.ncdc.noaa.gov/cdo-web/search#t=secondTabLink</a> . These data are free unless you require them to be certified. (This is usually required when a court has subpoenaed climatic records.) You can select the climate items you want and the period of time for which you want data however, there are often a limited number of climate variables included. Usually, there are more than one climate station and one may be able to piece together a good weather record from one or more stations for <span class="grame">the location</span> in question.</p>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--
 if (window.writeIntopicBar)

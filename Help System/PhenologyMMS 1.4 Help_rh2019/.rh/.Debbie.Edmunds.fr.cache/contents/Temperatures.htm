@@ -1,0 +1,61 @@
+
+Temperatures
+It is strongly recommended that the information in this screen not be changed as changing these values will negatively influence the program. They are presented here for information purposes only.
+ 
+The ‘Temperatures’ screen presents important temperature and temperature-related input values.
+ 
+
+ 
+Four temperature inputs are displayed that are used in calculating the growing degree-days (GDD) for each day as described in each GDD method below:
+ 
+The Base temperature (Tbase) is the temperature below which no GDD are accumulated. The assumption is that phenological development does not occur below the base temperature, and therefore no GDD's are accumulated on that day. Tbase is used in all methods of calculating GDD (discussed below).
+ 
+The Lower Optimum temperature (Toptlo) is the lower end of the optimum temperature range for growth. This is used only in Method 4 and currently is not implemented for any of the crops in PhenologyMMS 1.4.
+ 
+The Upper Optimum temperature (Toptup) is the upper end of the optimum temperature range for growth. This is used only in Method 4 and currently is not implemented for any of the crops in PhenologyMMS 1.4.
+ 
+The Upper/Maximum temperature (Tupper) is the highest temperature at which growth can still occur. This is used in Methods 2, 3 and 4 but only Method 2 is implemented for any of the current crops in PhenologyMMS 1.4.
+ 
+There are many ways that the GDD required between phenological stages can be calculated. Four commonly used methods are available in PhenologyMMS however, only two methods are currently implemented.  Although these four methods are fairly similar, they have slight variations in approach and the temperature variables used.
+ 
+WARNING: If you change the temperature values or the GDD Method in the Temperature screen, this will have an adverse effect on the simulation output as the parameter values in the Set Growth Stages screen which are based on the particular Method of calculating GDD for the crop, are NOT adjusted when temperatures or the GDD Method are changed.
+ 
+The four GDD METHODS used are described below. For additional information, refer to: McMaster, G. S. 2009; McMaster, G. S. (2005); McMaster, G. S. and W. W. Wilhelm (1997); and McMaster, G. S., et al. (2013).  A diagram of the four GDD Methods is displayed here.
+ 
+GDD METHOD 1
+ 
+This is probably the simplest method of the four. The Average (Tavg) of the Maximum temperature (Tmax) and the Minimum temperature (Tmin) is calculated. The Tbase is then subtracted from the Tavg. If the result is negative then the value is set equal to zero.
+ 
+Method 1 is generally used for grasses and here it is applied to Winter Wheat, Spring Wheat, Winter Barley, Spring Barley, Proso Millet and Hay Millet.
+ 
+ 
+GDD METHOD 2
+This is another way of calculating GDD and uses the Upper Temperature (Tupper) threshold for the crop. GDD above the Tupper are not accumulated. Tbase is also used in this Method. Both Tmax and Tmin are compared to Tbase and if Tmax and/or Tmin is less than Tbase then Tmax and/or Tmin is set equal to the value of Tbase. Likewise, if Tmax and/or Tmin is greater than Tupper, then Tmax and/or Tmin is set equal to Tupper. The average temperature is calculated and Tbase is subtracted from Tavg. If the resulting value is less than zero, then it is set to zero.
+ 
+Method Two is used for Corn, Dry Beans, Sorghum, Soybeans and Sunflower.
+ 
+GDD METHOD 3
+ 
+This method employs a two-segmented linear model. The first segment extends from Tbase to an Optimum Temperature (Topt), and the second segment extends from Topt to Tupper. The Average temperature is calculated and compared to Tbase and Topt. If Tavg is greater than or equal to Tbase and less than or equal to Topt, then a temperature factor 'tf', which uses the slope of the first segment of the line, is calculated and multiplied by the value of Tavg minus Tbase. This gives the GDD value for the day. However, if the Tavg is greater than Topt and less than or equal to Tupper, then 'tf', which uses the slope of the second segment of the line, is multiplied by the value of Tavg minus Tbase to give today’s GDD value. If neither comparisons are true and Tavg is less than Tbase or greater than Tupper, then the GDD for the day is zero.
+ 
+GDD METHOD 4
+ 
+This Method uses a three-segmented linear model. The first segment extends from Tbase to the Lower Optimum Temperature (Toptlo); the second segment from Toptlo to the Upper Optimum Temperature (Toptup); the third segment runs from Toptup to Tupper.
+ 
+The Average temperature (Tavg) is calculated and compared to Tbase and the Lower Optimum Temperature (Toptlo). If Tavg is greater than or equal to Tbase and if Tavg is less than Toptlo, then Tbase is subtracted from Tavg. This value is multiplied by the calculated temperature factor 'tf' which is calculated using the slope of this first segment of the line to get the GDD value for the day. However, if Tavg is greater than or equal to Toptlo and less than or equal to Toptup, then Tbase is subtracted from Tavg and that value is multiplied by 'tf' which has been calculated using the slope of the second line segment. This gives the GDD value for the day. If Tavg is greater than Toptup and less than or equal to Tupper, then 'tf' is calculated using the slope of this third segment of the line and is multiplied by the result of Tavg minus Tbase to yield the GDD value for the day. If none of the situations are true and Tavg is less than Tbase or greater than Tupper, then GDD for the day is set equal to zero.
+ 
+You can choose the GDD method with which to run the model however, only Methods 1 and 2 are currently implemented. The default is Method 1. Click on the down arrow to pick one of the other methods.
+ 
+The phyllochron, or GDD per leaf, is also entered in this screen in the 'Growing Degree-Days per Leaf:' edit box. This refers to the number of GDD’s required to produce an additional leaf.
+ 
+The buttons below the picture are similar to those on the previous screens.
+ 
+The ‘Help…’ button - accesses the Help System.
+ 
+The ‘Close and Save’ button - closes this screen, returns you to the ‘Set Inputs’ screen and saves the information entered in the ‘Temperatures’ screen.
+ 
+The ‘Reset’ button - resets the values back to the original default values.
+ 
+The ‘Run…’ button - runs the model and displays output in the Output screen.
+
+

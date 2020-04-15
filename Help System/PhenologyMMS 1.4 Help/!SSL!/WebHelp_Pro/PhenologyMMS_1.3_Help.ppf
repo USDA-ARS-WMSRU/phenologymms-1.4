@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE polprojfile>
-<ppfml version="2.00" project="PhenologyMMS 1.4">
+<ppfml version="2.00" project="PhenologyMMS_1.4">
  <windowlist>
-  <window name="NewWindow" x="5%" y="5%" width="90%" height="90%" viewtype="doublepane" workspacestyle="DEFAULT" toolbar="off" locationbar="off" menu="off" resizable="yes" statusbar="off" usecurrentwindowsettings="yes" caption="NewWindow" skin="WebHelp_Skin_Files\Default\Default.skn">
+  <window name="NewWindow" x="5%" y="5%" width="90%" height="90%" viewtype="doublepane" workspacestyle="DEFAULT" toolbar="off" locationbar="off" menu="off" resizable="yes" statusbar="off" usecurrentwindowsettings="yes" caption="NewWindow" skin="WebHelp_Skin_Files\Clean_Tangerine\Clean_Tangerine.skn">
    <elements><element name="BrowseSequence" Present="yes" /><element name="SearchInput" Present="no" /><element name="SkinInstruction" value="whskin_ep_ins.ski" />
    </elements>
    <agents defaultagent="toc">
@@ -218,8 +218,6 @@
   </topic>
   <topic>Temperatures.htm
   </topic>
-  <topic>Dry_Beans_Diagrams.htm
-  </topic>
   <topic>Growth_Stages\Proso_Millet_Diagrams.htm
   </topic>
   <topic>Spring_Barley_Growth_Stages.htm
@@ -236,8 +234,6 @@
   </topic>
   <topic>Overview\Run_PhenologyMMS.htm
   </topic>
-  <topic>Overview\Overview_PhenologyMMS_1.4.htm
-  </topic>
   <topic>Overview_PhenologyMMS_1.4.htm
   </topic>
   <topic>GDD_Methods.htm
@@ -252,15 +248,13 @@
   </topic>
   <topic>Sunflower_Diagrams.htm
   </topic>
-  <topic>References_and_Documents\References_and_Documents.htm
-  </topic>
   <topic>Emergence.htm
+  </topic>
+  <topic>Dry_Bean_Growth_Stages.htm
   </topic>
   <topic>Corn_Growth_Stages.htm
   </topic>
   <topic>Growth_Stages\Spring_Barley_Diagrams.htm
-  </topic>
-  <topic>Growth_Stages\Growth_Stages_Example.htm
   </topic>
   <topic>Run_PhenologyMMS_1.4.htm
   </topic>
@@ -268,9 +262,9 @@
   </topic>
   <topic>Sorghum_Growth_Stages.htm
   </topic>
-  <topic>Output.htm
-  </topic>
   <topic>Setup\Begin_Setup.htm
+  </topic>
+  <topic>Output.htm
   </topic>
   <topic>Growth_Stages\Winter_Wheat_Growth_Stages.htm
   </topic>
@@ -281,6 +275,8 @@
   <topic>Output\Output.htm
   </topic>
   <topic>Set_Inputs.htm
+  </topic>
+  <topic>Dry_Bean_Diagrams.htm
   </topic>
   <topic>Growth_Stages\Sorghum_Diagrams.htm
   </topic>
@@ -294,11 +290,7 @@
   </topic>
   <topic>Growth_Stages\Soybean_Diagrams.htm
   </topic>
-  <topic>Temperatures\GDD_Methods.htm
-  </topic>
   <topic>Winter_Barley_Diagrams.htm
-  </topic>
-  <topic>Dry_Beans_Growth_Stages.htm
   </topic>
   <topic>Setup\Set_Inputs.htm
   </topic>
@@ -352,6 +344,10 @@
   </filenameentry>
   <filenameentry moniker="keywordinfo">
    <filename>SearchOptions.xml
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="favicon">
+   <filename>Phenology.ico
    </filename>
   </filenameentry>
   <filenameentry moniker="hiderankcolumn">

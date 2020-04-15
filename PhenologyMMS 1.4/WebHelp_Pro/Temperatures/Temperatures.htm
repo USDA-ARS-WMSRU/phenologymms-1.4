@@ -2,10 +2,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="search-keywords" content="temperature Tbase Topt base optimum lower upper GDD growing_degree_days thermal_time leaves" />
+<meta name="search-keywords" content="Temperature, Cardinal, Maximum, Minimum, GDD, Phyllochron, Base, Optimum, Upper," />
 <meta name="generator" content="Adobe RoboHelp 2015" />
 <title>Temperatures</title>
-<link rel="StyleSheet" href="../default.css" type="text/css" />
  <link rel="StyleSheet" href="../default.css" type="text/css" />
 <script type="text/javascript" language="JavaScript">
 //<![CDATA[
@@ -38,7 +37,6 @@ visibility:hidden; }
 <script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
 
 </head>
-
 <body><script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--
 if (window.gbWhTopic)
@@ -54,9 +52,7 @@ if (window.gbWhTopic)
 
 	if (window.addTocInfo)
 	{
-	addTocInfo("Temperatures\nTemperatures");
-addTocInfo("Temperatures\nTemperatures\nPhyllochron");
-addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
 
 	}
 	if (window.writeBtnStyle)
@@ -66,18 +62,9 @@ addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
 		writeIntopicBar(1);
 
 	
-	if(bc == 1)
-{
 	document.write("<p style=\"text-align:right\"> ");
-AddMasterBreadcrumbs("../PhenologyMMS_1.3_Help.htm", "", ">", "Home", "../Overview/Overview_of_PhenologyMMS_1.3.htm");
-document.write("<a href=\"Temperatures.htm\">Temperatures<\/a> > <a href=\"Temperatures.htm\">Temperatures<\/a> > Phyllochron<\/p>");
-}
-else{
-	document.write("<p style=\"text-align:right\"> ");
-AddMasterBreadcrumbs("../PhenologyMMS_1.3_Help.htm", "", ">", "Home", "../Overview/Overview_of_PhenologyMMS_1.3.htm");
-document.write("<a href=\"Temperatures.htm\">Temperatures<\/a> > Temperatures<\/p>");
-}
-
+AddMasterBreadcrumbs("../PhenologyMMS_1.3_Help.htm", "", ">", "Home", "../Overview_PhenologyMMS_1.4.htm");
+document.write("Temperatures<\/p>");
 
 }
 else
@@ -111,208 +98,105 @@ function onSetStartPage()
 <script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
 
 
-<h1><a name="Temperatures"></a>Temperatures</h1>
-<p class="msonormal"><i><u><b>It is strongly recommended that the information 
- in this screen not be changed as changing these values will negatively 
- influence the program</b></u></i>.&#160;They are presented here for information 
- purposes only.</p>
+<h1>Temperatures</h1>
+<p class="msonormal"><i><u><b>It is strongly recommended that the information in this screen not be changed as changing these values will negatively influence the program</b></u></i>.&#160;They are presented here for information purposes only.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The ‘Temperatures’ screen presents important temperature 
- and temperature-related input values.</p>
+<p class="msonormal">The ‘Temperatures’ screen presents important temperature and temperature-related input values.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal" style="text-align: center;"><img src="../Temperatures.png" 
-														 alt="" style="border: none;" 
-														 border="0" /></p>
+<p class="msonormal" style="text-align: center;"></p>
+<p class="msonormal">Four temperature <a href="javascript:TextPopup(this)" id="HotSpot49675" class="glossterm">inputs</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot49675', 'POPUP49675');
+//]]></script><span class="glosstext" id="POPUP49675" style="display: none;"> Information that is provided to the model via input screens or files that are read in by the code in order to run the model simulation.</span> are displayed that are used in calculating the <a href="javascript:TextPopup(this)" id="HotSpot25295" class="glossterm">growing degree-days</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot25295', 'POPUP25295');
+//]]></script><span class="glosstext" id="POPUP25295" style="display: none;"> This is the same as GDD (deg. C/day) and is a measure of thermal time.</span> (<a href="javascript:TextPopup(this)" id="HotSpot11217" class="glossterm">GDD</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot11217', 'POPUP11217');
+//]]></script><span class="glosstext" id="POPUP11217" style="display: none;"> Growing degree-days (deg. C/day), which is a measure of thermal time. Also, in the VarTypes file (provided with the program) for each crop, the GDD row refers to one method of simulating the growth stages in which Growing Degree-Days values, under NO stress conditions, are used. There are four methods  of calculating GDD in PhenologyMMS but only two are implemented.</span>) for each day as described in each <a href="javascript:TextPopup(this)" id="HotSpot16290" class="glossterm">GDD method</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot16290', 'POPUP16290');
+//]]></script><span class="glosstext" id="POPUP16290" style="display: none;"> There are many methods used to calculate growing degree-days. PhenologyMMS provides four methods, although default parameters for each crop are available for only one specific method.</span> below:</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">Four temperature <a href="javascript:TextPopup(this)" id="HotSpot28725" class="glossterm">inputs</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot28725', 'POPUP28725');
-//]]></script><span class="glosstext" id="POPUP28725" style="display: none;"> Information that is provided to the model via input screens or files that are read in by the code in order to run the model simulation.</span> 
- are displayed that are used in calculating the <a href="javascript:TextPopup(this)" id="HotSpot47826" class="glossterm">growing 
- degree-days</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot47826', 'POPUP47826');
-//]]></script><span class="glosstext" id="POPUP47826" style="display: none;"> This is the same as GDD (deg. C/day) and is a measure of thermal time.</span> (<a href="javascript:TextPopup(this)" id="HotSpot53126" class="glossterm">GDD</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot53126', 'POPUP53126');
-//]]></script><span class="glosstext" id="POPUP53126" style="display: none;"> Growing degree-days (deg. C/day), which is a measure of thermal time. Also, in the VarTypes file (provided with the program) for each crop, the GDD row refers to one method of simulating the growth stages in which Growing Degree-Days values, under NO stress conditions, are used. There are four methods  of calculating GDD in PhenologyMMS but only two are implemented.</span>) 
- for each day as described in each <a href="javascript:TextPopup(this)" id="HotSpot44382" class="glossterm">GDD 
- method</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot44382', 'POPUP44382');
-//]]></script><span class="glosstext" id="POPUP44382" style="display: none;"> There are many methods used to calculate growing degree-days. PhenologyMMS provides four methods, although default parameters for each crop are available for only one specific method.</span> below:</p>
+<p class="msonormal">The <a href="javascript:TextPopup(this)" id="HotSpot32303" class="glossterm">Base temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot32303', 'POPUP32303');
+//]]></script><span class="glosstext" id="POPUP32303" style="display: none;"> This is the temperature below which no GDD are accumulated for the day because it is assumed that no phenological development can occur below that temperature. This temperature varies among crops.</span> (<a href="javascript:TextPopup(this)" id="HotSpot38450" class="glossterm">Tbase</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot38450', 'POPUP38450');
+//]]></script><span class="glosstext" id="POPUP38450" style="display: none;"> The temperature below which the process of interest does not progress. Tbase is used in all four GDD Methods.</span>) is the temperature below which no GDD are accumulated. The assumption is that phenological <a href="javascript:TextPopup(this)" id="HotSpot10495" class="glossterm">development</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot10495', 'POPUP10495');
+//]]></script><span class="glosstext" id="POPUP10495" style="display: none;"> The process whereby the  organism transforms into a different stage.</span> does not occur below the base temperature, and therefore no GDD's are accumulated on that day. Tbase is used in all methods of calculating GDD (discussed below).</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The <a href="javascript:TextPopup(this)" id="HotSpot23845" class="glossterm">Base temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot23845', 'POPUP23845');
-//]]></script><span class="glosstext" id="POPUP23845" style="display: none;"> This is the temperature below which no GDD are accumulated for the day because it is assumed that no phenological development can occur below that temperature. This temperature varies among crops.</span> 
- (<a href="javascript:TextPopup(this)" id="HotSpot12299" class="glossterm">Tbase</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot12299', 'POPUP12299');
-//]]></script><span class="glosstext" id="POPUP12299" style="display: none;"> The temperature below which the process of interest does not progress. Tbase is used in all four GDD Methods.</span>) is the temperature 
- below which no GDD are accumulated. The assumption is that phenological 
- <a href="javascript:TextPopup(this)" id="HotSpot27694" class="glossterm">development</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot27694', 'POPUP27694');
-//]]></script><span class="glosstext" id="POPUP27694" style="display: none;"> The process whereby the  organism transforms into a different stage.</span> does not 
- occur below the base temperature, and therefore no GDD's are accumulated 
- on that day. Tbase is used in all methods of calculating GDD (discussed 
- below).</p>
+<p class="msonormal">The <a href="javascript:TextPopup(this)" id="HotSpot38850" class="glossterm">Lower Optimum temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot38850', 'POPUP38850');
+//]]></script><span class="glosstext" id="POPUP38850" style="display: none;"> The low end of the optimum temperature range of values for plant growth. It is abbreviated as Toptlo.</span> (<a href="javascript:TextPopup(this)" id="HotSpot10364" class="glossterm">Toptlo</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot10364', 'POPUP10364');
+//]]></script><span class="glosstext" id="POPUP10364" style="display: none;"> Lower Optimum Temperature. When the optimum temperature is a range of values, Toptlo is at the low end of the range. This is used in GDD Method 4.</span>) is the lower end of the optimum temperature range for <a href="javascript:TextPopup(this)" id="HotSpot15927" class="glossterm">growth</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot15927', 'POPUP15927');
+//]]></script><span class="glosstext" id="POPUP15927" style="display: none;"> The process of advancing in size of the organism. This is a physical change.</span>. This is used only in Method 4 and currently is not implemented for any of the crops in <a class="glossterm">PhenologyMMS 1.3</a>.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The <a href="javascript:TextPopup(this)" id="HotSpot40647" class="glossterm">Lower Optimum 
- temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot40647', 'POPUP40647');
-//]]></script><span class="glosstext" id="POPUP40647" style="display: none;"> The low end of the optimum temperature range of values for plant growth. It is abbreviated as Toptlo.</span> (<a href="javascript:TextPopup(this)" id="HotSpot45867" class="glossterm">Toptlo</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot45867', 'POPUP45867');
-//]]></script><span class="glosstext" id="POPUP45867" style="display: none;"> Lower Optimum Temperature. When the optimum temperature is a range of values, Toptlo is at the low end of the range. This is used in GDD Method 4.</span>) 
- is the lower end of the optimum temperature range for <a href="javascript:TextPopup(this)" id="HotSpot35417" class="glossterm">growth</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot35417', 'POPUP35417');
-//]]></script><span class="glosstext" id="POPUP35417" style="display: none;"> The process of advancing in size of the organism. This is a physical change.</span>. 
- This is used only in Method 4 and currently is not implemented for any 
- of the crops in <a href="javascript:TextPopup(this)" id="HotSpot25655" class="glossterm">PhenologyMMS 1.3</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot25655', 'POPUP25655');
-//]]></script><span class="glosstext" id="POPUP25655" style="display: none;"> A computer simulation program to predict the growth stages of several crops based on the accumulation of thermal time.</span>.</p>
+<p class="msonormal">The <a href="javascript:TextPopup(this)" id="HotSpot24592" class="glossterm">Upper Optimum temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot24592', 'POPUP24592');
+//]]></script><span class="glosstext" id="POPUP24592" style="display: none;"> The upper end of the optimum temperature range of values for plant growth. It is abbreviated as Toptup.</span> (<a href="javascript:TextPopup(this)" id="HotSpot51898" class="glossterm">Toptup</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot51898', 'POPUP51898');
+//]]></script><span class="glosstext" id="POPUP51898" style="display: none;"> Upper Optimum Temperature. When the optimum temperature is a range of values, Toptup is at the high end of the range. This is used in GDD Method 4.</span>) is the upper end of the optimum temperature range for growth. This is used only in Method 4 and currently is not implemented for any of the crops in PhenologyMMS 1.3.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The <a href="javascript:TextPopup(this)" id="HotSpot16198" class="glossterm">Upper Optimum 
- temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot16198', 'POPUP16198');
-//]]></script><span class="glosstext" id="POPUP16198" style="display: none;"> The upper end of the optimum temperature range of values for plant growth. It is abbreviated as Toptup.</span> (<a href="javascript:TextPopup(this)" id="HotSpot14873" class="glossterm">Toptup</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot14873', 'POPUP14873');
-//]]></script><span class="glosstext" id="POPUP14873" style="display: none;"> Upper Optimum Temperature. When the optimum temperature is a range of values, Toptup is at the high end of the range. This is used in GDD Method 4.</span>) 
- is the upper end of the optimum temperature range for growth. This is 
- used only in Method 4 and currently is not implemented for any of the 
- crops in PhenologyMMS 1.3.</p>
+<p class="msonormal">The Upper/Maximum temperature (<a href="javascript:TextPopup(this)" id="HotSpot41100" class="glossterm">Tupper</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot41100', 'POPUP41100');
+//]]></script><span class="glosstext" id="POPUP41100" style="display: none;"> An Upper Temperature threshold which is the highest temperature at which growth can still occur. This limits the amount of GDD that can be accumulated for the day. It is used in GDD Methods 2, 3 and 4.</span>) is the highest temperature at which growth can still occur. This is used in Methods 2, 3 and 4 but only Method 2 is implemented for any of the current crops in PhenologyMMS 1.3.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The Upper/Maximum temperature (<a href="javascript:TextPopup(this)" id="HotSpot45722" class="glossterm">Tupper</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot45722', 'POPUP45722');
-//]]></script><span class="glosstext" id="POPUP45722" style="display: none;"> An Upper Temperature threshold which is the highest temperature at which growth can still occur. This limits the amount of GDD that can be accumulated for the day. It is used in GDD Methods 2, 3 and 4.</span>) 
- is the highest temperature at which growth can still occur. This is used 
- in Methods 2, 3 and 4 but only Method 2 is implemented for any of the 
- current crops in PhenologyMMS 1.3.</p>
+<p class="msonormal">There are many ways that the GDD required between phenological stages can be calculated. Four commonly used methods are available in PhenologyMMS however, only two methods are currently implemented.&#160;&#160;Although these four methods are fairly similar, they have slight variations in approach and the temperature variables used.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">There are many ways that the GDD required between 
- phenological stages can be calculated. Four commonly used methods are 
- available in PhenologyMMS however, only two methods are currently implemented.&#160;&#160;Although 
- these four methods are fairly similar, they have slight variations in 
- approach and the temperature variables used.</p>
+<p class="msonormal"><b>WARNING: If you change the temperature values or the GDD Method in the Temperature screen, this will have an adverse effect on the simulation output as the parameter values in the Set Growth Stages screen which are based on the particular Method of calculating GDD for the crop, are NOT adjusted when temperatures or the GDD Method are changed.</b></p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal"><b>WARNING: If you change the temperature values or 
- the GDD Method in the Temperature screen, this will have an adverse effect 
- on the simulation output as the parameter values in the Set Growth Stages 
- screen which are based on the particular Method of calculating GDD for 
- the crop, are NOT adjusted when temperatures or the GDD Method are changed.</b></p>
-<p class="msonormal">&#160;</p>
-<p class="msonormal">The four GDD METHODS used are described below. For 
- additional information, refer to: <span style="font-family: Arial, sans-serif; 
-										 font-size: 12pt;"><font size="3" style="font-size:12pt;"><a href="../References_and_Documents/References_and_Documents.htm#Development_of_the_wheat_plant_chap_2">McMaster, 
- G. S. 2009</a>; <a href="../References_and_Documents/References_and_Documents.htm#Phytomers_pyllochron_phenology_development">McMaster, 
- G. S. (2005)</a>; <a href="../References_and_Documents/References_and_Documents.htm#Growing_degree-days_two_interpretations">McMaster, 
- G. S. and W. W. Wilhelm (1997)</a>; and</font></span> <span style="font-size: 12pt;"><font size="3" style="font-size:12pt;"><a 
-	 href="../References_and_Documents/References_and_Documents.htm#Crop_phenology_response_water_stress_phenologyMMS">McMaster, 
- G. S., et al. (2013)</a></font></span><span style="font-family: Arial, sans-serif; 
-										 font-size: 12pt;"><font size="3" style="font-size:12pt;">.</font></span> &#160;A 
- diagram of the four GDD Methods is displayed <a href="GDD_Methods.htm">here</a>.</p>
+<p class="msonormal">The four GDD METHODS used are described below. For additional information, refer to: <span style="font-family: Arial, sans-serif; font-size: 12pt;"><font size="3" style="font-size:12pt;"><a href="References_and_Documents.htm#Development_of_the_wheat_plant_chap_2">McMaster, G. S. 2009</a>; <a href="References_and_Documents.htm#Phytomers_pyllochron_phenology_development">McMaster, G. S. (2005)</a>; <a href="References_and_Documents.htm#Growing_degree-days_two_interpretations">McMaster, G. S. and W. W. Wilhelm (1997)</a>; and</font></span> <span style="font-size: 12pt;"><font size="3" style="font-size:12pt;"><a href="References_and_Documents.htm#Crop_phenology_response_water_stress_phenologyMMS">McMaster, G. S., et al. (2013)</a></font></span><span style="font-family: Arial, sans-serif; font-size: 12pt;"><font size="3" style="font-size:12pt;">.</font></span> &#160;A diagram of the four GDD Methods is displayed here.</p>
 <p class="msonormal">&#160;</p>
 <p class="msonormal"><b>GDD METHOD 1</b></p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">This is probably the simplest method of the four. 
- The Average (<a href="javascript:TextPopup(this)" id="HotSpot21719" class="glossterm">Tavg</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot21719', 'POPUP21719');
-//]]></script><span class="glosstext" id="POPUP21719" style="display: none;"> The average daily temperature calculated by:  (Tmax + Tmin)/2</span>) of 
- the Maximum temperature (<a href="javascript:TextPopup(this)" id="HotSpot34860" class="glossterm">Tmax</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot34860', 'POPUP34860');
-//]]></script><span class="glosstext" id="POPUP34860" style="display: none;"> Maximum temperature as in the maximum daily temperature.</span>) 
- and the <a href="javascript:TextPopup(this)" id="HotSpot43939" class="glossterm">Minimum temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot43939', 'POPUP43939');
-//]]></script><span class="glosstext" id="POPUP43939" style="display: none;"> The lowest daily temperature for a given day. This is abbreviated as Tmin.</span> 
- (<a href="javascript:TextPopup(this)" id="HotSpot3170" class="glossterm">Tmin</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot3170', 'POPUP3170');
-//]]></script><span class="glosstext" id="POPUP3170" style="display: none;"> Minimum temperature as in the minimum daily temperature.</span>) is calculated. 
- The Tbase is then subtracted from the Tavg. If the result is negative 
- then the value is set equal to zero.</p>
+<p class="msonormal">This is probably the simplest method of the four. The Average (<a href="javascript:TextPopup(this)" id="HotSpot12177" class="glossterm">Tavg</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot12177', 'POPUP12177');
+//]]></script><span class="glosstext" id="POPUP12177" style="display: none;"> The average daily temperature calculated by:  (Tmax + Tmin)/2</span>) of the Maximum temperature (<a href="javascript:TextPopup(this)" id="HotSpot21056" class="glossterm">Tmax</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot21056', 'POPUP21056');
+//]]></script><span class="glosstext" id="POPUP21056" style="display: none;"> Maximum temperature as in the maximum daily temperature.</span>) and the <a href="javascript:TextPopup(this)" id="HotSpot29482" class="glossterm">Minimum temperature</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot29482', 'POPUP29482');
+//]]></script><span class="glosstext" id="POPUP29482" style="display: none;"> The lowest daily temperature for a given day. This is abbreviated as Tmin.</span> (<a href="javascript:TextPopup(this)" id="HotSpot43519" class="glossterm">Tmin</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot43519', 'POPUP43519');
+//]]></script><span class="glosstext" id="POPUP43519" style="display: none;"> Minimum temperature as in the minimum daily temperature.</span>) is calculated. The Tbase is then subtracted from the Tavg. If the result is negative then the value is set equal to zero.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">Method 1 is generally used for grasses and here it 
- is applied to Winter Wheat, Spring Wheat, Winter Barley, Spring Barley, 
- Proso Millet and Hay Millet.</p>
+<p class="msonormal">Method 1 is generally used for grasses and here it is applied to Winter Wheat, Spring Wheat, Winter Barley, Spring Barley, Proso Millet and Hay Millet.</p>
 <p class="msonormal">&#160;</p>
 <p class="msonormal">&#160;</p>
 <p class="msonormal"><b>GDD METHOD 2</b></p>
-<p class="msonormal">This is another way of calculating GDD and uses the 
- Upper Temperature (Tupper) threshold for the crop. GDD above the Tupper 
- are not accumulated. Tbase is also used in this Method. Both Tmax and 
- Tmin are compared to Tbase and if Tmax and/or Tmin is less than Tbase 
- then Tmax and/or Tmin is set equal to the value of Tbase. Likewise, if 
- Tmax and/or Tmin is greater than Tupper, then Tmax and/or Tmin is set 
- equal to Tupper. The average temperature is calculated and Tbase is subtracted 
- from Tavg. If the resulting value is less than zero, then it is set to 
- zero.</p>
+<p class="msonormal">This is another way of calculating GDD and uses the Upper Temperature (Tupper) threshold for the crop. GDD above the Tupper are not accumulated. Tbase is also used in this Method. Both Tmax and Tmin are compared to Tbase and if Tmax and/or Tmin is less than Tbase then Tmax and/or Tmin is set equal to the value of Tbase. Likewise, if Tmax and/or Tmin is greater than Tupper, then Tmax and/or Tmin is set equal to Tupper. The average temperature is calculated and Tbase is subtracted from Tavg. If the resulting value is less than zero, then it is set to zero.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">Method Two is used for Corn, Dry Beans, Sorghum, Soybeans 
- and Sunflower.</p>
+<p class="msonormal">Method Two is used for Corn, Dry Beans, Sorghum, Soybeans and Sunflower.</p>
 <p class="msonormal">&#160;</p>
 <p class="msonormal"><b>GDD METHOD 3</b></p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">This method employs a two-segmented linear model. 
- The first segment extends from Tbase to an Optimum Temperature (<a href="javascript:TextPopup(this)" id="HotSpot37571" class="glossterm">Topt</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot37571', 'POPUP37571');
-//]]></script><span class="glosstext" id="POPUP37571" style="display: none;"> Optimum Temperature. This is used in GDD Method 3</span>), and the second segment extends 
- from Topt to Tupper. The Average temperature is calculated and compared 
- to Tbase and Topt. If Tavg is greater than or equal to Tbase and less 
- than or equal to Topt, then a temperature factor '<a href="javascript:TextPopup(this)" id="HotSpot54261" class="glossterm">tf</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot54261', 'POPUP54261');
-//]]></script><span class="glosstext" id="POPUP54261" style="display: none;"> 'tf' is the Temperature Factor calculated for GDD Methods 3 and 4 using the slope of a line segment.</span>', 
- which uses the slope of the first segment of the line, is calculated and 
- multiplied by the value of Tavg minus Tbase. This gives the GDD value 
- for the day. However, if the Tavg is greater than Topt and less than or 
- equal to Tupper, then 'tf', which uses the slope of the second segment 
- of the line, is multiplied by the value of Tavg minus Tbase to give today’s 
- GDD value. If neither comparisons are true and Tavg is less than Tbase 
- or greater than Tupper, then the GDD for the day is zero.</p>
+<p class="msonormal">This method employs a two-segmented linear model. The first segment extends from Tbase to an Optimum Temperature (<a href="javascript:TextPopup(this)" id="HotSpot16354" class="glossterm">Topt</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot16354', 'POPUP16354');
+//]]></script><span class="glosstext" id="POPUP16354" style="display: none;"> Optimum Temperature. This is used in GDD Method 3</span>), and the second segment extends from Topt to Tupper. The Average temperature is calculated and compared to Tbase and Topt. If Tavg is greater than or equal to Tbase and less than or equal to Topt, then a temperature factor '<a href="javascript:TextPopup(this)" id="HotSpot42170" class="glossterm">tf</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot42170', 'POPUP42170');
+//]]></script><span class="glosstext" id="POPUP42170" style="display: none;"> 'tf' is the Temperature Factor calculated for GDD Methods 3 and 4 using the slope of a line segment.</span>', which uses the slope of the first segment of the line, is calculated and multiplied by the value of Tavg minus Tbase. This gives the GDD value for the day. However, if the Tavg is greater than Topt and less than or equal to Tupper, then 'tf', which uses the slope of the second segment of the line, is multiplied by the value of Tavg minus Tbase to give today’s GDD value. If neither comparisons are true and Tavg is less than Tbase or greater than Tupper, then the GDD for the day is zero.</p>
 <p class="msonormal">&#160;</p>
 <p class="msonormal"><b>GDD METHOD 4</b></p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">This Method uses a three-segmented linear model. The 
- first segment extends from Tbase to the Lower Optimum Temperature (Toptlo); 
- the second segment from Toptlo to the Upper Optimum Temperature (Toptup); 
- the third segment runs from Toptup to Tupper.</p>
+<p class="msonormal">This Method uses a three-segmented linear model. The first segment extends from Tbase to the Lower Optimum Temperature (Toptlo); the second segment from Toptlo to the Upper Optimum Temperature (Toptup); the third segment runs from Toptup to Tupper.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The Average temperature (Tavg) is calculated and compared 
- to Tbase and the Lower Optimum Temperature (Toptlo). If Tavg is greater 
- than or equal to Tbase and if Tavg is less than Toptlo, then Tbase is 
- subtracted from Tavg. This value is multiplied by the calculated temperature 
- factor 'tf' which is calculated using the slope of this first segment 
- of the line to get the GDD value for the day. However, if Tavg is greater 
- than or equal to Toptlo and less than or equal to Toptup, then Tbase is 
- subtracted from Tavg and that value is multiplied by 'tf' which has been 
- calculated using the slope of the second line segment. This gives the 
- GDD value for the day. If Tavg is greater than Toptup and less than or 
- equal to Tupper, then 'tf' is calculated using the slope of this third 
- segment of the line and is multiplied by the result of Tavg minus Tbase 
- to yield the GDD value for the day. If none of the situations are true 
- and Tavg is less than Tbase or greater than Tupper, then GDD for the day 
- is set equal to zero.</p>
+<p class="msonormal">The Average temperature (Tavg) is calculated and compared to Tbase and the Lower Optimum Temperature (Toptlo). If Tavg is greater than or equal to Tbase and if Tavg is less than Toptlo, then Tbase is subtracted from Tavg. This value is multiplied by the calculated temperature factor 'tf' which is calculated using the slope of this first segment of the line to get the GDD value for the day. However, if Tavg is greater than or equal to Toptlo and less than or equal to Toptup, then Tbase is subtracted from Tavg and that value is multiplied by 'tf' which has been calculated using the slope of the second line segment. This gives the GDD value for the day. If Tavg is greater than Toptup and less than or equal to Tupper, then 'tf' is calculated using the slope of this third segment of the line and is multiplied by the result of Tavg minus Tbase to yield the GDD value for the day. If none of the situations are true and Tavg is less than Tbase or greater than Tupper, then GDD for the day is set equal to zero.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">You can choose the GDD method with which to <a href="javascript:TextPopup(this)" id="HotSpot56334" class="glossterm">run</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot56334', 'POPUP56334');
-//]]></script><span class="glosstext" id="POPUP56334" style="display: none;"> The execution of the scenario set up in PhenologyMMS.</span> the model however, only Methods 
- 1 and 2 are currently implemented. The default is Method 1. Click on the 
- down arrow to pick one of the other methods.</p>
+<p class="msonormal">You can choose the GDD method with which to <a href="javascript:TextPopup(this)" id="HotSpot40057" class="glossterm">run</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot40057', 'POPUP40057');
+//]]></script><span class="glosstext" id="POPUP40057" style="display: none;"> The execution of the scenario set up in PhenologyMMS.</span> the model however, only Methods 1 and 2 are currently implemented. The default is Method 1. Click on the down arrow to pick one of the other methods.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal"><a name="Phyllochronbc-1"></a><a name="Phyllochron" id="Phyllochron"></a>The <a href="javascript:TextPopup(this)" id="HotSpot31709" class="glossterm">phyllochron</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
-TextPopupInit('HotSpot31709', 'POPUP31709');
-//]]></script><span class="glosstext" id="POPUP31709" style="display: none;"> The rate of leaf appearance.</span>, or GDD per leaf, is also 
- entered in this screen in the 'Growing Degree-Days per Leaf:' edit box. 
- This refers to the number of GDD’s required to produce an additional leaf.</p>
+<p class="msonormal"><a name="Phyllochron" id="Phyllochron"></a>The <a href="javascript:TextPopup(this)" id="HotSpot47365" class="glossterm">phyllochron</a><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+TextPopupInit('HotSpot47365', 'POPUP47365');
+//]]></script><span class="glosstext" id="POPUP47365" style="display: none;"> The rate of leaf appearance.</span>, or GDD per leaf, is also entered in this screen in the 'Growing Degree-Days per Leaf:' edit box. This refers to the number of GDD’s required to produce an additional leaf.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The buttons below the picture are similar to those 
- on the previous screens.</p>
+<p class="msonormal">The buttons below the picture are similar to those on the previous screens.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The ‘Help…’ button - accesses 
- the Help System.</p>
+<p class="msonormal">The ‘Help…’ button - accesses the Help System.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The ‘Close and Save’ button - closes this screen, 
- returns you to the <a href="../Setup/Set_Inputs.htm">‘Set Inputs’</a> 
- screen and saves the information entered in the ‘Temperatures’ screen.</p>
+<p class="msonormal">The ‘Close and Save’ button - closes this screen, returns you to the <a href="Set_Inputs.htm#Set_Inputs">‘Set Inputs’</a> screen and saves the information entered in the ‘Temperatures’ screen.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The ‘Reset’ button - resets the values back to the 
- original default values.</p>
+<p class="msonormal">The ‘Reset’ button - resets the values back to the original default values.</p>
 <p class="msonormal">&#160;</p>
-<p class="msonormal">The ‘Run…’ button - runs 
- the model and displays output in the <a href="../Output/Output.htm">Output</a> 
- screen.</p>
+<p class="msonormal">The ‘Run…’ button - runs the model and displays output in the <a href="Output.htm#Output">Output</a> screen.</p>
 <script type="text/javascript" language="javascript1.2">//<![CDATA[
 <!--
 if (window.writeIntopicBar)

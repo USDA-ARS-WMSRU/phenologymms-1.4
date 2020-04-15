@@ -43,48 +43,36 @@
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="1st Trifoliate Leaf">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="VC">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="2nd Trifoliate Leaf">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="V1">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="3rd Trifoliate Leaf">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="V2">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
@@ -96,17 +84,10 @@
   </object>
   <li><object type="text/sitemap">
     <param name="Name" value="4th Trifoliate Leaf">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
   <ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="V3">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
     <li><object type="text/sitemap">
       <param name="Name" value="V4">
       <param name="Name" value="Soybean Growth Stages">
@@ -403,8 +384,6 @@
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="Bloom">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
@@ -413,11 +392,6 @@
       <param name="Name" value="Beginning">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="V4">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     </object>
     </ul>
   <li><object type="text/sitemap">
@@ -500,8 +474,6 @@
   </object>
   <li><object type="text/sitemap">
     <param name="Name" value="Cotyledonary Leaves">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
@@ -609,8 +581,6 @@
     <param name="Local" value="Sorghum_Growth_Stages.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Winter Wheat Diagrams">
     <param name="Local" value="Winter_Wheat_Diagrams.htm">
     <param name="Name" value="Spring Wheat Growth Stages">
@@ -621,8 +591,6 @@
     <param name="Local" value="Sunflower_Diagrams.htm">
     <param name="Name" value="Winter Barley Growth Stages">
     <param name="Local" value="Winter_Barley_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Diagrams">
-    <param name="Local" value="Dry_Beans_Diagrams.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Proso Millet Growth Stages">
@@ -651,11 +619,6 @@
       <param name="Name" value="Corn">
       <param name="Name" value="Corn Growth Stages">
       <param name="Local" value="Corn_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Dry Beans">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     </object>
     <li><object type="text/sitemap">
       <param name="Name" value="Hay Millet">
@@ -817,29 +780,8 @@
     <param name="Name" value="Dry Beans">
     <param name="Name" value="Growth Stages Example">
     <param name="Local" value="Growth_Stages_Example.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="GDD Methods">
     <param name="Local" value="GDD_Methods.htm">
-  </object>
-  <ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Developmental Sequence">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
-    </ul>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Dry Beans Diagrams">
-    <param name="Name" value="Dry Beans Diagrams">
-    <param name="Local" value="Dry_Beans_Diagrams.htm">
-  </object>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Diagrams">
-    <param name="Local" value="Dry_Beans_Diagrams.htm">
   </object>
   <li><object type="text/sitemap">
     <param name="Name" value="Dry'">
@@ -876,8 +818,6 @@
     <param name="Local" value="Sorghum_Growth_Stages.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Winter Barley Growth Stages">
     <param name="Local" value="Winter_Barley_Growth_Stages.htm">
     <param name="Name" value="Proso Millet Growth Stages">
@@ -889,30 +829,6 @@
     <param name="Name" value="Winter Wheat Growth Stages">
     <param name="Local" value="Winter_Wheat_Growth_Stages.htm">
   </object>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Early Pod Set">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="R2">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
-    </ul>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Early Seed Fill">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="R4">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
-    </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="Egajoules">
     <param name="Name" value="Weather/Location Files">
@@ -950,8 +866,6 @@
     <param name="Local" value="Sorghum_Growth_Stages.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Spring Wheat Growth Stages">
     <param name="Local" value="Spring_Wheat_Growth_Stages.htm">
     <param name="Name" value="Winter Barley Growth Stages">
@@ -978,8 +892,6 @@
       <param name="Local" value="Sorghum_Growth_Stages.htm">
       <param name="Name" value="Sunflower Growth Stages">
       <param name="Local" value="Sunflower_Growth_Stages.htm">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
       <param name="Name" value="Spring Wheat Growth Stages">
       <param name="Local" value="Spring_Wheat_Growth_Stages.htm">
       <param name="Name" value="Winter Barley Growth Stages">
@@ -1209,11 +1121,6 @@
     </object>
     </ul>
   <li><object type="text/sitemap">
-    <param name="Name" value="Full Flower">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <li><object type="text/sitemap">
     <param name="Name" value="Full Maturity">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
@@ -1237,11 +1144,6 @@
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
     </ul>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Full Season">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
   <li><object type="text/sitemap">
     <param name="Name" value="Full Seed">
     <param name="Name" value="Soybean Growth Stages">
@@ -1313,8 +1215,6 @@
     <param name="Local" value="Growth_Stages_Example.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Spring Wheat Growth Stages">
     <param name="Local" value="Spring_Wheat_Growth_Stages.htm">
     <param name="Name" value="Winter Barley Growth Stages">
@@ -1439,8 +1339,6 @@
     <param name="Local" value="Sorghum_Growth_Stages.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Spring Wheat Growth Stages">
     <param name="Local" value="Spring_Wheat_Growth_Stages.htm">
     <param name="Name" value="Winter Barley Growth Stages">
@@ -1461,11 +1359,6 @@
       <param name="Name" value="R6">
       <param name="Name" value="Corn Growth Stages">
       <param name="Local" value="Corn_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="R7">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     </object>
     <li><object type="text/sitemap">
       <param name="Name" value="R8">
@@ -1742,8 +1635,6 @@
     <param name="Local" value="Growth_Stages_Example.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Winter Barley Growth Stages">
     <param name="Local" value="Winter_Barley_Growth_Stages.htm">
     <param name="Name" value="Proso Millet Growth Stages">
@@ -1876,8 +1767,6 @@
     <param name="Local" value="Sorghum_Growth_Stages.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Spring Wheat Growth Stages">
     <param name="Local" value="Spring_Wheat_Growth_Stages.htm">
     <param name="Name" value="Winter Barley Growth Stages">
@@ -1906,11 +1795,6 @@
       <param name="Local" value="Hay_Millet_Growth_Stages.htm">
       <param name="Name" value="Winter Wheat Growth Stages">
       <param name="Local" value="Winter_Wheat_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="R6">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     </object>
     <li><object type="text/sitemap">
       <param name="Name" value="R8">
@@ -1972,8 +1856,6 @@
     <param name="Local" value="Growth_Stages_Example.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Winter Barley Growth Stages">
     <param name="Local" value="Winter_Barley_Growth_Stages.htm">
     <param name="Name" value="Proso Millet Growth Stages">
@@ -2034,42 +1916,6 @@
       <param name="Name" value="MG 000.5">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
-    </object>
-    </ul>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Mid">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="R1">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
-    </ul>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Mid Pod Set">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="R3">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
-    </ul>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Mid Seed Fill">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="R5">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     </object>
     </ul>
   <li><object type="text/sitemap">
@@ -2234,11 +2080,6 @@
     <param name="Local" value="Overview_PhenologyMMS_1.4.htm">
   </object>
   <li><object type="text/sitemap">
-    <param name="Name" value="Phaseolus">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <li><object type="text/sitemap">
     <param name="Name" value="Phenological Event">
     <param name="Name" value="Output">
     <param name="Local" value="Output.htm">
@@ -2258,8 +2099,6 @@
     <param name="Local" value="Sorghum_Growth_Stages.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Winter Wheat Diagrams">
     <param name="Local" value="Winter_Wheat_Diagrams.htm">
     <param name="Name" value="Spring Wheat Growth Stages">
@@ -2270,8 +2109,6 @@
     <param name="Local" value="Sunflower_Diagrams.htm">
     <param name="Name" value="Winter Barley Growth Stages">
     <param name="Local" value="Winter_Barley_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Diagrams">
-    <param name="Local" value="Dry_Beans_Diagrams.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Proso Millet Growth Stages">
@@ -2419,8 +2256,6 @@
     <param name="Name" value="R1">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
@@ -2442,18 +2277,11 @@
       <param name="Name" value="Sunflower Growth Stages">
       <param name="Local" value="Sunflower_Growth_Stages.htm">
     </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Mid">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="R2">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
@@ -2464,11 +2292,6 @@
       <param name="Name" value="Beginning Pod">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Early Pod Set">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     </object>
     <li><object type="text/sitemap">
       <param name="Name" value="Internode Elongation">
@@ -2485,8 +2308,6 @@
     <param name="Name" value="R3">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
@@ -2508,18 +2329,11 @@
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Mid Pod Set">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="R4">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
@@ -2541,18 +2355,11 @@
       <param name="Name" value="Corn Growth Stages">
       <param name="Local" value="Corn_Growth_Stages.htm">
     </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Early Seed Fill">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="R5">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
@@ -2574,11 +2381,6 @@
       <param name="Name" value="Corn Growth Stages">
       <param name="Local" value="Corn_Growth_Stages.htm">
     </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Mid Seed Fill">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="R5.5">
@@ -2589,8 +2391,6 @@
     <param name="Name" value="R6">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
@@ -2612,18 +2412,11 @@
       <param name="Name" value="Corn Growth Stages">
       <param name="Local" value="Corn_Growth_Stages.htm">
     </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Maturity">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="R7">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
@@ -2638,18 +2431,11 @@
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Harvest Ready">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="R8">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
@@ -2825,8 +2611,6 @@
     <param name="Local" value="Growth_Stages_Example.htm">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Spring Wheat Growth Stages">
     <param name="Local" value="Spring_Wheat_Growth_Stages.htm">
     <param name="Name" value="Winter Barley Growth Stages">
@@ -2849,8 +2633,6 @@
       <param name="Local" value="Sorghum_Growth_Stages.htm">
       <param name="Name" value="Sunflower Growth Stages">
       <param name="Local" value="Sunflower_Growth_Stages.htm">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
       <param name="Name" value="Spring Wheat Growth Stages">
       <param name="Local" value="Spring_Wheat_Growth_Stages.htm">
       <param name="Name" value="Winter Barley Growth Stages">
@@ -3149,21 +2931,6 @@
     </object>
     </ul>
   <li><object type="text/sitemap">
-    <param name="Name" value="Stage II">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Stage III">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <li><object type="text/sitemap">
-    <param name="Name" value="Stage IV">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <li><object type="text/sitemap">
     <param name="Name" value="State_city">
     <param name="Name" value="Begin Setup">
     <param name="Local" value="Begin_Setup.htm">
@@ -3420,16 +3187,12 @@
   </object>
   <li><object type="text/sitemap">
     <param name="Name" value="V1">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="2nd Trifoliate Leaf">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
@@ -3539,16 +3302,12 @@
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="V2">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="3rd Trifoliate Leaf">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
@@ -3591,24 +3350,13 @@
     </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="V3">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
-  <ul>
-    <li><object type="text/sitemap">
-      <param name="Name" value="4th Trifoliate Leaf">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-    </object>
-    </ul>
   <li><object type="text/sitemap">
     <param name="Name" value="V4">
     <param name="Name" value="Sunflower Growth Stages">
     <param name="Local" value="Sunflower_Growth_Stages.htm">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Corn Growth Stages">
     <param name="Local" value="Corn_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
@@ -3634,11 +3382,6 @@
       <param name="Name" value="8th Leaf">
       <param name="Name" value="Sunflower Growth Stages">
       <param name="Local" value="Sunflower_Growth_Stages.htm">
-    </object>
-    <li><object type="text/sitemap">
-      <param name="Name" value="Bloom">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     </object>
     <li><object type="text/sitemap">
       <param name="Name" value="Ear Initiation">
@@ -3711,16 +3454,12 @@
   </object>
   <li><object type="text/sitemap">
     <param name="Name" value="VC">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
   <ul>
     <li><object type="text/sitemap">
       <param name="Name" value="1st Trifoliate Leaf">
-      <param name="Name" value="Dry Beans Growth Stages">
-      <param name="Local" value="Dry_Beans_Growth_Stages.htm">
       <param name="Name" value="Soybean Growth Stages">
       <param name="Local" value="Soybean_Growth_Stages.htm">
     </object>
@@ -3731,14 +3470,7 @@
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>
   <li><object type="text/sitemap">
-    <param name="Name" value="Vine">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
-  </object>
-  <li><object type="text/sitemap">
     <param name="Name" value="VN">
-    <param name="Name" value="Dry Beans Growth Stages">
-    <param name="Local" value="Dry_Beans_Growth_Stages.htm">
     <param name="Name" value="Soybean Growth Stages">
     <param name="Local" value="Soybean_Growth_Stages.htm">
   </object>

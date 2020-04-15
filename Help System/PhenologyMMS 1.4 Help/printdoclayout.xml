@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!--Printed Documentation Layout-->
+<printdoclayout version="3">
+  <temphistory/>
+ <stylemapping>
+   <templatefile type="msword" filename="Style Mapping.dot"/>
+  <maps>
+    <item org="a.dropspot" new="\0"/>
+    <item org="a.expandspot" new="\0"/>
+    <item org="a.glossterm" new="\0"/>
+    <item org="a.popupspot" new="\0"/>
+    <item org="a:link" new="\0"/>
+    <item org="div" new="\0"/>
+    <item org="div.droptext" new="\0"/>
+    <item org="p" new="\0"/>
+    <item org="p.breadcrumbs" new="\0"/>
+    <item org="span.expandtext" new="\0"/>
+    <item org="span.glosstext" new="\0"/>
+  </maps>
+ </stylemapping>
+ <tocstructure>
+  <chapter name="Overview">
+    <page name="Overview PhenologyMMS 1.4" topic="Overview_PhenologyMMS_1.4.htm" flags="0" topicid="-1"/>
+    <page name="Install PhenologyMMS 1.4" topic="Install_PhenologyMMS_1.4.htm" flags="0" topicid="-1"/>
+    <page name="Launch - PhenologyMMS 1.4" topic="Launch_-_PhenologyMMS_1.4.htm" flags="0" topicid="-1"/>
+    <page name="Run PhenologyMMS 1.4" topic="Run_PhenologyMMS_1.4.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="Setup">
+    <page name="Begin Setup" topic="Begin_Setup.htm" flags="0" topicid="-1"/>
+    <page name="Weather/Location Files" topic="Weather_Location_Files.htm" flags="0" topicid="-1"/>
+    <page name="Set Inputs" topic="Set_Inputs.htm" flags="0" topicid="-1"/>
+    <page name="Emergence" topic="Emergence.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="Temperature">
+    <page name="Temperatures" topic="Temperatures.htm" flags="0" topicid="-1"/>
+    <page name="GDD Methods" topic="GDD_Methods.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="Growth Stages">
+   <chapter name="Corn">
+     <page name="Corn Diagrams" topic="Corn_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Corn Growth Stages" topic="Corn_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Dry Bean">
+     <page name="Dry Bean Diagrams" topic="Dry_Bean_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Dry Bean Growth Stages" topic="Dry_Bean_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Growth Stages Example">
+     <page name="Growth Stages Example" topic="Growth_Stages_Example.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Hay Millet">
+     <page name="Hay Millet Diagrams" topic="Hay_Millet_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Hay Millet Growth Stages" topic="Hay_Millet_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Proso Millet">
+     <page name="Proso Millet Diagrams" topic="Proso_Millet_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Proso Millet Growth Stages" topic="Proso_Millet_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Sorghum">
+     <page name="Sorghum Diagrams" topic="Sorghum_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Sorghum Growth Stages" topic="Sorghum_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Soybeans">
+     <page name="Soybean Diagrams" topic="Soybean_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Soybean Growth Stages" topic="Soybean_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Spring Barley">
+     <page name="Spring Barley Diagrams" topic="Spring_Barley_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Spring Barley Growth Stages" topic="Spring_Barley_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Spring Wheat">
+     <page name="Spring Wheat Diagrams" topic="Spring_Wheat_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Spring Wheat Growth Stages" topic="Spring_Wheat_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Sunflower">
+     <page name="Sunflower Diagrams" topic="Sunflower_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Sunflower Growth Stages" topic="Sunflower_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Winter Barley">
+     <page name="Winter Barley Diagrams" topic="Winter_Barley_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Winter Barley Growth Stages" topic="Winter_Barley_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+   <chapter name="Winter Wheat">
+     <page name="Winter Wheat Diagrams" topic="Winter_Wheat_Diagrams.htm" flags="0" topicid="-1"/>
+     <page name="Winter Wheat Growth Stages" topic="Winter_Wheat_Growth_Stages.htm" flags="0" topicid="-1"/>
+   </chapter>
+  </chapter>
+  <chapter name="Output">
+    <page name="Output" topic="Output.htm" flags="0" topicid="-1"/>
+    <page name="Save Current Output" topic="Save_Current_Output.htm" flags="0" topicid="-1"/>
+    <page name="Save Current Scenario" topic="Save_Current_Scenario.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="References and Documents">
+    <page name="References and Documents" topic="References_and_Documents.htm" flags="0" topicid="-1"/>
+  </chapter>
+ </tocstructure>
+  <sectionhistory/>
+ <sectionlist>
+   <section type="defaulttitlepage" name="&lt;Default Title Page&gt;" url="" flags="0" topicid="-1"/>
+   <section type="toc" name="TOC" url="" flags="0" topicid="-1"/>
+   <section type="topics" name="Chapter Layout" url="" flags="0" topicid="-1"/>
+   <section type="glossary" name="Glossary" url="" flags="0" topicid="-1"/>
+   <section type="index" name="Index" url="" flags="0" topicid="-1"/>
+ </sectionlist>
+  <robopdfgeneratorsettings data="resIndex=3&amp;jpegImageQuality=75&amp;imageDPI=96&amp;quiet=0&amp;Quality=3&amp;resolution=96&amp;customResolution=300&amp;customImageDPI=96&amp;customJpegImageQuality=75&amp;pdfTemplateEnable=0&amp;pdfTemplateOnTop=0&amp;pdfTemplate=&amp;watermark=&amp;watermarkText=&amp;watermarkFontName=Arial&amp;watermarkFontSize=48&amp;watermarkStyle=0&amp;watermarkColor=90&amp;sd_permissionFlags=-64&amp;sd_enabled=0&amp;sd_keyLen=16&amp;sd_up=&amp;sd_op=&amp;"/>
+ <headerfootermapping>
+   <section type="custominternaltopic" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="customexternaltopic" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="defaulttitlepage" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="toc" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="topics" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="glossary" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+   <section type="index" firstpagetemplate="&lt;Default&gt;" evenpagetemplate="&lt;Default&gt;" oddpagetemplate="&lt;Default&gt;"/>
+ </headerfootermapping>
+</printdoclayout>
